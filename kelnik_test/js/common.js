@@ -1,0 +1,4 @@
+/* kelnik test */
+(function () {
+
+})();
