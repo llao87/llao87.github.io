@@ -13,7 +13,7 @@
     <meta name="keywords" content="<?php the_field('seo-keywords', $post_ID); ?>" />
     <title>kelnik test</title>
     <link rel="canonical" href="https://llao87.github.io/kelnik_test"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./favicon.png" type="image/PNG">
   </head>
@@ -29,82 +29,159 @@
 
       <nav class="main-navigation">
         <ul>
-          <li>
-            <a href="#">Объекты</a>
-            <a href="#">Компания</a>
-            <a href="#">Как купить</a>
-            <a href="#">Агентам</a>
-            <a href="#">Регионам</a>
-            <a href="#">Акции</a>
-            <a href="#">Контакты</a>
-          </li>
+          <li><a href="#">Объекты</a></li>
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Как купить</a></li>
+          <li><a href="#">Агентам</a></li>
+          <li><a href="#">Регионам</a></li>
+          <li><a href="#">Акции</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
 
       <div class="phone">
-        <div class="phone__number">8 888 88 88 98</div>
-        <div class="phone__text">Звони скорее!</div>
+        <div>
+          <p class="phone__number">8 888 88 88 98</p>
+          <p class="phone__text">Звони скорее!</p>
+        </div>
       </div>
+      <!--<div class="phone__text">Звони скорее!</div>-->
     </header>
 
     <main>
       <section>
-        <div class="container section-title">Найдено 666 квартир</div>
-        <div class="container catalog">
-          <div class="filter">
-            <span class="sort">Сортировать по:</span>
-            <ul>
-              <li>Цене</li>
-              <li>Цене</li>
-              <li>Цене</li>
-              <li>Цене</li>
-              <li>Цене</li>
-            </ul>
-            <span class="rooms">Комнатам</span>
-          </div>
+        <div class="container">
+          <div class="section-title">Найдено 666 квартир</div>
 
-          <div class="catalog-item">
-
-            <div class="item item--favourite">
-              <div class="item__marks">
-                <?php if($item->stock): ?>
-                <div class="mark"><?= $item->stock ?></div>
-                <?php endif;
-                if($item->shock_cost): ?>
-                <div class="mark"><?= $item->shock_cost ?></div>
-                <?php endif; ?>
+          <div class="catalog">
+            <div class="filter">
+              <div class="sort">
+                <span class="sort__label">Сортировать по:</span>
+                <div class="sort__type">
+                  <ul>
+                    <li>Цене</li>
+                  </ul>
+                </div>
               </div>
-              <div class="item__photo"></div>
-              <div class="item__name"></div>
-              <div class="item__features">
-                <div class="feature feature__finish"></div>
-                <div class="feature feature__area"></div>
-                <div class="feature feature__floor"></div>
-              </div>
-              <div class="item__cost"></div>
-
-              <div class="item_state item_state--freely"></div>
-              <!--<div class="item_state item_state--sold"></div>-->
-              <!--<div class="item_state item_state--booked"></div>-->
+              <span class="rooms">Комнатам</span>
             </div>
-          </div>
 
-          <div class="show_more">Показать еще 20</div>
+            <div class="items">
+              <div class="catalog-item catalog-item--booked">
+                <div class="item__marks">
+                  <div class="mark">-17%</div>
+                  <div class="mark">Шок цена!</div>
+                </div>
+
+                <div class="item item--favourite">
+                  <div class="item__photo">
+                    <img src="./img/flat_44.png" alt="">
+                  </div>
+
+                  <div class="item__name">Студия №44</div>
+
+                  <div class="item__features">
+                    <div class="feature feature__finish">без<br>отделки</div>
+                    <div class="feature feature__area">
+                      <span>28 м<sup>2</sup></span>
+                      <span class="feature__sub-text">площадь</span>
+                    </div>
+                    <div class="feature feature__floor">
+                      <span>12/24</span>
+                      <span class="feature__sub-text">этаж</span>
+                    </div>
+                  </div>
+
+                  <div class="item__cost"><span class="cost">1 900 000</span> руб.</div>
+                </div>
+              </div> <!-- // item-->
+
+              <div class="catalog-item">
+                <div class="item__marks">
+                  <div class="mark">-17%</div>
+                  <div class="mark">Шок цена!</div>
+                </div>
+
+                <div class="item item--favourite">
+                  <div class="item__photo">
+                    <img src="./img/flat_666.png" alt="">
+                  </div>
+
+                  <div class="item__name">Однокомнатная №666</div>
+
+                  <div class="item__features">
+                    <div class="feature feature__finish">базовая<br>отделка</div>
+
+                    <div class="feature feature__area">
+                      <span>66 м<sup>2</sup></span>
+                      <span class="feature__sub-text">площадь</span>
+                    </div>
+
+                    <div class="feature feature__floor">
+                      <span>6/6</span>
+                      <span class="feature__sub-text">этаж</span>
+                    </div>
+                  </div>
+
+                  <div class="item__cost"><span class="cost">1 666 666</span> руб.</div>
+                </div>
+              </div> <!-- // item-->
+
+              <div class="catalog-item catalog-item--sold">
+                <div class="item__marks">
+                  <div class="mark">-17%</div>
+                  <div class="mark">Шок цена!</div>
+                  <!--  <?php if($item->stock): ?>
+                                        <div class="mark"><?= $item->stock ?></div>
+                                      <?php endif;
+                                      if($item->shock_cost): ?>
+                                        <div class="mark"><?= $item->shock_cost ?></div>
+                                      <?php endif; ?>-->
+                </div>
+
+                <div class="item item--favourite">
+                  <div class="item__photo">
+                    <img src="./img/flat_25.png" alt="">
+                  </div>
+
+                  <div class="item__name">Двухкомнатная №567</div>
+
+                  <div class="item__features">
+                    <div class="feature feature__finish">черновая<br>отделка</div>
+
+                    <div class="feature feature__area">
+                      <span>65.6 м<sup>2</sup></span>
+                      <span class="feature__sub-text">площадь</span>
+                    </div>
+
+                    <div class="feature feature__floor">
+                      <span>7/14</span>
+                      <span class="feature__sub-text">этаж</span>
+                    </div>
+                  </div>
+
+                  <div class="item__cost"><span class="cost">5 900 000</span> руб.</div>
+                </div>
+              </div> <!-- // item-->
+            </div>
+
+            <div class="show_more">Показать еще 20</div>
+          </div>
         </div>
       </section>
 
       <section>
         <div class="container">
-          <div class="description">
-            <div class="description__title">Успей купить!</div>
-            <div class="description__text">Подпишись и успей словить все акции</div>
+          <div class="subscribe">
+            <div class="subscribe__title">Успей купить!</div>
+            <div class="subscribe__text">Подпишись и успей словить все акции</div>
           </div>
 
           <form action="" class="subsribe_form">
-            <input type="email" placeholder="E-mail">
-            <input type="submit" value="Подписаться">
-            <input type="checkbox" id="subscribe__acception" checked>
-            <label for="subscribe__acception">подписаться на новости</label>
+            <input type="email" placeholder="E-mail" class="subsribe__input">
+            <input type="submit" value="Подписаться" class="subsribe__submit">
+            <input type="checkbox" id="subscribe__acception" checked  class="subsribe__check">
+            <label for="subscribe__acception"  class="subsribe__label">подписаться на новости</label>
           </form>
         </div>
       </section>      
