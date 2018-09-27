@@ -301,7 +301,10 @@ header {
 .show_more {
   position: relative;
   width: 100%;
-  max-width: 41.6667%;
+  max-width: 50%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   background-color: #046380;
   text-align: center;
   font-size: 1.4rem;
@@ -309,6 +312,15 @@ header {
   text-transform: uppercase;
   margin: 0 auto;
   line-height: 72px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.show_more:hover {
+  background-color: #078fb9;
+  transition: 0.2s;
+}
+.show_more:active {
+  background-color: #074d63;
 }
 /* // Catalog */
 
@@ -326,3 +338,26 @@ header {
 
 
 /* // Subscribe */
+
+
+
+
+@media screen and (max-width:1279px) {
+  .container {
+    /*max-width: 1140px;*/
+  }
+  .item {
+    width: 75%;
+  }
+  .catalog-item {
+    max-width: 31%;
+  }
+  .item__photo {
+    margin-bottom: 28px;
+  }
+  .item__name {
+    font-size: 2.2rem;
+    min-height: 44px;
+    margin-bottom: 16px;
+  }
+}
