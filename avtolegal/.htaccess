@@ -1,0 +1,4 @@
+<FilesMatch ".(ini|.log)$>
+Order deny,allow
+Deny from all
+</FilesMatch>
