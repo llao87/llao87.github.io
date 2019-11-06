@@ -105,13 +105,13 @@
 						<div class="col-xl-3 footer__column">
 							<div class="column__header">Информация</div>
 							<ul class="column__list">
-								<li class="column__item">Акции</li>
-								<li class="column__item">Доставка и оплата</li>
-								<li class="column__item">Сертификаты</li>
-								<li class="column__item">Гарантии и безопасность</li>
-								<li class="column__item">Контакты</li>
-								<li class="column__item">Производители</li>
-								<li class="column__item">Бренды</li>
+								<li class="column__item"><a class="column__link" href="#">Акции</a></li>
+								<li class="column__item"><a class="column__link" href="#">Доставка и оплата</a></li>
+								<li class="column__item"><a class="column__link" href="#">Сертификаты</a></li>
+								<li class="column__item"><a class="column__link" href="#">Гарантии и безопасность</a></li>
+								<li class="column__item"><a class="column__link" href="#">Контакты</a></li>
+								<li class="column__item"><a class="column__link" href="#">Производители</a></li>
+								<li class="column__item"><a class="column__link" href="#">Бренды</a></li>
 							</ul>
 						</div>
 					</div>
@@ -269,6 +269,10 @@
 		}
 		.column__link {
 			text-decoration: none;
+			transition: 0.3s linear;
+		}
+		.column__link:hover {
+			color: #f44e00;
 		}
 		.column__item, .column__link {
 			text-transform: uppercase;
