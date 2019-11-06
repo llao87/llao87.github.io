@@ -15,7 +15,6 @@
 
 
 <body>
-
 	<header class="header">
 		<div class="container">
 			<div class="row align_stretch">
@@ -49,6 +48,87 @@
 		</div>
 	</header>
 
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3">
+
+				</div>
+				<div class="col-xl-9"></div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__darker"></div>
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-xl-2"></div> -->
+				<div class="col-xl-8 footer__columns">
+					<div class="row">
+						<div class="col-xl-3 footer__column">
+							<div class="column__header">Каталог</div>
+							<ul class="column__list">
+								<li class="column__item"><a class="column__link" href="#">Уличные</a></li>
+								<li class="column__item"><a class="column__link" href="#">Аварийное освещение</a></li>
+								<li class="column__item"><a class="column__link" href="#">Лампы</a></li>
+								<li class="column__item"><a class="column__link" href="#">Светодиодная лента</a></li>
+								<li class="column__item"><a class="column__link" href="#">Фонари</a></li>
+								<li class="column__item"><a class="column__link" href="#">Специального назначения</a></li>
+								<li class="column__item"><a class="column__link" href="#">Офисные</a></li>
+							</ul>
+						</div>
+						
+						<div class="col-xl-3 footer__column">
+							<div class="column__header"></div>
+							<ul class="column__list">
+								<li class="column__item"><a class="column__link" href="#">Для торговых залов</a></li>
+								<li class="column__item"><a class="column__link" href="#">Промышленные</a></li>
+								<li class="column__item"><a class="column__link" href="#">Для дома</a></li>
+								<li class="column__item"><a class="column__link" href="#">Дизайнерские</a></li>
+								<li class="column__item"><a class="column__link" href="#">Прожекторы</a></li>
+								<li class="column__item"><a class="column__link" href="#">Светильники для ЖКХ</a></li>
+							</ul>
+						</div>
+
+						<div class="col-xl-3 footer__column">
+							<div class="column__header">Контакты</div>
+							<ul class="column__list">
+								<li class="column__item">+7 (812) 445-79-97</li>
+								<li class="column__item">Пн-Пт 9:00 - 17:30</li>
+								<li class="column__item">Санкт-Петербург</li>
+								<li class="column__item">Российский проспект</li>
+								<li class="column__item">дом № 31 лит. Б</li>
+							</ul>
+						</div>
+
+						<div class="col-xl-3 footer__column">
+							<div class="column__header">Информация</div>
+							<ul class="column__list">
+								<li class="column__item">Акции</li>
+								<li class="column__item">Доставка и оплата</li>
+								<li class="column__item">Сертификаты</li>
+								<li class="column__item">Гарантии и безопасность</li>
+								<li class="column__item">Контакты</li>
+								<li class="column__item">Производители</li>
+								<li class="column__item">Бренды</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-xl-2"></div> -->
+			</div>
+
+			<div class="row">
+				<div class="col-xl-1"></div>
+				<div class="col-xl-10 display_flex justify_between align_center copyrights">
+					<p class="copyrights__text">Обращаем ваше внимание на то, что вся информация (включая цены) на этом интернет-сайте носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса РФ.</p>
+					<p class="copyrights__year">Lampam.net 2019<br>Политика конфеденциальности</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 
 	<style>
 		.header {
@@ -69,15 +149,22 @@
 		}
 		.header__phone {
 			color: #ffffff;
-			font-size: 24px;
+			font-size: 28px;
 			font-weight: 700;
-			margin-bottom: 10px;
+			margin-bottom: 5px;
 		}
 		.header__callback {
 			color: #ffffff;
 			font-size: 18px;
-			text-decoration: underline;
 			text-transform: uppercase;
+			transition: 0.3s linear;
+			cursor: pointer;
+			padding-bottom: 1px;
+			border-bottom: 1px dashed #ffffff;
+		}
+		.header__callback:hover {
+			color: #f44e00;
+			border-bottom: 1px dashed #f44e00;
 		}
 		.navigation {}
 		.navigation__link {
@@ -120,6 +207,88 @@
 			padding: 5px 10px 5px 50px;
 			line-height: 30px;
 			border-radius: 15px 0;
+		}
+
+		main {
+			min-height: 100px;
+		}
+		footer .container {
+			position: relative;
+			z-index: 5;
+		}
+		.footer {
+			position: relative;
+			height: auto;
+			min-height: 350px;
+			background-color: #131018;
+			background-image: url(img/footer-bg.png);
+			background-position: 0 20px;
+			background-repeat: no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+			padding: 35px 0;
+		}
+		.footer__darker {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			height: inherit;
+			background-color: #131018;
+			opacity: 0.9;
+			z-index: 1;
+		}
+		.footer__column {
+			padding-left: 50px;
+		}
+		.column__header, .column__list, .column__link {
+			color: #ffffff;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.column__header {
+			font-size: 16px;
+			text-transform: uppercase;
+			min-height: 24px;
+			line-height: 24px;
+			margin-bottom: 30px;
+			font-weight: 700;
+		}
+		.column__list {
+			padding-left: 0;
+			list-style-type: none;
+			margin: 0;
+		}
+		.column__item {
+			margin-bottom: 20px;
+		}
+		.column__item:last-of-type {
+			margin-bottom: 0;
+		}
+		.column__link {
+			text-decoration: none;
+		}
+		.column__item, .column__link {
+			text-transform: uppercase;
+		}
+		.copyrights {
+			border-top: 1px solid rgba(255,255,255,0.7);
+			margin-top: 40px;
+			padding-bottom: 40px;
+		}
+		.copyrights__text, .copyrights__year {
+			font-size: 14px;
+			color: rgba(255,255,255,0.7);
+			text-transform: uppercase;
+			line-height: 1.5;
+		}
+		.copyrights__text {
+			width: 75%;
+		}
+		.copyrights__year {
+			text-align: right;
 		}
 	</style>
 </body>
