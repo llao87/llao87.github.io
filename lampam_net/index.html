@@ -2,36 +2,125 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lampam.net - Home page</title>
 	<!-- <link rel="stylesheet" href="css/bootstrap-grid.css?6"> -->
 
-	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="css/bootstrap-grid.css">
-	<!-- <link rel="stylesheet" href="css/grid.css?6"> -->
+	<!-- <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> -->
+	<!-- <link rel="stylesheet" href="css/bootstrap-grid.css"> -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/grid.css?6">
 	<link rel="stylesheet" href="css/style.css?6">
 </head>
 
 
 <body>
 
-
-	<div class="header">
+	<header class="header">
 		<div class="container">
-			<div class="row">
-				<!-- <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6 col-xl-12"> -->
-				<div class="col-9 col-sm-3 col-md-9 col-lg-6">
-				<!-- <div class="col-12 col-sm-6 col-md-12 col-lg-6 col-xl-12"> -->
-					<div style="width: 100%; background: red; height: 50px;"></div>
+			<div class="row align_stretch">
+				<div class="col-xl-2">
+					<a href="/" class="logo"></a>
 				</div>
 
-				<!-- <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6 col-xl-12"> -->
-				<div class="col-3 col-sm-9 col-md-3 col-lg-6">
-				<!-- <div class="col-12 col-sm-6 col-md-12 col-lg-6 col-xl-12"> -->
-					<div style="width: 100%; background: blue; height: 50px;"></div>
+				<div class="col-xl-2 display_flex direction_column align_center justify_center">
+					<div class="header__phone">+7 123 456 78 90</div>
+					<div class="header__callback">Обратный звонок</div>
+				</div>
+
+				<div class="col-xl-4 navigation display_flex align_center justify_around">
+					<a class="navigation__link" href="#">Гарантии</a>
+					<a class="navigation__link" href="#">Оплата</a>
+					<a class="navigation__link" href="#">Доставка</a>
+					<a class="navigation__link" href="#">Контакты</a>
+					<a class="navigation__link xs-hide" href="#">Линчый кабинет</a>
+				</div>
+
+				<div class="col-xl-4 display_flex align_center justify_end">
+					<div class="cart">
+						<div class="cart__amount">В корзине: 1530 шт</div>
+						<div class="cart__total">140 000 000 р</div>
+					</div>
+					<form class="search">
+						<input type="text" class="search__input">
+					</form>
 				</div>
 			</div>
 		</div>
-	</div>
+	</header>
 
+
+	<style>
+		.header {
+			height: 100px;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+			background-color: #131018;
+			padding: 0 20px;
+		}
+		.logo {
+			display: block;
+			height: inherit;
+			background-image: url(img/logo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			-webkit-background-size: contain;
+			background-size: contain;
+			cursor: pointer;
+		}
+		.header__phone {
+			color: #ffffff;
+			font-size: 24px;
+			font-weight: 700;
+			margin-bottom: 10px;
+		}
+		.header__callback {
+			color: #ffffff;
+			font-size: 18px;
+			text-decoration: underline;
+			text-transform: uppercase;
+		}
+		.navigation {}
+		.navigation__link {
+			color: #ffffff;
+			font-size: 18px;
+			text-transform: uppercase;
+			text-decoration: none;
+			transition: 0.3s linear;
+		}
+		.navigation__link:hover {
+			color: #f44e00;
+		}
+		.cart {
+			background-image: url(img/icon-cart.svg);
+			background-position: center left;
+			-webkit-background-size: contain;
+			background-size: contain;
+			background-repeat: no-repeat;
+			padding-left: 50px;
+		}
+		.cart__amount, .cart__total {
+			color: #ffffff;
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+		.search {
+			margin-left: 30px;
+			width: 50%;
+		}
+		.search__input {
+			width: 100%;
+			background-image: url(img/icon-search.svg);
+			background-position: 10px center;
+			-webkit-background-size: 8%;
+			background-size: 8%;
+			background-repeat: no-repeat;
+			font-size: 18px;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			padding: 5px 10px 5px 50px;
+			line-height: 30px;
+			border-radius: 15px 0;
+		}
+	</style>
 </body>
 </html>
