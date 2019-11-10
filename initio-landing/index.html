@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="header__inner">
+						<div class="header__buttons">
+							<div class="btn btn--gray">Позвонить</div>
+							<div class="btn btn--gray">Консультация</div>
+						</div>
+
+						<a href="/" class="logo"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="section section--promo section--gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section__title section__title--promo">
+						<span>Всесезонный</span>
+						<br>
+						<span>Пилинг IO PRC</span>
+					</div>
+					<div class="section__subtitle">pro recreation complex io prc</div>
+				</div>
+				<div class="col-xs-12">
+					<img src="img/promo-photo.png" alt="promo-alt-text" class="promo__photo">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section__title">
+						<span>Устраняет:</span>
+					</div>
+
+					<div class="section__list">
+						<ul>
+							<li>Признаки старения кожи</li>
+							<li>Растяжки</li>
+							<li>Рубцы</li>
+							<li>Пигментные пятна</li>
+							<li>Пост-АКНЕ</li>
+							<li>Себорейный дерматит, гиперкератоз</li>
+							<li>Легкие тату</li>
+							<li>Фотостарение кожи</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section__title">
+						<span>Гарантированный</span>
+						<br>
+						<span>результат:</span>
+					</div>
+
+					<div class="section__list">
+						<ul>
+							<li>ровный и здоровый цвет лица</li>
+							<li>гладкая кожа</li>
+							<li>уменьшение глубины морщин</li>
+							<li>убедительный лифтинг-эффект и уплотнение кожи</li>
+							<li>повышение упругости и эластичности кожи</li>
+							<li>осветление пигментных пятен</li>
+							<li>сужение пор</li>
+							<li>коррекция рубцов и растяжек</li>
+							<li>профилактика появления поствоспалительной гиперпигментации</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section section--gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section__title">
+						<span>Профессиональные</span>
+						<br>
+						<span>Продукты</span>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<img src="img/promo-photo.png" alt="promo-alt-text" class="promo__photo">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<style>
+		.header {
+			padding: 25px 20px 15px;
+		}
+		.header__buttons {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+
+			justify-content: space-between;
+			align-items: center;
+
+			margin-bottom: 20px;
+		}
+		.btn {
+			padding: 20px 0;
+			border-radius: 14px;
+			color: #000000;
+			font-family: "Montserrat-SemiBold";
+			font-size: 12px;
+			font-weight: 400;
+			text-align: center;
+			text-transform: uppercase;
+			cursor: pointer;
+			transition: 0.3s linear;
+		}
+		.btn--gray {
+			background-color: #e0e8ea;
+			color: #000000;
+		}
+		.btn--gray:hover {
+			background-color: #bac3c5;
+		}
+		.header__buttons .btn {
+			width: 130px;
+		}
+		.logo {
+			display: block;
+			min-height: 60px;
+			background-image: url(img/logo.svg);
+			background-position: center;
+			-webkit-background-size: contain;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
+
+		.section {
+			/*min-height: 350px;*/
+			padding: 40px 20px 5px;
+		}
+		.section--gray {
+			background-color: #e0e8ea;
+		}
+		.section--promo {
+			min-height: 350px;
+			padding: 25px 20px 5px;	
+		}
+
+		.section__title {
+			text-align: left;
+			color: #000000;
+			font-family: "Montserrat-Bold";
+			line-height: 1.5;
+			font-size: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+		.section__title--promo {
+			font-size: 28px;
+			text-align: center;
+		}
+		.section__title span {
+			display: inline-block;
+			padding: 0 10px;
+			background: #FFF2C7;
+			background: -webkit-linear-gradient(right, #FFF2C7, #DFBC94);
+			background: -o-linear-gradient(right, #FFF2C7, #DFBC94);
+			background: linear-gradient(to left, #FFF2C7, #DFBC94);
+			/*box-shadow: 0px 0 0 rgba(223, 188, 144, 1), 0px 0 0 rgba(255, 242, 199, 1);*/
+			margin-bottom: 3px;
+			text-transform: uppercase;
+		}
+		.section__title--promo {
+			width: 100%;
+			margin: 0 auto;
+
+		}
+		@media (min-width: 768px) {
+			.section__title {
+				display: inline-block;
+				margin: 0 auto;
+				background: #FFF2C7;
+				background: -webkit-linear-gradient(right, #FFF2C7, #DFBC94);
+				background: -o-linear-gradient(right, #FFF2C7, #DFBC94);
+				background: linear-gradient(to left, #FFF2C7, #DFBC94);
+				padding: 0 10px;
+			}
+			.section__title span {
+				width: auto;
+				background: none;
+				padding: 0;
+				margin: 0;
+			}
+			.section__title br {
+				display: none;
+			}
+		}
+		.section__subtitle {
+			color: #000000;
+			text-align: center;
+			font-family: "Montserrat-SemiBold";
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.5;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+		.promo__photo {
+			height: auto;
+			max-width: 100%;
+		}
+		
+		.section__list ul {
+			text-transform: uppercase;
+			padding-left: 20px;
+			font-family: "Montserrat-SemiBold";
+			font-weight: normal;
+			/*list-style-type: none*/
+		}
+		.section__list li {
+			
+			font-size: 14px;
+			line-height: 1.2;
+			margin-bottom: 15px;
+		}
+	</style>
+	
+</body>
+</html>
