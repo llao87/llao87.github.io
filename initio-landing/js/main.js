@@ -1,5 +1,11 @@
 jQuery(document).ready(function() {
 
+	/* Кнопка "консультация"" */
+	jQuery("#js-toConsult").on("click", function() {
+		var target = jQuery("#form-consult").offset().top - 200;
+		jQuery("html, body").animate({scrollTop: target}, 800);
+	});
+
 	/* Кнопка вверх */
 	jQuery('#js-toTop').click(function() {
 		jQuery("body,html").animate({
