@@ -4,9 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
-
-	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -31,7 +28,7 @@
 	<div class="section section--promo section--gray">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-6 promo__left-col">
 					<div class="section__title section__title--promo">
 						<span class="bg-gradient">Всесезонный</span>
 						<br>
@@ -39,17 +36,17 @@
 					</div>
 					<div class="section__subtitle">pro recreation complex io prc</div>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-6 promo__right-col">
 					<img src="img/promo-photo.png" alt="promo-alt-text" class="promo__photo">
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="section">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-6">
 					<div class="section__title">
 						<span class="bg-gradient">Устраняет:</span>
 					</div>
@@ -67,15 +64,10 @@
 						</ul>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
 
+				<div class="list__separator"></div>
 
-	<div class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-6">
 					<div class="section__title">
 						<span class="bg-gradient">Гарантированный</span>
 						<br>
@@ -110,8 +102,8 @@
 						<span class="bg-gradient">Продукты</span>
 					</div>
 				</div>
-				
-				<div class="col-xs-12">
+
+				<div class="col-xs-12 col-md-4">
 					<div class="item">
 						<div class="item__photo">
 							<img src="img/item-1.png" alt="mousse" class="item__img item--mousse">
@@ -120,22 +112,22 @@
 					</div>
 				</div>
 
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-4">
 					<div class="item">
 						<div class="item__photo">
 							<img src="img/item-2.png" alt="peeling" class="item__img item--peeling">
 						</div>
 						<div class="item__caption">Всесезонный пилинг Pro-Recreation Complex IO PRC</div>
-					</div>	
+					</div>
 				</div>
 
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-4">
 					<div class="item">
 						<div class="item__photo">
 							<img src="img/item-3.png" alt="oxygen mask" class="item__img item--mask">
 						</div>
 						<div class="item__caption">Кислородная маска с перфтордекалином и гиалуроновой кислотой Pro-Oxygen Mask Optimizer IO PRM</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -146,47 +138,53 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<form action="#" class="consult" method="POST">
-						<div class="section__title">
-							<span>Получите </span>
-							<br>
-							<span>консультацию </span>
-							<br>
-							<span>о продукте</span>
-						</div>
+						<div class="row">
+							<div class="col-xs-12 col-md-6 col-lg-6">
+								<div class="section__title">
+									<span class="bg-gradient">Получите </span>
+									<br>
+									<span class="bg-gradient">консультацию </span>
+									<br>
+									<span class="bg-gradient">о продукте</span>
+								</div>
+							</div>
 
-						<div class="form-field">
-							<span class="consult__input-label">Фамилия</span>
-							<input type="text" class="consult__input" placeholder="Фамилия" name="lastName">
-						</div>
+							<div class="col-xs-12 col-md-6 col-lg-6">
+								<div class="form-field">
+									<span class="consult__input-label">Фамилия</span>
+									<input type="text" class="consult__input" placeholder="Фамилия" name="lastName">
+								</div>
 
-						<div class="form-field">
-							<span class="consult__input-label">Имя</span>
-							<input type="text" class="consult__input" placeholder="Имя" name="name">
-						</div>
+								<div class="form-field">
+									<span class="consult__input-label">Имя</span>
+									<input type="text" class="consult__input" placeholder="Имя" name="name">
+								</div>
 
-						<div class="form-field">
-							<span class="consult__input-label">Город</span>
-							<input type="text" class="consult__input" placeholder="Город" name="city">
-						</div>
+								<div class="form-field">
+									<span class="consult__input-label">Город</span>
+									<input type="text" class="consult__input" placeholder="Город" name="city">
+								</div>
 
-						<div class="form-field">
-							<span class="consult__input-label">Номер телефона</span>
-							<input type="text" class="consult__input" placeholder="+7 921 234 56 78" name="phone">
-						</div>
+								<div class="form-field">
+									<span class="consult__input-label">Номер телефона</span>
+									<input type="text" class="consult__input" placeholder="+7 921 234 56 78" name="phone">
+								</div>
 
-						<div class="form-field">
-							<span class="consult__input-label">Ваше сообщение</span>
-							<input type="text" class="consult__input" placeholder="Ваше сообщение" name="msg">
-						</div>
+								<div class="form-field">
+									<span class="consult__input-label">Ваше сообщение</span>
+									<input type="text" class="consult__input" placeholder="Ваше сообщение" name="msg">
+								</div>
 
-						<input type="submit" class="btn bg-gradient btn-consult">
+								<input type="submit" class="btn bg-gradient btn-consult">
 
-						<div class="form-field">
-							<input type="checkbox" name="agree" class="hidden-checkbox">
+								<div class="form-field">
+									<input type="checkbox" name="agree" class="hidden-checkbox" id="hidden-agreement" checked="true">
 
-							<div class="agreement">
-								<img src="img/checkbox-active.png" alt="" class="agreement__checkbox" id="js-agreement">
-								<div class="agreement__text">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.</div>
+									<div class="agreement">
+										<div class="checkbox checkbox--active" id="js-agreement"></div>
+										<div class="agreement__text">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</form>
@@ -208,296 +206,7 @@
 			</div>
 		</div>
 	</footer>
-
-	<style>
-		.header {
-			padding: 25px 20px 15px;
-		}
-		.header__buttons {
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
-
-			justify-content: space-between;
-			align-items: center;
-
-			margin-bottom: 20px;
-		}
-		.btn {
-			padding: 15px 0;
-			border-radius: 14px;
-			font-family: "Montserrat-SemiBold";
-			font-size: 12px;
-			font-weight: 400;
-			text-align: center;
-			text-transform: uppercase;
-			cursor: pointer;
-			transition: 0.3s linear;
-			border: none;
-			outline: none;
-		}
-		.btn--gray {
-			background-color: #e0e8ea;
-			color: #000000;
-		}
-		.btn--gray:hover {
-			background-color: #bac3c5;
-		}
-		.header__buttons .btn {
-			width: 130px;
-		}
-		.logo {
-			display: block;
-			min-height: 60px;
-			background-image: url(img/logo.svg);
-			background-position: center;
-			-webkit-background-size: contain;
-			background-size: contain;
-			background-repeat: no-repeat;
-		}
-
-
-		.section {
-			/*min-height: 350px;*/
-			padding: 40px 20px 5px;
-		}
-		.section--gray {
-			background-color: #e0e8ea;
-		}
-		.section--promo {
-			min-height: 350px;
-			padding: 25px 20px 5px;	
-		}
-
-		.section__title {
-			text-align: left;
-			color: #000000;
-			font-family: "Montserrat-Bold";
-			line-height: 1.5;
-			font-size: 20px;
-			font-weight: 700;
-			text-transform: uppercase;
-			margin-bottom: 20px;
-		}
-		.section__title span {
-			display: inline-block;
-			padding: 0 10px;
-			margin-bottom: 3px;
-			text-transform: uppercase;
-		}
-		.section__title--promo {
-			font-size: 28px;
-			text-align: center;
-		}
-		.bg-gradient {			
-			background: #FFF2C7;
-			background: -webkit-linear-gradient(right, #FFF2C7, #DFBC94);
-			background: -o-linear-gradient(right, #FFF2C7, #DFBC94);
-			background: linear-gradient(to left, #FFF2C7, #DFBC94);
-			/*box-shadow: 0px 0 0 rgba(223, 188, 144, 1), 0px 0 0 rgba(255, 242, 199, 1);*/
-		}
-		.section__title--promo {
-			width: 100%;
-			margin: 0 auto;
-
-		}
-		@media (min-width: 768px) {
-			.section__title {
-				display: inline-block;
-				margin: 0 auto;
-				background: #FFF2C7;
-				background: -webkit-linear-gradient(right, #FFF2C7, #DFBC94);
-				background: -o-linear-gradient(right, #FFF2C7, #DFBC94);
-				background: linear-gradient(to left, #FFF2C7, #DFBC94);
-				padding: 0 10px;
-			}
-			.section__title span {
-				width: auto;
-				background: none;
-				padding: 0;
-				margin: 0;
-			}
-			.section__title br {
-				display: none;
-			}
-		}
-		.section__subtitle {
-			color: #000000;
-			text-align: center;
-			font-family: "Montserrat-SemiBold";
-			font-size: 14px;
-			font-weight: 500;
-			line-height: 1.5;
-			text-transform: uppercase;
-			margin-bottom: 20px;
-		}
-		.promo__photo {
-			height: auto;
-			max-width: 100%;
-		}
-
-		.section__list ul {
-			text-transform: uppercase;
-			padding-left: 20px;
-			font-family: "Montserrat-SemiBold";
-			font-weight: normal;
-			/*list-style-type: none*/
-		}
-		.section__list li {
-
-			font-size: 14px;
-			line-height: 1.2;
-			margin-bottom: 15px;
-		}
-		.catalog {
-			padding-bottom: 50px;
-		}
-		.catalog .section__title {
-			margin-bottom: 0;
-		}
-		.item {
-			text-align: center;
-		}
-		.item__photo {
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			position: relative;
-			width: 180px;
-			height: 180px;
-			background-color: #fff;
-			border-radius: 50%;
-			margin: 0 auto;
-			text-align: center;
-			margin-bottom: 15px;
-			margin-top: 50px;
-		}
-		.item__img {
-			width: auto;
-			height: 100%;
-			position: relative;
-			/*top: -15px;*/
-		}
-		.item--mousse {
-			top: -20px;
-			max-height: 205px;
-		}
-		.item--peeling {
-			max-height: 155px;
-		}
-		.item--mask {
-			max-height: 155px;
-		}
-		.item__caption {
-			position: relative;
-			max-width: 185px;
-			display: inline-block;
-			margin: 0 auto;
-			text-align: center;
-			font-family: "Montserrat-SemiBold";
-			font-size: 14px;
-			line-height: 1.2;
-		}
-
-		.section--consult {
-			padding: 0 10px;
-		}
-		.consult {
-			padding: 35px 20px 25px;
-			margin-bottom: 30px;
-			background: #fff;
-		}
-		.agreement {
-			margin: 0 auto;
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
-			justify-content: center;
-			align-items: flex-start;
-		}
-		.hidden-checkbox {
-			position: relative;
-			left: -9999px;
-		}
-		.agreement__text {
-			/*max-width: 200px;*/
-			margin-left: 10px;
-			color: #949494;
-			font-size: 10px;
-			line-height: 1.2;
-		}
-		.form-field {
-			padding: 0 10px;
-			margin-bottom: 25px;
-		}
-		.consult__input-label {
-			font-family: 'Montserrat-SemiBold';
-			font-size: 14px;
-		}
-		.consult__input {
-			display: block;
-			width: 100%;
-			border: none;
-			font-size: 16px;
-			border-bottom: 1px solid #cfcfcf;
-			line-height: 2;
-			outline: none;
-		}
-		.btn-consult {
-			position: relative;
-			display: inline-block;
-			padding: 15px 25px;
-			transform: translateX(-50%);
-			margin-left: 50%;
-			margin-top: 40px;
-			margin-bottom: 50px;
-			transition: 0.3s linear;
-		}
-		.btn-consult:hover {
-			background: #FFE7C8;
-			background: -webkit-linear-gradient(right, #FFE7C8, #E0B396);
-			background: -o-linear-gradient(right, #FFE7C8, #E0B396);
-			background: linear-gradient(to left, #FFE7C8, #E0B396);
-		}
-
-
-		.section--footer {
-			padding: 20px 30px 60px;
-		}
-		.section--footer .logo {
-			margin-bottom: 20px;
-		}
-		.to-top {
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
-
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-
-			cursor: pointer;
-		}
-		.to-top img {
-			display: inline-block;
-			margin-bottom: 10px;
-		}
-		.to-top span {
-			text-transform: uppercase;
-			font-family: 'Montserrat-Bold';
-			font-size: 14px;
-		}
-	</style>
-
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
