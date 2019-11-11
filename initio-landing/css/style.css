@@ -489,6 +489,14 @@ body {
 }
 .header {
 	padding: 25px 20px 15px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0 2px 25px 1px #ccc;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 50;
 }
 @media (min-width: 768px) {
 	.header {
@@ -604,6 +612,7 @@ body {
 	background-color: #e0e8ea;
 }
 .section--promo {
+	margin-top: 170px;
 	min-height: 350px;
 	padding: 25px 20px 5px;
 }
@@ -611,6 +620,7 @@ body {
 	.section--promo {
 		min-height: auto;
 		padding: 80px 20px;
+		margin-top: 140px;
 	}
 	.promo__left-col, .promo__right-col {
 		display: -webkit-flex;
@@ -626,7 +636,11 @@ body {
 		align-items: center;
 	}
 }
-
+@media (min-width: 992px) {
+	.section--promo {
+		margin-top: 170px;
+	}
+}
 .section__title {
 	text-align: left;
 	color: #000000;

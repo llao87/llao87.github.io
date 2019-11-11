@@ -3,8 +3,8 @@ jQuery(document).ready(function() {
 	/* Кнопка вверх */
 	jQuery('#js-toTop').click(function() {
 		jQuery("body,html").animate({
-				scrollTop:0
-			}, 800);
+			scrollTop:0
+		}, 800);
 		return false;
 	})
 
@@ -14,4 +14,7 @@ jQuery(document).ready(function() {
 		elem.attr('checked') ? elem.removeAttr('checked') : elem.attr('checked', 'true');
 		jQuery(this).toggleClass('checkbox--active');
 	})
+
+	/* Маска полей ввода телефона */
+	jQuery("#user_phone").mask("+7 (999) 999 99 99");
 });
