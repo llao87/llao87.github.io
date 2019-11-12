@@ -528,7 +528,7 @@
  @media (min-width: 768px) {
  	.header-sticky .logo {
  		display: block;
-		height: 60px;
+ 		height: 60px;
  	}
  }
  .header-sticky .header__buttons {
@@ -1077,4 +1077,14 @@
  }
  .callback-close:hover {
  	color: #ccc;
+ }
+ .success-message {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	padding: 30px 0;
+ 	font-size: 32px;
+ 	text-align: center;
+ 	font-family: 'Montserrat-Bold';
+ 	color: #8c999c;
  }

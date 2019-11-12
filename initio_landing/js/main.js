@@ -68,8 +68,6 @@ jQuery(document).ready(function() {
 
 		/* окраска поля с ошибкой */
 		jQuery.each(textFields, function(index) {
-			console.log(index, jQuery(this).val())
-
 			var regexp = /^[a-zа-я\s]+$/i;
 			if(jQuery(this).val() == '' || !regexp.test(this.val())) {
 				errorBackgroundFill(jQuery(this));
@@ -92,35 +90,53 @@ jQuery(document).ready(function() {
 			return false;
 		}
 
-
-
-		alert('SEND!');
-
+		/* отправка сообщения */
 		jQuery.ajax({
 			url: "/php/send.php",
 			method: 'POST',
-			success: function(){
-				alert('DONE');
-				// $(this).addClass("done");
+			data: jQuery('#form-consult').serialize(),
+			success: function(data){
+				var successMessage = '<div class="success-message">Сообщение отправлено успешно</div>';
+				jQuery('#form-consult .fields').html(successMessage);
 			}
 		});
+	});
 
+	/* отправка формы обратной связи */
+	jQuery('#form-callback').submit(function(e) {
+		e.preventDefault();
 
+		var phone = jQuery('#user_phone_callback');
 
-
-		/* отмена окраски поля с ошибкой */
-		jQuery('.consult__input').change(function() {
-			jQuery(this).removeClass('consult__input--error');
-		})
-
-		function errorBackgroundFill(elem) {
-			elem.addClass('consult__input--error');
+		/* проверка телефона на заполнение*/
+		if (phone.val() == '') {
+			errorBackgroundFill(phone);
+			return false;
 		}
 
-		function removeErrorBackgrounFill(elem) {
-			elem.removeClass('consult__input--error');
-		}
+		/* отправка сообщения */
+		jQuery.ajax({
+			url: "/php/send.php",
+			method: 'POST',
+			data: jQuery('#form-callback').serialize(),
+			success: function(data){
+				var successMessage = '<div class="success-message">Сообщение отправлено успешно</div>';
+				jQuery('#form-callback .form-inner').html(successMessage);
+			}
+		});
 	});
 
 
+	/* отмена окраски поля с ошибкой */
+	jQuery('.consult__input').change(function() {
+		jQuery(this).removeClass('consult__input--error');
+	})
+
+	function errorBackgroundFill(elem) {
+		elem.addClass('consult__input--error');
+	}
+
+	function removeErrorBackgrounFill(elem) {
+		elem.removeClass('consult__input--error');
+	}
 });
