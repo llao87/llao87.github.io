@@ -14,7 +14,7 @@
 				<div class="col-xs-12">
 					<div class="header__inner">
 						<div class="header__buttons">
-							<div class="btn btn--gray">Позвонить</div>
+							<div class="btn btn--gray" id="js-callback">Позвонить</div>
 							<div class="btn btn--gray" id="js-toConsult">Консультация</div>
 						</div>
 
@@ -141,7 +141,7 @@
 						<div class="row">
 							<div class="col-xs-12 col-md-6 col-lg-6">
 								<div class="section__title">
-									<span class="bg-gradient">Получите </span>
+									<span class="bg-gradient">Получить </span>
 									<br>
 									<span class="bg-gradient">консультацию </span>
 									<br>
@@ -150,39 +150,41 @@
 							</div>
 
 							<div class="col-xs-12 col-md-6 col-lg-6">
-								<div class="form-field">
-									<span class="consult__input-label">Фамилия</span>
-									<input type="text" class="consult__input" placeholder="Фамилия" name="lastName">
-								</div>
+								<div class="fields">
+									<div class="form-field">
+										<span class="consult__input-label">Фамилия</span>
+										<input type="text" class="consult__input" placeholder="Фамилия" name="lastName">
+									</div>
 
-								<div class="form-field">
-									<span class="consult__input-label">Имя</span>
-									<input type="text" class="consult__input" placeholder="Имя" name="name">
-								</div>
+									<div class="form-field">
+										<span class="consult__input-label">Имя</span>
+										<input type="text" class="consult__input" placeholder="Имя" name="name">
+									</div>
 
-								<div class="form-field">
-									<span class="consult__input-label">Город</span>
-									<input type="text" class="consult__input" placeholder="Город" name="city">
-								</div>
+									<div class="form-field">
+										<span class="consult__input-label">Город</span>
+										<input type="text" class="consult__input" placeholder="Город" name="city">
+									</div>
 
-								<div class="form-field">
-									<span class="consult__input-label">Номер телефона</span>
-									<input id="user_phone" type="text" class="consult__input" placeholder="+7 921 234 56 78" name="phone">
-								</div>
+									<div class="form-field">
+										<span class="consult__input-label">Номер телефона</span>
+										<input id="user_phone" type="text" class="consult__input user_phone" placeholder="+7 921 234 56 78" name="phone">
+									</div>
 
-								<div class="form-field">
-									<span class="consult__input-label">Ваше сообщение</span>
-									<input type="text" class="consult__input" placeholder="Ваше сообщение" name="msg">
-								</div>
+									<div class="form-field">
+										<span class="consult__input-label">Ваше сообщение</span>
+										<input type="text" class="consult__input" placeholder="Ваше сообщение" name="msg">
+									</div>
 
-								<input type="submit" class="btn bg-gradient btn-consult">
+									<input type="submit" class="btn bg-gradient btn-submit">
 
-								<div class="form-field">
-									<input type="checkbox" name="agree" class="hidden-checkbox" id="hidden-agreement" checked="true">
+									<div class="form-field">
+										<input type="checkbox" name="agree" class="hidden-checkbox" id="hidden-agreement" checked="true">
 
-									<div class="agreement">
-										<div class="checkbox checkbox--active" id="js-agreement"></div>
-										<div class="agreement__text">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.</div>
+										<div class="agreement">
+											<div class="checkbox checkbox--active" id="js-agreement"></div>
+											<div class="agreement__text">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -206,8 +208,24 @@
 			</div>
 		</div>
 	</footer>
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/maskedinput.js"></script>
-<script src="js/main.js"></script>
+
+	<div class="dark-layer" id="js-dark"></div>
+	<form class="callback" method="POST">
+		<div class="section__title">
+			<span>Заказать обратный звонок</span>
+		</div>
+		<div class="fields">
+			<div class="form-field">
+				<span class="consult__input-label">Телефон</span>
+				<input type="text" id="user_phone_callback" class="consult__input" placeholder="+7 921 234 56 78" name="phone">
+			</div>
+			<input type="submit" class="btn bg-gradient btn-submit">
+			<div id="js-callback-close" class="callback-close">✖</div>
+		</div>
+	</form>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/maskedinput.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
