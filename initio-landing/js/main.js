@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
 	jQuery('#js-agreement').click(function() {
 		var elem = jQuery('#hidden-agreement');
 		elem.attr('checked') ? elem.removeAttr('checked') : elem.attr('checked', 'true');
-		jQuery(this).toggleClass('checkbox--active');
+		jQuery(this).toggleClass('checkbox--active').removeClass('consult__input--error');
 	});
 
 	/* Маска полей ввода телефона */
@@ -40,4 +40,87 @@ jQuery(document).ready(function() {
 			dark.fadeOut();
 		});
 	})
+
+	/* Прилипающая шапка меньшей высоты */
+	jQuery(window).scroll(function() {
+		if(jQuery(this).scrollTop() >= 290) {
+			jQuery('header').addClass('header-sticky');
+		}
+		else{
+			jQuery('header').removeClass('header-sticky');
+		}
+	});
+
+	/* валидация формы консультации */
+	jQuery('#form-consult').submit(function(e) {
+		e.preventDefault();
+
+		var errors = 0;
+
+		var textFields = {
+			'lastName' :  jQuery('input[name=lastName]'),
+			'name' :  jQuery('input[name=name]'),
+			'city' :  jQuery('input[name=city]')
+		};
+
+		var phone = jQuery('input[name=phone]');
+		var check = jQuery('#js-agreement');
+
+		/* окраска поля с ошибкой */
+		jQuery.each(textFields, function(index) {
+			console.log(index, jQuery(this).val())
+
+			var regexp = /^[a-zа-я\s]+$/i;
+			if(jQuery(this).val() == '' || !regexp.test(this.val())) {
+				errorBackgroundFill(jQuery(this));
+				errors++;
+			}
+		});
+
+		/* отдельная проверка телефона */
+		if (phone.val() == '') {
+			errorBackgroundFill(phone);
+			errors++;
+		}
+		/* отдельная проверка чекбокса */
+		if (!check.hasClass('checkbox--active')) {
+			errorBackgroundFill(check);
+			errors++;
+		}
+
+		if (errors > 0) {
+			return false;
+		}
+
+
+
+		alert('SEND!');
+
+		jQuery.ajax({
+			url: "/php/send.php",
+			method: 'POST',
+			success: function(){
+				alert('DONE');
+				// $(this).addClass("done");
+			}
+		});
+
+
+
+
+		/* отмена окраски поля с ошибкой */
+		jQuery('.consult__input').change(function() {
+			jQuery(this).removeClass('consult__input--error');
+		})
+
+		function errorBackgroundFill(elem) {
+			elem.addClass('consult__input--error');
+		}
+
+		function removeErrorBackgrounFill(elem) {
+			elem.removeClass('consult__input--error');
+		}
+	});
+
+
 });

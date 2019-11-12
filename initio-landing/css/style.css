@@ -514,6 +514,26 @@
  		align-items: center;
  	}
  }
+ .header-sticky {
+ 	padding: 15px 15px;
+ }
+ @media (min-width: 768px) {
+ 	.header-sticky {
+ 		padding: 10px 15px;
+ 	}
+ }
+ .header-sticky .logo {
+ 	display: none;
+ }
+ @media (min-width: 768px) {
+ 	.header-sticky .logo {
+ 		display: block;
+		height: 60px;
+ 	}
+ }
+ .header-sticky .header__buttons {
+ 	margin-bottom: 0;
+ }
  .header__buttons {
  	display: -webkit-flex;
  	display: -moz-flex;
@@ -914,6 +934,7 @@
  	padding: 0 10px;
  	margin-bottom: 25px;
  }
+
  .consult__input-label {
  	font-family: 'Montserrat-SemiBold';
  	font-size: 14px;
@@ -939,6 +960,9 @@
  	border-radius: 0;
  	line-height: 2;
  	outline: none;
+ }
+ .consult__input--error {
+ 	background-color: #ffecec;
  }
  .btn-submit {
  	font-family: 'Montserrat-Bold';
@@ -1019,6 +1043,11 @@
  		max-width: 500px;
  		left: 50%;
  		transform: translateX(-50%);
+ 	}
+ }
+ @media (min-width: 768px) {
+ 	.callback .section__title span {
+ 		font-size: 24px;
  	}
  }
  .callback .fields {
