@@ -187,7 +187,7 @@
 									<input type="submit" class="btn bg-gradient btn-submit" value="<?= $consult_submit_text ?>">
 
 									<div class="form-field">
-										<input type="checkbox" name="agree" class="hidden-checkbox" id="hidden-agreement" checked="true">
+										<input type="checkbox" name="agree" class="hidden-checkbox" id="hidden-agreement" checked="checked">
 
 										<div class="agreement">
 											<div class="checkbox checkbox--active" id="js-agreement"></div>
@@ -209,7 +209,7 @@
 				<div class="col-xs-12">
 					<a href="https://llao87.github.io/initio-landing/" class="logo"></a>
 					<div class="to-top" id="js-toTop">
-						<img src="img/to-top.png">
+						<img src="img/to-top.png" alt="to top">
 						<span>Наверх</span>
 					</div>
 				</div>
