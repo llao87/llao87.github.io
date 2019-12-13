@@ -1,0 +1,109 @@
+@import "reset.css" all;
+@import "grid.css" all;
+
+/*
+FONTS
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic');
+
+
+/*
+COMMON
+*/
+* {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	min-width: 320px;
+	font-size: 10px;
+}
+
+
+
+
+.header__menu {
+	display: block;
+	position: fixed;
+	width: 100%;
+	min-height: 54px;
+	background-color: #fff;
+	top: 12px;
+	z-index: 50;
+}
+
+
+
+
+
+.slider {
+	min-height: 524px;
+}
+
+.slide:after {
+	position: absolute;
+	display: block;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(14, 18, 29, 0.3);
+	z-index: 5;
+}
+
+.slide__title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -45%);
+	text-align: center;
+	z-index: 10;
+}
+
+
+.slide__header {
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 69px;
+	font-weight: 700;
+	line-height: 71.46px;
+}
+.slide__subheader {
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 69px;
+	font-weight: 300;
+	line-height: 71.46px;
+}
+
+
+.slider .slick-dots {
+	position: absolute;
+	bottom: 30px;
+}
+.slider .slick-dots li {
+	width: 15px;
+	height: 15px;
+	margin: 0 8px;
+}
+.slider .slick-dots li button {
+	width: 15px;
+	height: 15px;
+}
+.slider .slick-dots li button:before, .slider .slick-dots li.slick-active button:before {
+	opacity: 1;
+	color: transparent;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	line-height: 1;
+}
+.slider .slick-dots li.slick-active button:before {
+	background-color: #fff;
+}
