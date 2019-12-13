@@ -107,3 +107,6 @@ body {
 .slider .slick-dots li.slick-active button:before {
 	background-color: #fff;
 }
+.slick-slide img {
+	width: 100%;
+}
