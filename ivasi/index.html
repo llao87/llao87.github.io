@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>main page</title>
 	<!-- <link rel="stylesheet" href="css/grid.css"> -->
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="js/slick/slick.css">
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -15,7 +15,15 @@
 	<header>
 		<div class="header__menu">
 			<div class="logo"></div>
-			<nav class="main-menu"></nav>
+			<ul class="main-menu">
+				<li class="main-menu__item"><a class="main-menu__link main-menu__link--active" href="">Продукция</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="">Рецепты</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="">Отзывы</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="">FAQ</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="">Сертификаты</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="">Где купить</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="">Контакты</a></li>
+			</ul>
 		</div>
 
 		<div class="slider">
@@ -66,6 +74,196 @@
 		</div>
 	</header>
 
+
+	<section class="advantages">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<img class="advantages__fish" src="img/advantages-fish.png" alt="">
+				</div>
+
+
+				<div class="col-xl-12">
+					<div class="advantages__bullets">
+						<div class="advantage__item">
+							<img class="advantage__bullet" src="img/bullet-wild-fish.png" alt="">
+							<span class="advantage__info advantage__info--wild-fish">В гости<br>к рыбакам</span>
+						</div>
+
+						<div class="advantage__item">
+							<img class="advantage__bullet" src="img/bullet-omega-3.png" alt="">
+							<span class="advantage__info advantage__info--omega-3">Протоколы<br>исследования<br>РАН</span>
+						</div>
+
+						<div class="line-wave-wrap">
+							<span class="line-wave__text">ИВАСИ</span>
+							<span class="line-wave line-wave-1"></span>
+							<span class="line-wave line-wave-2"></span>
+							<span class="line-wave line-wave-3"></span>
+							<span class="line-wave line-wave-4"></span>
+							<span class="line-wave line-wave-5"></span>
+							<span class="line-wave line-wave-6"></span>
+							<span class="line-wave line-wave-7"></span>
+							<span class="line-wave line-wave-8"></span>
+							<span class="line-wave line-wave-9"></span>
+						</div>
+
+						<div class="advantage__item">
+							<img class="advantage__bullet" src="img/bullet-ca-mg-i.png" alt="">
+							<span class="advantage__info advantage__info--ca-mg-i">Протоколы<br>исследования<br>РАН</span>
+						</div>
+
+						<div class="advantage__item">
+							<img class="advantage__bullet" src="img/bullet-mechanic.png" alt="">
+							<span class="advantage__info advantage__info--mechanic">Узнать<br> подробности</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-12">
+					<div class="advantages__description">Иваси - это полезная рыба, которая пользовалась большой популярностью во времена СССР.<br>Легендарная «Сельдь Иваси» была чем-то наподобие национального достояния.</div>
+				</div>
+
+
+				<div class="col-xl-12 next-section-wrap">
+					<a href="#">
+						<img src="img/arrow-next-section.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<style>
+		.advantages {
+			padding: 40px 0 20px 0;
+		}
+		.advantages__fish {
+			display: block;
+			margin: 0 auto;
+			/*max-width: 625px;*/
+			max-width: 525px;
+			margin-bottom: 30px;
+			left: 30px; /* Это непонятно, почему бы просто не по центру ??? */
+		}
+		.advantages__bullets {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 45px;
+		}
+		.advantage__bullet {
+			margin: 0 12px;
+			cursor: pointer;
+			transition: 0.2s linear;
+		}
+		.advantage__item {}
+		.advantage__info {
+			display: none;
+			position: absolute;
+			font-family: 'Neucha', cursive;
+			color: #01336e;
+			font-size: 1.4em;
+			font-weight: 400;
+			line-height: 1;
+			letter-spacing: 0.68px;
+			transform: translateY(-100%);
+		}
+		.advantage__info--wild-fish {
+			top: -65px;
+			left: -60px;
+		}
+		.advantage__info--wild-fish:after {
+			position: absolute;
+			content: '';
+			background-image: url(img/arrow-wild-fish.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 62px;
+			height: 58px;
+			bottom: -62px;
+			left: 28px;
+		}
+		.advantage__info--omega-3 {
+			top: -53px;
+			left: -70px;
+		}
+		.advantage__info--omega-3:after {
+			position: absolute;
+			content: '';
+			background-image: url(img/arrow-omega-3.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 87px;
+			height: 49px;
+			bottom: -49px;
+			left: 29px;
+		}
+		.advantage__info--ca-mg-i {
+			top: -50px;
+			right: -120px;
+		}
+		.advantage__info--ca-mg-i:after {
+			position: absolute;
+			content: '';
+			background-image: url(img/arrow-ca-mg-i.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 82px;
+			height: 57px;
+			bottom: -57px;
+			left: -67px;
+		}
+		.advantage__info--mechanic {
+			top: -63px;
+			right: -110px;
+		}
+		.advantage__info--mechanic:after {
+			position: absolute;
+			content: '';
+			background-image: url(img/arrow-mechanic.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 61px;
+			height: 58px;
+			bottom: -73px;
+			left: -55px;
+		}
+		.advantage__item:hover .advantage__bullet {
+			transform: scale(1.1);
+		}
+		.advantage__item:hover .advantage__info {
+			transition: 0.2s linear;
+			display: block;
+		}
+		.advantages__description {
+			color: #01336e;
+			font-family: "Open Sans Condensed";
+			font-size: 2.4em;
+			font-weight: 300;
+			line-height: 1;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		.next-section-wrap {
+			text-align: center;
+		}
+		.next-section {
+			text-align: center;
+			margin: 0 auto;
+		}
+
+	</style>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
