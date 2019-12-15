@@ -2,9 +2,8 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>main page</title>
-	<!-- <link rel="stylesheet" href="css/grid.css"> -->
 	<link rel="stylesheet" href="js/slick/slick.css">
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -31,8 +30,8 @@
 				<img class="slide__image" src="img/slide-1.jpg" alt="">
 
 				<div class="slide__title">
-					<div class="slide__header">Возвращаем легенду</div>
-					<div class="slide__subheader">традиции, качество, вкус</div>
+					<div class="slide__header">Возвращаем иваси</div>
+					<!-- <div class="slide__subheader">традиции, качество, вкус</div> -->
 				</div>
 			</div>
 
@@ -41,7 +40,7 @@
 
 				<div class="slide__title">
 					<div class="slide__header">Второй слайд</div>
-					<div class="slide__subheader">подзаголовок слайда</div>
+					<!-- <div class="slide__subheader">подзаголовок слайда</div> -->
 				</div>
 			</div>
 
@@ -50,7 +49,7 @@
 
 				<div class="slide__title">
 					<div class="slide__header">Третий слайд</div>
-					<div class="slide__subheader">подзаголовок слайда</div>
+					<!-- <div class="slide__subheader">подзаголовок слайда</div> -->
 				</div>
 			</div>
 
@@ -59,7 +58,7 @@
 
 				<div class="slide__title">
 					<div class="slide__header">Четвертый слайд</div>
-					<div class="slide__subheader">подзаголовок слайда</div>
+					<!-- <div class="slide__subheader">подзаголовок слайда</div> -->
 				</div>
 			</div>
 
@@ -68,7 +67,7 @@
 
 				<div class="slide__title">
 					<div class="slide__header">Пятый слайд</div>
-					<div class="slide__subheader">подзаголовок слайда</div>
+					<!-- <div class="slide__subheader">подзаголовок слайда</div> -->
 				</div>
 			</div>
 		</div>
@@ -79,19 +78,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
-					<img class="advantages__fish" src="img/advantages-fish.png" alt="">
+					<img class="advantages__fish" src="img/advantages-fish.svg" alt="">
 				</div>
-
 
 				<div class="col-xl-12">
 					<div class="advantages__bullets">
 						<div class="advantage__item">
-							<img class="advantage__bullet" src="img/bullet-wild-fish.png" alt="">
+							<img class="advantage__bullet" src="img/bullet-wild-fish.svg" alt="">
 							<span class="advantage__info advantage__info--wild-fish">В гости<br>к рыбакам</span>
 						</div>
 
 						<div class="advantage__item">
-							<img class="advantage__bullet" src="img/bullet-omega-3.png" alt="">
+							<img class="advantage__bullet" src="img/bullet-omega-3.svg" alt="">
 							<span class="advantage__info advantage__info--omega-3">Протоколы<br>исследования<br>РАН</span>
 						</div>
 
@@ -109,12 +107,12 @@
 						</div>
 
 						<div class="advantage__item">
-							<img class="advantage__bullet" src="img/bullet-ca-mg-i.png" alt="">
+							<img class="advantage__bullet" src="img/bullet-ca-mg-i.svg" alt="">
 							<span class="advantage__info advantage__info--ca-mg-i">Протоколы<br>исследования<br>РАН</span>
 						</div>
 
 						<div class="advantage__item">
-							<img class="advantage__bullet" src="img/bullet-mechanic.png" alt="">
+							<img class="advantage__bullet" src="img/bullet-mechanic.svg" alt="">
 							<span class="advantage__info advantage__info--mechanic">Узнать<br> подробности</span>
 						</div>
 					</div>
@@ -123,7 +121,6 @@
 				<div class="col-xl-12">
 					<div class="advantages__description">Иваси - это полезная рыба, которая пользовалась большой популярностью во времена СССР.<br>Легендарная «Сельдь Иваси» была чем-то наподобие национального достояния.</div>
 				</div>
-
 
 				<div class="col-xl-12 next-section-wrap">
 					<a href="#">
@@ -134,135 +131,160 @@
 		</div>
 	</section>
 
+
+
+
+	<section class="promo">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="product-slider">
+						<div class="product-slide">
+							<div class="col col--half">
+								<span class="product-slider__photo">
+									<img src="img/product-1.png" alt="">
+								</span>
+							</div>
+							<div class="col col--half">
+								<h3 class="product-slide__title">Филе иваси<br>с кожей в масле</h3>
+								<div class="option-list">
+									<span class="option">пресервы</span>
+									<span class="option">240 г</span>
+								</div>
+
+								<div class="btn btn--orange btn--promo-buy">Где купить</div>
+
+								<div style="margin-top: 30px;">
+									<img src="img/stars.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
 	<style>
-		.advantages {
-			padding: 40px 0 20px 0;
+		.promo {
+			width: 100%;
+			padding: 160px 0;
+			background-image: url(img/bg-promo.png);
+			background-position: center top;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
-		.advantages__fish {
-			display: block;
-			margin: 0 auto;
-			/*max-width: 625px;*/
-			max-width: 525px;
-			margin-bottom: 30px;
-			left: 30px; /* Это непонятно, почему бы просто не по центру ??? */
-		}
-		.advantages__bullets {
+		.product-slide {
 			display: -webkit-flex;
 			display: -moz-flex;
 			display: -ms-flex;
 			display: -o-flex;
 			display: flex;
-
-			justify-content: center;
 			align-items: center;
-			margin-bottom: 45px;
+			justify-content: flex-start;
 		}
-		.advantage__bullet {
-			margin: 0 12px;
-			cursor: pointer;
-			transition: 0.2s linear;
+		.col {
+			display: inline-block;
 		}
-		.advantage__item {}
-		.advantage__info {
-			display: none;
-			position: absolute;
-			font-family: 'Neucha', cursive;
-			color: #01336e;
-			font-size: 1.4em;
-			font-weight: 400;
-			line-height: 1;
-			letter-spacing: 0.68px;
-			transform: translateY(-100%);
+		.col--half {
+			width: 50%;
 		}
-		.advantage__info--wild-fish {
-			top: -65px;
-			left: -60px;
-		}
-		.advantage__info--wild-fish:after {
-			position: absolute;
-			content: '';
-			background-image: url(img/arrow-wild-fish.png);
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
-			width: 62px;
-			height: 58px;
-			bottom: -62px;
-			left: 28px;
-		}
-		.advantage__info--omega-3 {
-			top: -53px;
-			left: -70px;
-		}
-		.advantage__info--omega-3:after {
-			position: absolute;
-			content: '';
-			background-image: url(img/arrow-omega-3.png);
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
-			width: 87px;
-			height: 49px;
-			bottom: -49px;
-			left: 29px;
-		}
-		.advantage__info--ca-mg-i {
-			top: -50px;
-			right: -120px;
-		}
-		.advantage__info--ca-mg-i:after {
-			position: absolute;
-			content: '';
-			background-image: url(img/arrow-ca-mg-i.png);
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
-			width: 82px;
-			height: 57px;
-			bottom: -57px;
-			left: -67px;
-		}
-		.advantage__info--mechanic {
-			top: -63px;
-			right: -110px;
-		}
-		.advantage__info--mechanic:after {
-			position: absolute;
-			content: '';
-			background-image: url(img/arrow-mechanic.png);
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
-			width: 61px;
-			height: 58px;
-			bottom: -73px;
-			left: -55px;
-		}
-		.advantage__item:hover .advantage__bullet {
-			transform: scale(1.1);
-		}
-		.advantage__item:hover .advantage__info {
-			transition: 0.2s linear;
+		.product-slider__photo {
+			position: relative;
 			display: block;
+			max-width:  423px;
+			max-height: 533px;
+			z-index: 10;
 		}
-		.advantages__description {
+		.product-slider__photo img {
+			width: 100%;
+			height: 100%;
+		}
+		.product-slider__photo:after {
+			position: absolute;
+			display: block;
+			content: '';
+			width: 140%;
+			height: 135px;
+			bottom: -75px;
+			left: -40px;
+			background-image: url(img/product-shadow.png);
+			background-position: center;
+			-webkit-background-size: contain;
+			background-size: contain;
+			background-repeat: no-repeat;
+			z-index: -1;
+		}
+		.product-slide__title {
 			color: #01336e;
+			font-family: "Open Sans Condensed", sans-serif;
+			font-size: 3.6em;
+			font-weight: bold;
+			line-height: 1.2;
+			margin-bottom: 60px;
+		}
+		.option-list {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			font-size: 1.8em;
+			font-weight: 400;
+			line-height: 1.5;
+			color: #01336e;
+			margin-bottom: 35px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.btn {
+			display: inline-block;
+			padding: 13px 20px;
 			font-family: "Open Sans Condensed";
-			font-size: 2.4em;
-			font-weight: 300;
+			font-size: 2em;
+			font-weight: 700;
+			text-transform: uppercase;
 			line-height: 1;
-			margin: 0 auto;
-			margin-bottom: 30px;
-			text-align: center;
+			border-radius: 100px;
+			cursor: pointer;
+			outline: none;
+			transition: 0.2s linear;
+			user-select: none;
 		}
-		.next-section-wrap {
-			text-align: center;
+		.btn--orange {
+			color: #fff;
+			background-color: #f05840;
 		}
-		.next-section {
-			text-align: center;
-			margin: 0 auto;
+		.btn--orange:hover {
+			margin-top: -3px;
+			margin-bottom: 3px;
+			box-shadow: 0 5px 2px #ccc;
 		}
-
+		.btn--orange:active {
+			background-color: #ff6f59;
+		}
+		.btn--promo-buy {
+			padding-right: 45px;
+		}
+		.btn--promo-buy:after {
+			position: absolute;
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			content: '';
+			background-image: url(img/gde-kupit-strelka.svg);
+			background-position: center;
+			-webkit-background-size: contain;
+			background-size: contain;
+			background-repeat: no-repeat;
+			top: 50%;
+			right: 20px;
+			transform: translateY(-50%);
+		}
 	</style>
 
 

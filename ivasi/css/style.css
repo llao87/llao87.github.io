@@ -5,6 +5,7 @@
 FONTS
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic');
 
 /*
@@ -29,10 +30,12 @@ body {
 .header__menu {
 	display: block;
 	position: fixed;
-	width: 100%;
+	/*width: 100%;*/
 	min-height: 54px;
 	background-color: #fff;
 	top: 12px;
+	left: 0;
+	right: 0;
 	z-index: 50;
 }
 .main-menu {
@@ -45,7 +48,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	font-family: "Open Sans Condensed";
+	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 2.4em;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -116,33 +119,26 @@ body {
 		background-color: rgba(14, 18, 29, 0.3);
 		z-index: 5;
 	}
-
 	.slide__title {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -45%);
 		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 6.9em;
+		line-height: 1.03;
 		z-index: 10;
+		text-transform: uppercase;
 	}
-
-
 	.slide__header {
 		color: #ffffff;
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-size: 69px;
 		font-weight: 700;
-		line-height: 71.46px;
 	}
 	.slide__subheader {
 		color: #ffffff;
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-size: 69px;
 		font-weight: 300;
-		line-height: 71.46px;
 	}
-
-
 	.slider .slick-dots {
 		position: absolute;
 		bottom: 30px;
@@ -212,3 +208,137 @@ body {
 	.line-wave-7 { bottom: 26px; }
 	.line-wave-8 { bottom: 30px; }
 	.line-wave-9 { bottom: 34px; }
+
+
+	.advantages {
+		padding: 40px 0 20px 0;
+	}
+	.advantages__fish {
+		display: block;
+		margin: 0 auto;
+		/*max-width: 625px;*/
+		max-width: 525px;
+		margin-bottom: 30px;
+		left: 30px; /* Это непонятно, почему бы просто не по центру ??? */
+	}
+	.advantages__bullets {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 45px;
+	}
+	.advantage__bullet {
+		width: 98px;
+		height: 98px;
+		margin: 0 12px;
+		cursor: pointer;
+		transition: 0.2s linear;
+	}
+	.advantage__item {}
+	.advantage__info {
+		display: none;
+		position: absolute;
+		font-family: 'Neucha', cursive;
+		color: #01336e;
+		font-size: 1.4em;
+		font-weight: 400;
+		line-height: 1;
+		letter-spacing: 0.68px;
+		transform: translateY(-100%);
+	}
+	.advantage__info--wild-fish {
+		top: -65px;
+		left: -60px;
+	}
+	.advantage__info--wild-fish:after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/arrow-wild-fish.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 62px;
+		height: 58px;
+		bottom: -62px;
+		left: 28px;
+	}
+	.advantage__info--omega-3 {
+		top: -53px;
+		left: -70px;
+	}
+	.advantage__info--omega-3:after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/arrow-omega-3.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 87px;
+		height: 49px;
+		bottom: -49px;
+		left: 29px;
+	}
+	.advantage__info--ca-mg-i {
+		top: -50px;
+		right: -120px;
+	}
+	.advantage__info--ca-mg-i:after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/arrow-ca-mg-i.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 82px;
+		height: 57px;
+		bottom: -57px;
+		left: -67px;
+	}
+	.advantage__info--mechanic {
+		top: -63px;
+		right: -110px;
+	}
+	.advantage__info--mechanic:after {
+		position: absolute;
+		content: '';
+		background-image: url(../img/arrow-mechanic.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 61px;
+		height: 58px;
+		bottom: -73px;
+		left: -55px;
+	}
+	.advantage__item:hover .advantage__bullet {
+		transform: scale(1.1);
+	}
+	.advantage__item:hover .advantage__info {
+		transition: 0.2s linear;
+		display: block;
+	}
+	.advantages__description {
+		color: #01336e;
+		font-family: "Open Sans Condensed", sans-serif;
+		font-size: 2.4em;
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.next-section-wrap {
+		text-align: center;
+	}
+	.next-section {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+
+

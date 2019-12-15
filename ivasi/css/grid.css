@@ -5,7 +5,7 @@ FLEX GRID
 	max-width: 1200px;
 	margin: 0 auto;
 	height: inherit;
-	min-height: 100px;
+	/*min-height: 100px;*/
 }
 .row {
 	display: -webkit-flex;
