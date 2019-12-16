@@ -463,6 +463,10 @@ body {
 	border-radius: 50px;
 	background-color: #fff;
 	cursor: pointer;
+	background-position: center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .slider-prev {
 	background-image: url(../img/slider-prev.svg);
