@@ -22,6 +22,7 @@
 	$('.js-promo-slider-nav').slick({
 		slidesToShow: 6,
 		slidesToScroll: 1,
+		infinite: false,
 		arrows: true,
 		dots: false,
 		focusOnSelect: true,
@@ -32,16 +33,10 @@
 		// responsive: {		}
 	});
 
-	/* инициализация SLICK PRECIPES */
+	/* инициализация SLICK RECIPES */
 	$('.js-recipes-slider').slick({
 		slidesToShow: 3,
 		slidesToScroll: 1,
-		// asNavFor: '.js-promo-slider-nav',
-		// fade: true,
-		customPaging: function(slick,index) {
-			var targetImage = slick.$slides.eq(index).find('img').attr('src');
-			return '<img src=" ' + targetImage + ' "/>';
-		},
 		dots: false,
 		arrows: true,
 		appendArrows: $('.js-recipes-slider-controls'),
@@ -85,9 +80,36 @@
 				var newClass = $(this).attr('data-animateClass');
 				console.log(newClass);
 				$(this).addClass(newClass).css({'opacity':1});
-
 			}
 		});
+	});
+
+
+	/* Certificate popup */
+	$(".fancybox").fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		autoScale : true,
+		fitToView	: false,
+	});
+
+
+	/* Обработка появления списка магазинов */
+	$('.js-more-shops').click(function() {
+		$(this).fadeOut(function() {
+			$('.js-shops-list').slideDown('slow');
+		});
+	});
+
+
+	/* Обработка текстов комментариев */
+	$('.comment__text').each(function() {
+		var commentText = $(this).text();
+		var slicedText = commentText.slice(0,150);
+
+		slicedText += slicedText.length < commentText.length ? '...' : '';
+
+		$(this).text(slicedText);
 	});
 
 
