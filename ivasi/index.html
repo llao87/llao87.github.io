@@ -4,13 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>main page</title>
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="js/slick/slick.css">
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-
 	<header>
 		<div class="header__menu">
 			<div class="logo"></div>
@@ -73,12 +72,11 @@
 		</div>
 	</header>
 
-
 	<section class="advantages">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
-					<img class="advantages__fish" src="img/advantages-fish.svg" alt="">
+					<img class="advantages__fish animated fadeInRight delay-0-8s slower" src="img/advantages-fish.svg">
 				</div>
 
 				<div class="col-xl-12">
@@ -130,9 +128,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
 
 	<section class="promo">
 		<div class="container">
@@ -214,9 +209,7 @@
 		</div>
 	</section>
 
-
 	<section class="wave-separator"></section>
-
 
 	<section class="recipes">
 		<div class="container">
@@ -226,7 +219,7 @@
 				</div>
 
 				<div class="col-xl-6 recipe-main-photo">
-					<div class="recipe recipe--main">
+					<div class="recipe recipe--main animated animated-scroll delay-0-8s slow" data-animateClass="fadeInLeft">
 						<img src="img/seld-pod-shuboi.jpg" alt="Салат Сельдь под шубой">
 					</div>
 				</div>
@@ -245,77 +238,84 @@
 				</div>
 			</div>
 
+			<div class="row recipes-slider-wrap">
+				<div class="col-xl-12">
+					<div class="recipes-slider js-recipes-slider animated animated-scroll delay-0-8s fast" data-animateClass="fadeInUp">
+						<div class="recipe">
+							<div class="recipe__photo">
+								<img src="img/kanape-ivasi-kivi.jpg" alt="Канапе с иваси и киви">
+							</div>
+
+							<a class="recipe__link" href="">
+								<span class="recipe__caption">Канапе с иваси и киви</span>
+							</a>
+						</div>
+
+						<div class="recipe">
+							<div class="recipe__photo">
+								<img src="img/seld-po-datski.jpg" alt="Бутерброд с сельдью по-датски">
+							</div>
+
+							<a class="recipe__link" href="">
+								<span class="recipe__caption">Бутерброд с сельдью по-датски</span>
+							</a>
+						</div>
+
+						<div class="recipe">
+							<div class="recipe__photo">
+								<img src="img/rus-pyatnica.jpg" alt="Салат Русская пятница">
+							</div>
+
+							<a class="recipe__link" href="">
+								<span class="recipe__caption">Салат Русская пятница</span>
+							</a>
+						</div>
+
+						<div class="recipe">
+							<div class="recipe__photo">
+								<img src="img/kanape-ivasi-kivi.jpg" alt="Канапе с иваси и киви">
+							</div>
+
+							<a class="recipe__link" href="">
+								<span class="recipe__caption">Канапе с иваси и киви</span>
+							</a>
+						</div>
+
+						<div class="recipe">
+							<div class="recipe__photo">
+								<img src="img/seld-po-datski.jpg" alt="Бутерброд с сельдью по-датски">
+							</div>
+
+							<a class="recipe__link" href="">
+								<span class="recipe__caption">Бутерброд с сельдью по-датски</span>
+							</a>
+						</div>
+
+						<div class="recipe">
+							<div class="recipe__photo">
+								<img src="img/rus-pyatnica.jpg" alt="Салат Русская пятница">
+							</div>
+
+							<a class="recipe__link" href="">
+								<span class="recipe__caption">Салат Русская пятница</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="row ">
 				<div class="col-xl-12">
-					<div class="recipes-slider js-recipes-slider">
-						<div class="recipe">
-							<div class="recipe__photo">
-								<img src="img/kanape-ivasi-kivi.jpg" alt="Канапе с иваси и киви">
-							</div>
-							<span class="recipe__caption">Канапе с иваси и киви</span>
-						</div>
-
-						<div class="recipe">
-							<div class="recipe__photo">
-								<img src="img/seld-po-datski.jpg" alt="Бутерброд с сельдью по-датски">
-							</div>
-							<span class="recipe__caption">Бутерброд с сельдью по-датски</span>
-						</div>
-
-						<div class="recipe">
-							<div class="recipe__photo">
-								<img src="img/rus-pyatnica.jpg" alt="Салат Русская пятница">
-							</div>
-							<span class="recipe__caption">Салат Русская пятница</span>
-						</div>
-
-						<div class="recipe">
-							<div class="recipe__photo">
-								<img src="img/kanape-ivasi-kivi.jpg" alt="Канапе с иваси и киви">
-							</div>
-							<span class="recipe__caption">Канапе с иваси и киви</span>
-						</div>
-
-						<div class="recipe">
-							<div class="recipe__photo">
-								<img src="img/seld-po-datski.jpg" alt="Бутерброд с сельдью по-датски">
-							</div>
-							<span class="recipe__caption">Бутерброд с сельдью по-датски</span>
-						</div>
-
-						<div class="recipe">
-							<div class="recipe__photo">
-								<img src="img/rus-pyatnica.jpg" alt="Салат Русская пятница">
-							</div>
-							<span class="recipe__caption">Салат Русская пятница</span>
-						</div>
-					</div>
+					<div class="slider-controls js-recipes-slider-controls"></div>
 				</div>
-
-				<!-- <div class="col-xl-4">
-					<div class="recipe">
-						<img src="img/kanape-ivasi-kivi.jpg" alt="Салат Сельдь под шубой">
-					</div>
-				</div>
-
-				<div class="col-xl-4">
-					<div class="recipe">
-						<img src="img/seld-po-datski.jpg" alt="Салат Сельдь под шубой">
-					</div>
-				</div>
-
-				<div class="col-xl-4">
-					<div class="recipe">
-						<img src="img/rus-pyatnica.jpg" alt="Салат Сельдь под шубой">
-					</div>
-				</div> -->
 			</div>
+
+			<div class="trava animated animated-scroll delay-0-8s slower" data-animateClass='fadeInDown'></div>
+			<div class="svekla animated animated-scroll delay-0-8s slower" data-animateClass='fadeInRight'></div>
 		</div>
 	</section>
 
-
 	<section class="wave-separator"></section>
-
 
 	<section class="comments">
 		<div class="container">
@@ -325,7 +325,7 @@
 				</div>
 
 				<div class="col-xl-12">
-					<div class="js-comments-slider">
+					<div class="js-comments-slider animated animated-scroll slow" data-animateClass="fadeIn">
 						<div class="comment">
 							<div class="comment__text">Яркий насыщенный вкус. Есть кожура с одной стороны. Легко очищается от кожуры. Есть мелкие косточки, иногда даже не мелкие, но меня это не смущает. Вкусная сардина, буду брать ещё.</div>
 
@@ -401,137 +401,307 @@
 							</div>
 						</div>
 					</div>
-					<div class="js-comments-slider-controls"></div>
+
+					<div class="slider-controls js-comments-slider-controls"></div>
 				</div>
 			</div>
+
+			<div class="quote quote-up   animated animated-scroll delay0-8s slower" data-animateClass="fadeInLeft"></div>
+			<div class="quote quote-down animated animated-scroll delay0-8s slower" data-animateClass="fadeInRight"></div>
 		</div>
 	</section>
 
 
+	<section class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<h2 class="section-title">Вопросы и ответы</h2>
+				</div>
+
+				<div class="col-xl-10 col-xl-offset-2">
+					<div class="faq__row">
+						<img class="faq__avatar" src="img/user.svg" alt="аватар отзыва">
+						<div class="faq__buble faq__buble--question">Что такое ИВАСИ?</div>
+					</div>
+
+					<div class="faq__row">
+						<div class="faq__buble faq__buble--answer">ИВАСИ – это рыбка семейства сельдевых, которая в переводе с японского означает сардина. Ее особенность заключается в том, что она меняет место обитанияраз в 25-30 лет. В последний раз ИВАСИ ловили в местах промысла в1980-х годах. Тогда биомасса сардины достигала 20 млн. тонн и запас практически не ограничивал вылов, вследствие чего она стала настоящей любимицей в СССР.</div>
+						<img class="faq__avatar faq__avatar--antei" src="img/logo-antei.svg" alt="Антей">
+					</div>
+				</div>
+
+				<div class="col-xl-10 col-xl-offset-2">
+					<div class="faq__row">
+						<img class="faq__avatar" src="img/user.svg" alt="аватар отзыва">
+						<div class="faq__buble faq__buble--question">Где находятся места промысла?</div>
+					</div>
+
+					<div class="faq__row">
+						<div class="faq__buble faq__buble--answer">
+							<div class="fishing">
+								<img class="fishing-map" src="img/fishing-places.svg" alt="Карта промысла">
+
+								<img class="fishing-point fishing-point-1 animated animated-scroll slow" src="img/fishing-point.svg" data-animateClass="fadeInUp">
+								<img class="fishing-point fishing-point-2 animated animated-scroll delay-0-5s slow" src="img/fishing-point.svg" data-animateClass="fadeInUp">
+								<img class="fishing-point fishing-point-3 animated animated-scroll delay-1s slow" src="img/fishing-point.svg" data-animateClass="fadeInUp">
+								<img class="fishing-point fishing-point-4 animated animated-scroll delay-1-5s slow" src="img/fishing-point.svg" data-animateClass="fadeInUp">
+								<img class="fishing-point fishing-point-5 animated animated-scroll delay-2s slow" src="img/fishing-point.svg" data-animateClass="fadeInUp">
+							</div>
+						</div>
+						<img class="faq__avatar faq__avatar--antei" src="img/logo-antei.svg" alt="Антей">
+					</div>
+				</div>
+
+				<div class="js-question-more">
+					<div class="btn btn--orange btn--questions-more">Еще вопросы</div>
+				</div>
+			</div>
+		</div>
+
+		<span class="bg-elem bg-fish-big animated animated-scroll slower" 	data-animateClass="fadeInRight"></span>
+		<span class="bg-elem bg-fish-small animated animated-scroll slower" 	data-animateClass="fadeInLeft"></span>
+		<span class="bg-elem bg-ship animated animated-scroll slower" 		data-animateClass="fadeInLeft"></span>
+	</section>
+
+
+	<section class="wave-separator"></section>
+
+
+	<section class="certificates">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<h2 class="section-title">Сертификаты</h2>
+				</div>
+
+
+				<div class="col-xl-12">
+					<div class="certificates-slider js-certificates-slider">
+						<div class="certificate">
+							<div class="certificate__frame">
+								<div class="certificate__photo"></div>
+								<div class="certificate__title"></div>
+							</div>
+						</div>
+
+						<div class="certificate">
+							<div class="certificate__frame">
+								<div class="certificate__photo"></div>
+								<div class="certificate__title"></div>
+							</div>
+						</div>
+
+						<div class="certificate">
+							<div class="certificate__frame">
+								<div class="certificate__photo"></div>
+								<div class="certificate__title"></div>
+							</div>
+						</div>
+
+						<div class="certificate">
+							<div class="certificate__frame">
+								<div class="certificate__photo"></div>
+								<div class="certificate__title"></div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-controls js-certificates-slider-controls"></div>
+				</div>
+			</div>
+		</div>
+
+
+		<span class="bg-elem bg-schoolfish-lt animated animated-scroll delay-1s slower" data-animateClass="fadeInLeft"></span>
+		<span class="bg-elem bg-schoolfish-rt animated animated-scroll delay-1s slower" data-animateClass="fadeInRight"></span>
+		<span class="bg-elem bg-schoolfish-lb animated animated-scroll delay-1s slower" data-animateClass="fadeInLeft"></span>
+		<span class="bg-elem bg-schoolfish-rb animated animated-scroll delay-1s slower" data-animateClass="fadeInRight"></span>
+	</section>
+
+
+	<section class="shops">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<h2 class="section-title">Где купить</h2>
+				</div>
+
+				<div class="col-xl-12">
+					<div class="shops-list">
+						<a class="shop-link" href=""><img src="img/karusel.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/perekrestok.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/pyaterochka.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/magnit.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/diksi.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/pyaterochka.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/magnit.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/perekrestok.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/diksi.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/karusel.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/diksi.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/pyaterochka.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/magnit.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/karusel.png" alt=""></a>
+						<a class="shop-link" href=""><img src="img/perekrestok.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="js-more-shops">
+				<div class="btn btn--orange btn--more-shops">Весь список</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="wave-separator"></section>
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<h2 class="section-title">Контакты</h2>
+				</div>
+
+				<div class="col-xl-4 col-xl-offset-2">
+					<h4 class="block-title">Адрес производства:</h4>
+					<p class="address">109383, г. Москва,<br>Проектируемый проезд 5112, д. 2, стр.6.</p>
+				</div>
+
+				<div class="col-xl-4 col-xl-offset-1">
+					<div class="phone">8 800 333 46 25</div>
+					<div class="btn btn--orange">Оставить отзыв</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyrights">© antey.group 2019</div>
+
+		<span class="bg-elem bg-footer-ship animated animated-scroll delay-1s slower" data-animateClass="fadeInRight"></span>
+	</footer>
+
 	<style>
-		.comments {
+		.certificates {
 			background: rgb(146,206,212);
 			background: linear-gradient(0deg, rgba(146,206,212,1) 0%, rgba(209,232,235,1) 50%, rgba(255,255,255,1) 100%);
-			padding: 75px 0;
+			padding: 80px 0;
+			min-height: 827px;
 		}
-		.comments:before, .comments:after {
-			position: absolute;
-			content: '';
-			display: inline-block;
-			width: 250px;
-			height: 185px;
-			background-image: url(img/quote-stroke.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			background-position: center;
+		.bg-schoolfish-lt {
+			background-image: url(img/school-lt.svg);
+			width: 166px;
+			height: 155px;
+			top: 17%;
+			left: 13%;
 		}
-		.comments:before {
-			top: 80px;
-			left: 10%;
+		.bg-schoolfish-rt {
+			background-image: url(img/school-rt.svg);
+			width: 224px;
+			height: 83px;
+			top: 23%;
+			right: 7%;
 		}
-		.comments:after {
-			bottom: 80px;
-			right: 10%;
-			transform: rotate(180deg);
+		.bg-schoolfish-lb {
+			background-image: url(img/school-lb.svg);
+			width: 198px;
+			height: 197px;
+			top: 64%;
+			left: 9%;
 		}
-		.comments .section-title {
-			margin-bottom: 75px;
+		.bg-schoolfish-rb {
+			background-image: url(img/school-rb.svg);
+			width: 141px;
+			height: 164px;
+			top: 60%;
+			right: 13%;
 		}
-		.comment {
-			max-width: 550px !important;
-			background-color: #fff;
-			border-radius: 10px;
-			border: 1px solid #ffffff;
-			padding: 66px 49px 41px 49px;
-			margin: 0 25px;
+
+
+
+
+
+		.shops {
+			padding: 90px 0 120px 0;
 		}
-		.comment:before {
-			position: absolute;
-			content: '';
-			display: inline-block;
-			width: 110px;
-			height: 80px;
-			background-image: url(img/quote-gray.svg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			background-position: center;
-			top: 20px;
-			left: 30px;
+		.shops .section-title {
+			margin-bottom: 100px;
 		}
-		.comment__text {
+		.shops-list {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.shop-link {
+			width: 18%;
+			text-decoration: none;
+			outline: none;
+			margin-bottom: 100px;
+		}
+		.shop-link img {
 			width: 100%;
+			height: auto;
+		}
+		.btn--more-shops {
+			margin: 0 auto;
+		}
+		.js-more-shops {
+			text-align: center;
+		}
+
+
+
+
+
+
+
+
+
+
+
+		footer {
+			background: linear-gradient(0deg, rgba(146,206,212,1) 0%, rgba(209,232,235,1) 50%, rgba(255,255,255,1) 100%);
+			padding: 75px 0 0 0;
+		}
+		footer .section-title {
+			margin-bottom: 70px;
+		}
+		.bg-footer-ship {
+			background-image: url(img/kontakt-ship.svg);
+			width: 423px;
+			height: 309px;
+			top: 23%;
+			right: 10%;
+		}
+		.block-title, .phone {
 			color: #01336e;
+			font-family: "Open Sans Condensed";
+			font-size: 3.3em;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+		.address {
+			color: #01336e;
+			font-family: "Open Sans";
+			font-weight: 400;
+			font-size: 1.8em;
+			line-height: 2;
+		}
+		.copyrights {
+			padding: 16px 0 25px 0;
+			margin: 80px 40px 0 40px;
+			border-top: 1px solid #fff;
+			color: #ffffff;
 			font-family: "Open Sans";
 			font-size: 1.8em;
 			font-weight: 400;
-			line-height: 1.3;
-			margin-bottom: 50px;
-			min-height: 100px;
-			max-height: 100px;
-			overflow-y: auto;
-			padding-right: 20px;
+			line-height: 1;
 		}
-		.author__photo {
-			width: 65px;
-			height: 68px;
-			margin-right: 16px;
-		}
-		.comment__author {
-			display: -webkit-inline-flex;
-			display: -moz-inline-flex;
-			display: -ms-inline-flex;
-			display: -o-inline-flex;
-			display: inline-flex;
 
-			align-items: center;
-			justify-content: space-between;
-
-			left: 50%;
-			transform: translateX(-50%);
-		}
-		.author__photo img {
-			width: inherit;
-			height: inherit;
-		}
-		.author__info {
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
-
-			flex-direction: column;
-			justify-content: center;
-			align-items: flex-start;
-		}
-		.author__link, .author__link:hover {
-			text-decoration: none;
-		}
-		.author__name {
-			color: #01336e;
-			font-family: "Open Sans Condensed";
-			font-size: 2.2em;
-			font-weight: 700;
-		}
-		.author__type {
-			color: #acb2b5;
-			font-family: "Open Sans Condensed";
-			font-size: 1.8em;
-			font-weight: 300;
-			line-height: 1.5;
-		}
-		.js-comments-slider-controls {
-			max-width: 250px;
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
-
-			justify-content: space-between;
-			margin: 0 auto;
-			margin-top: 70px;
-		}
 	</style>
 
 

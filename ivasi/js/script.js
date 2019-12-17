@@ -43,7 +43,10 @@
 			return '<img src=" ' + targetImage + ' "/>';
 		},
 		dots: false,
-		arrows: true
+		arrows: true,
+		appendArrows: $('.js-recipes-slider-controls'),
+		prevArrow: '<div class="slider-prev recipe-prev"></div>',
+		nextArrow: '<div class="slider-next recipe-next"></div>',
 		// responsive: {		}
 	});
 
@@ -56,6 +59,33 @@
 		appendArrows: $('.js-comments-slider-controls'),
 		prevArrow: '<div class="slider-prev comments-prev"></div>',
 		nextArrow: '<div class="slider-next comments-next"></div>',
+		// responsive: {		}
+	});
+
+	/* инициализация SLICK CERTIFICATES */
+	$('.js-certificates-slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		infinite: true,
+		adaptiveHeight: true,
+		appendArrows: $('.js-certificates-slider-controls'),
+		prevArrow: '<div class="slider-prev certificates-prev"></div>',
+		nextArrow: '<div class="slider-next certificates-next"></div>',
+		// responsive: {		}
+	});
+
+	/* Обработка скролла и присвоение классов анимации */
+	$(window).scroll(function() {
+		$('.animated-scroll').each(function() {
+			var blockPos = $(this).offset().top;
+			var topOfWindow = $(window).scrollTop();
+			console.log(blockPos);
+			if(blockPos < topOfWindow + 750) {
+				var newClass = $(this).attr('data-animateClass');
+				console.log(newClass);
+				$(this).addClass(newClass);
+			}
+		});
 	});
 
 
@@ -87,4 +117,4 @@
 
 
 
-	}());
+}());
