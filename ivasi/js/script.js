@@ -66,6 +66,7 @@
 	$('.js-certificates-slider').slick({
 		slidesToShow: 3,
 		slidesToScroll: 1,
+		centerMode: true,
 		infinite: true,
 		adaptiveHeight: true,
 		appendArrows: $('.js-certificates-slider-controls'),
@@ -79,11 +80,12 @@
 		$('.animated-scroll').each(function() {
 			var blockPos = $(this).offset().top;
 			var topOfWindow = $(window).scrollTop();
-			console.log(blockPos);
+
 			if(blockPos < topOfWindow + 750) {
 				var newClass = $(this).attr('data-animateClass');
 				console.log(newClass);
-				$(this).addClass(newClass);
+				$(this).addClass(newClass).css({'opacity':1});
+
 			}
 		});
 	});

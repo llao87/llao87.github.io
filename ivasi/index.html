@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>main page</title>
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="http://fancyapps.com//fancybox/source/jquery.fancybox.css?v=2.1.5">
 	<link rel="stylesheet" href="js/slick/slick.css">
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -117,12 +118,14 @@
 				</div>
 
 				<div class="col-xl-12">
-					<div class="advantages__description">Иваси - это полезная рыба, которая пользовалась большой популярностью во времена СССР.<br>Легендарная «Сельдь Иваси» была чем-то наподобие национального достояния.</div>
+					<div class="advantages__description animated animated-scroll animated-hide delay-0-5s fast" data-animateClass="flipInX">
+						Иваси - это полезная рыба, которая пользовалась большой популярностью во времена СССР.<br>Легендарная «Сельдь Иваси» была чем-то наподобие национального достояния.
+					</div>
 				</div>
 
 				<div class="col-xl-12 next-section-wrap">
 					<a href="#">
-						<img src="img/arrow-next-section.png" alt="">
+						<img src="img/arrow-next-section.png" class="animated bounce infinite slower">
 					</a>
 				</div>
 			</div>
@@ -150,8 +153,8 @@
 							<div class="col col--half col--info">
 								<h3 class="product-slide__title">Филе иваси<br>с кожей в масле</h3>
 								<div class="option-list">
-									<span class="option">пресервы</span>
-									<span class="option">240 г</span>
+									<span class="option">Сардина тихоокеанская холодного копчения. Тушка специальной разделки.</span>
+									<span class="option">Пресервы, 240 г</span>
 								</div>
 
 								<div class="btn btn--orange btn--promo-buy">Где купить</div>
@@ -219,7 +222,7 @@
 				</div>
 
 				<div class="col-xl-6 recipe-main-photo">
-					<div class="recipe recipe--main animated animated-scroll delay-0-8s slow" data-animateClass="fadeInLeft">
+					<div class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
 						<img src="img/seld-pod-shuboi.jpg" alt="Салат Сельдь под шубой">
 					</div>
 				</div>
@@ -241,7 +244,7 @@
 			<div class="row recipes-slider-wrap">
 				<div class="col-xl-12">
 					<div class="recipes-slider js-recipes-slider">
-						<div class="recipe">
+						<div class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
 							<div class="recipe__photo">
 								<img src="img/kanape-ivasi-kivi.jpg" alt="Канапе с иваси и киви">
 							</div>
@@ -251,7 +254,7 @@
 							</a>
 						</div>
 
-						<div class="recipe">
+						<div class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
 							<div class="recipe__photo">
 								<img src="img/seld-po-datski.jpg" alt="Бутерброд с сельдью по-датски">
 							</div>
@@ -261,7 +264,7 @@
 							</a>
 						</div>
 
-						<div class="recipe">
+						<div class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
 							<div class="recipe__photo">
 								<img src="img/rus-pyatnica.jpg" alt="Салат Русская пятница">
 							</div>
@@ -271,7 +274,7 @@
 							</a>
 						</div>
 
-						<div class="recipe">
+						<div class="recipe animated-scroll slow" data-animateClass="fadeInUp">
 							<div class="recipe__photo">
 								<img src="img/kanape-ivasi-kivi.jpg" alt="Канапе с иваси и киви">
 							</div>
@@ -281,7 +284,7 @@
 							</a>
 						</div>
 
-						<div class="recipe">
+						<div class="recipe animated-scroll slow" data-animateClass="fadeInUp">
 							<div class="recipe__photo">
 								<img src="img/seld-po-datski.jpg" alt="Бутерброд с сельдью по-датски">
 							</div>
@@ -291,7 +294,7 @@
 							</a>
 						</div>
 
-						<div class="recipe">
+						<div class="recipe animated-scroll slow" data-animateClass="fadeInUp">
 							<div class="recipe__photo">
 								<img src="img/rus-pyatnica.jpg" alt="Салат Русская пятница">
 							</div>
@@ -420,24 +423,27 @@
 				</div>
 
 				<div class="col-xl-10 col-xl-offset-2">
-					<div class="faq__row">
+					<div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
 						<img class="faq__avatar" src="img/user.svg" alt="аватар отзыва">
 						<div class="faq__buble faq__buble--question">Что такое ИВАСИ?</div>
 					</div>
 
-					<div class="faq__row">
+					<div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
 						<div class="faq__buble faq__buble--answer">ИВАСИ – это рыбка семейства сельдевых, которая в переводе с японского означает сардина. Ее особенность заключается в том, что она меняет место обитанияраз в 25-30 лет. В последний раз ИВАСИ ловили в местах промысла в1980-х годах. Тогда биомасса сардины достигала 20 млн. тонн и запас практически не ограничивал вылов, вследствие чего она стала настоящей любимицей в СССР.</div>
-						<img class="faq__avatar faq__avatar--antei" src="img/logo-antei.svg" alt="Антей">
+
+						<a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+							<img src="img/logo-antei.svg" alt="Антей">
+						</a>
 					</div>
 				</div>
 
 				<div class="col-xl-10 col-xl-offset-2">
-					<div class="faq__row">
+					<div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
 						<img class="faq__avatar" src="img/user.svg" alt="аватар отзыва">
 						<div class="faq__buble faq__buble--question">Где находятся места промысла?</div>
 					</div>
 
-					<div class="faq__row">
+					<div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
 						<div class="faq__buble faq__buble--answer">
 							<div class="fishing">
 								<img class="fishing-map" src="img/fishing-places.svg" alt="Карта промысла">
@@ -449,7 +455,10 @@
 								<img class="fishing-point fishing-point-5 animated animated-scroll delay-2s slow" src="img/fishing-point.svg" data-animateClass="fadeInUp">
 							</div>
 						</div>
-						<img class="faq__avatar faq__avatar--antei" src="img/logo-antei.svg" alt="Антей">
+
+						<a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+							<img src="img/logo-antei.svg" alt="Антей">
+						</a>
 					</div>
 				</div>
 
@@ -479,31 +488,39 @@
 				<div class="col-xl-12">
 					<div class="certificates-slider js-certificates-slider">
 						<div class="certificate">
-							<div class="certificate__frame">
-								<div class="certificate__photo"></div>
-								<div class="certificate__title"></div>
-							</div>
+							<a class="fancybox" data-fancybox-type="iframe" href="img/test.pdf">
+								<div class="certificate__frame">
+									<div class="certificate__photo"></div>
+								</div>
+								<div class="certificate__title">Протоколы исследований РАН</div>
+							</a>
 						</div>
 
 						<div class="certificate">
-							<div class="certificate__frame">
-								<div class="certificate__photo"></div>
-								<div class="certificate__title"></div>
-							</div>
+							<a class="fancybox" data-fancybox-type="iframe" href="img/test.pdf">
+								<div class="certificate__frame">
+									<div class="certificate__photo"></div>
+								</div>
+								<div class="certificate__title">Экспертные оценки</div>
+							</a>
 						</div>
 
 						<div class="certificate">
-							<div class="certificate__frame">
-								<div class="certificate__photo"></div>
-								<div class="certificate__title"></div>
-							</div>
+							<a class="fancybox" data-fancybox-type="iframe" href="img/test.pdf">
+								<div class="certificate__frame">
+									<div class="certificate__photo"></div>
+								</div>
+								<div class="certificate__title">Четвертый</div>
+							</a>
 						</div>
 
 						<div class="certificate">
-							<div class="certificate__frame">
-								<div class="certificate__photo"></div>
-								<div class="certificate__title"></div>
-							</div>
+							<a class="fancybox" data-fancybox-type="iframe" href="img/test.pdf">
+								<div class="certificate__frame">
+									<div class="certificate__photo"></div>
+								</div>
+								<div class="certificate__title">Cертификат соответствия</div>
+							</a>
 						</div>
 					</div>
 					<div class="slider-controls js-certificates-slider-controls"></div>
@@ -518,6 +535,7 @@
 		<span class="bg-elem bg-schoolfish-rb animated animated-scroll delay-1s slower" data-animateClass="fadeInRight"></span>
 	</section>
 
+ 	<iframe src="http://docs.google.com/viewer?url=https://llao87.github.io/ivasi/img/test.pdf&embedded=true" width="600" height="780" style="border: none;"></iframe>
 
 	<section class="shops">
 		<div class="container">
@@ -578,7 +596,7 @@
 
 		<div class="copyrights">© antey.group 2019</div>
 
-		<span class="bg-elem bg-footer-ship animated animated-scroll delay-1s slower" data-animateClass="fadeInRight"></span>
+		<span class="bg-elem bg-footer-ship animated animated-scroll delay-0-5s slower" data-animateClass="fadeInRight"></span>
 	</footer>
 
 
@@ -589,6 +607,9 @@
 			background: linear-gradient(0deg, rgba(146,206,212,1) 0%, rgba(209,232,235,1) 50%, rgba(255,255,255,1) 100%);
 			padding: 80px 0;
 			min-height: 827px;
+		}
+		.certificates .section-title {
+			margin-bottom: 60px;
 		}
 		.bg-schoolfish-lt {
 			background-image: url(img/school-lt.svg);
@@ -618,11 +639,58 @@
 			top: 60%;
 			right: 13%;
 		}
+		.certificate {
+			text-align: center;
+		}
+		.certificate > a {
+			outline: none;
+			text-decoration: none;
+		}
+		.certificate__frame {
+			display: inline-block;
+			background-image: url(img/certifikat-frame.png);
+			background-position: center;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 237px;
+			height: 334px;
+			-moz-transition: all 0.6s ease-out;
+			-o-transition: all 0.6s ease-out;
+			-webkit-transition: all 0.6s ease-out;
+			transition: all 0.6s ease-out;
+			margin-top: 59px;
+			margin-bottom: 45px;
+		}
+		.certificate.slick-current .certificate__frame {
+			width: 278px;
+			height: 393px;
+			margin-top: 0;
+		}
+		.certificate__title {
+			text-align: center;
+			color: #01336e;
+			font-family: "Open Sans Condensed";
+			font-size: 2.2em;
+			font-weight: 700;
+		}
 	</style>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="http://fancyapps.com/fancybox/source/jquery.fancybox.js"></script>
 	<script src="js/slick/slick.min.js"></script>
 	<script src="js/script.js"></script>
+
+
+	<script>
+		$(".fancybox").fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none',
+			iframe : {
+				preload: false
+			}
+		});
+	</script>
 </body>
 </html>
