@@ -22,7 +22,6 @@
 	$('.js-promo-slider-nav').slick({
 		slidesToShow: 6,
 		slidesToScroll: 1,
-		infinite: false,
 		arrows: true,
 		dots: false,
 		focusOnSelect: true,

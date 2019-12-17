@@ -109,6 +109,7 @@ body {
 }
 
 .main-menu__item {
+	line-height: 54px;
 }
 .main-menu__link {
 	color: #01336e;
@@ -609,7 +610,7 @@ body {
 	display: -o-flex;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/*justify-content: center;*/
 	overflow: hidden;
 }
 .recipe.slick-slide {
@@ -712,7 +713,7 @@ body {
 	display: -o-flex;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 	overflow: hidden;
 }
 .recipe__caption {
