@@ -78,7 +78,7 @@
 
 			if(blockPos < topOfWindow + 750) {
 				var newClass = $(this).attr('data-animateClass');
-				console.log(newClass);
+
 				$(this).addClass(newClass).css({'opacity':1});
 			}
 		});
