@@ -10,18 +10,21 @@
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="home">
 	<header>
 		<div class="header__menu">
-			<div class="logo"></div>
+			<div class="logo">
+				<div class="logo__photo"></div>
+				<div class="logo__shadow"></div>
+			</div>
 			<ul class="main-menu">
-				<li class="main-menu__item"><a class="main-menu__link main-menu__link--active" href="">Продукция</a></li>
-				<li class="main-menu__item"><a class="main-menu__link" href="">Рецепты</a></li>
-				<li class="main-menu__item"><a class="main-menu__link" href="">Отзывы</a></li>
-				<li class="main-menu__item"><a class="main-menu__link" href="">FAQ</a></li>
-				<li class="main-menu__item"><a class="main-menu__link" href="">Сертификаты</a></li>
-				<li class="main-menu__item"><a class="main-menu__link" href="">Где купить</a></li>
-				<li class="main-menu__item"><a class="main-menu__link" href="">Контакты</a></li>
+				<li class="main-menu__item"><a class="main-menu__link link--active" href="/#promo" data-target="promo">Продукция</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="/#recipes" data-target="recipes">Рецепты</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="/#comments" data-target="comments">Отзывы</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="/#faq" data-target="faq">FAQ</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="/#certificates" data-target="certificates">Сертификаты</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="/#shops" data-target="shops">Где купить</a></li>
+				<li class="main-menu__item"><a class="main-menu__link" href="/#footer" data-target="footer">Контакты</a></li>
 			</ul>
 		</div>
 
@@ -106,16 +109,14 @@
 				</div>
 
 				<div class="col-xl-12 next-section-wrap">
-					<a href="#">
-						<img src="img/arrow-next-section.svg" class="next-section animated pulse infinite slower" alt="Переход к разделу ниже">
-					</a>
+					<img src="img/arrow-next-section.svg" class="next-section js-next-section animated pulse infinite slower" alt="Переход к разделу ниже" data-target="js-promo">
 				</div>
 			</div>
 		</div>
 	</div>
 
 
-	<div class="promo">
+	<div class="promo js-promo" id="promo">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -200,7 +201,7 @@
 	<div class="wave-separator"></div>
 
 
-	<div class="recipes">
+	<div class="recipes" id="recipes">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -308,7 +309,7 @@
 	<div class="wave-separator"></div>
 
 
-	<div class="comments">
+	<div class="comments" id="comments">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -418,7 +419,7 @@
 	</div>
 
 
-	<div class="faq">
+	<div class="faq" id="faq">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -480,7 +481,7 @@
 	<div class="wave-separator"></div>
 
 
-	<div class="certificates">
+	<div class="certificates" id="certificates">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -547,7 +548,7 @@
 	</div>
 
 
-	<div class="shops">
+	<div class="shops" id="shops">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -621,7 +622,7 @@
 	<div class="wave-separator"></div>
 
 
-	<footer>
+	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">

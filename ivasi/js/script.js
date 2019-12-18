@@ -112,6 +112,35 @@
 	});
 
 
+	/* Прокрутка до следующего блока по стрелке */
+	$('.js-next-section').click(function() {
+		var target = $('.js-promo');
+
+		$("html, body").animate({
+			scrollTop: target.offset().top + 80
+		}, 1000);
+	});
+
+
+	/* Прокрутка до блока из меню */
+	$('.main-menu__link').click(function(e) {
+
+		if ($('body').hasClass('home')) {
+			e.preventDefault();
+
+			$('.main-menu__link').removeClass('link--active');
+			$(this).addClass('link--active');
+
+			var className = $(this).attr('data-target');
+			var target = $('.' + className);
+
+			$("html, body").stop().animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+	});
+
+
 
 
 
