@@ -3,8 +3,10 @@
 
 
 	/* инициализация SLICK */
+	var dotsShow = $('body').hasClass('home') ? true : false;
+
 	$('.slider').slick({
-		dots: true,
+		dots: dotsShow,
 		arrows: false
 	});
 
@@ -68,6 +70,21 @@
 		nextArrow: '<div class="slider-next certificates-next"></div>',
 		// responsive: {		}
 	});
+
+	/* инициализация SLICK ALL PRODUCTS */
+	$('.js-all-products-slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		centerMode: true,
+		infinite: true,
+		adaptiveHeight: true,
+		appendArrows: $('.js-all-products-slider-controls'),
+		prevArrow: '<div class="slider-prev"></div>',
+		nextArrow: '<div class="slider-next"></div>',
+		// responsive: {		}
+	});
+
+
 
 	/* Обработка скролла и присвоение классов анимации */
 	$(window).scroll(function() {
