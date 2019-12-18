@@ -61,7 +61,7 @@ FLEX GRID
 
 
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1366px) {
 	.container { max-width: 100%; }
 
 	.col-lg-1  { -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; }
