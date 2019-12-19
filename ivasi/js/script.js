@@ -2,12 +2,12 @@
 
 
 	/* инициализация SLICK MAIN HOME SLIDER */
-	var dotsShow = $('body').hasClass('home') ? true : false;
+	var isMainPage = $('body').hasClass('home') ? true : false;
 
 	$('.slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		dots: dotsShow,
+		dots: isMainPage,
 		arrows: false,
 		autoplay: true,
 		autoplaySpeed: 3500,
@@ -170,7 +170,9 @@
 
 
 	/* Скролл в комментариях */
-	$('.scrollbar-outer').scrollbar();
+	if (isMainPage) {
+		$('.scrollbar-outer').scrollbar();
+	}
 
 	/* Обработка текстов комментариев */
 	// $('.comment__text').each(function() {
@@ -194,13 +196,15 @@
 
 
 	/* Прокрутка до блока из меню */
-	$('.main-menu__link, .go-to-shops, .go-to-recipes').click(function(e) {
+	$(document).find('.main-menu__link, .go-to-shops, .go-to-recipes').click(function(e) {
 
 		if ($('body').hasClass('home')) {
 			e.preventDefault();
 
-			$('.main-menu__link').removeClass('link--active');
-			$(this).addClass('link--active');
+			if ($(this).hasClass('main-menu__link')) {
+				$('.main-menu__link').removeClass('link--active');
+				$(this).addClass('link--active');
+			}
 
 			var className = $(this).attr('data-target');
 			var target = $('.' + className);

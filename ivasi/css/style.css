@@ -531,6 +531,7 @@ body {
 	transform: translate(-50%, -50%);
 }
 .slide__title--recipe .slide__header {
+	display: none;
 	color: #fff;
 	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 6.9em;
@@ -1037,13 +1038,13 @@ body {
 		background-position: center;
 	}
 	.faq__buble--question:before {
-		background-image: url(../img/buble-tail-green-l.svg);
+		background-image: url(../img/faq/buble-tail-green-l.svg);
 		bottom: -20px;
 		left: 10px;
 		z-index: 5;
 	}
 	.faq__buble--question:after {
-		background-image: url(../img/buble-tail-gray-l.svg);
+		background-image: url(../img/faq/buble-tail-gray-l.svg);
 		left: 12px;
 		bottom: -24px;
 		z-index: 1;
@@ -1058,19 +1059,19 @@ body {
 		padding: 50px 65px;
 	}
 	.faq__buble--answer:before {
-		background-image: url(../img/buble-tail-green-r.svg);
+		background-image: url(../img/faq/buble-tail-green-r.svg);
 		bottom: -20px;
 		right: 10px;
 		z-index: 5;
 	}
 	.faq__buble--answer:after {
-		background-image: url(../img/buble-tail-gray-r.svg);
+		background-image: url(../img/faq/buble-tail-gray-r.svg);
 		right: 12px;
 		bottom: -24px;
 		z-index: 1;
 	}
 	.fishing {
-
+		margin-bottom: 30px;
 	}
 	.fishing-map {
 		width: 100%;
@@ -1081,7 +1082,7 @@ body {
 		position: absolute;
 		width: 50px;
 		height: 15px;
-		background-image: url(../img/fishing-point.svg);
+		background-image: url(../img/faq/fishing-point.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
@@ -1134,14 +1135,6 @@ body {
 		display: block;
 		margin-bottom: 30px;
 	}
-/*.fishing-process {
-	display: block;
-	position: relative;
-	top: 0;
-}
-.fishing-process-2, .fishing-process-3 {
-	display: none;
-	}*/
 	.btn--questions-more {
 		margin-top: 30px;
 	}
@@ -1250,6 +1243,7 @@ body {
 		margin-top: 0;
 	}
 	.certificate__title {
+		display: none;
 		text-align: center;
 		color: #01336e;
 		font-family: "Open Sans Condensed";
