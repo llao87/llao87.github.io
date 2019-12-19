@@ -2,12 +2,17 @@
 
 
 
-	/* инициализация SLICK */
+	/* инициализация SLICK MAIN HOME SLIDER */
 	var dotsShow = $('body').hasClass('home') ? true : false;
 
 	$('.slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
 		dots: dotsShow,
-		arrows: false
+		arrows: false,
+		autoplay: true,
+		autoplaySpeed: 3500,
+		speed: 3000
 	});
 
 	/* инициализация SLICK PROMO */
@@ -50,6 +55,7 @@
 	$('.js-comments-slider').slick({
 		slidesToShow: 2,
 		slidesToScroll: 1,
+		centerMode: false,
 		infinite: true,
 		adaptiveHeight: true,
 		appendArrows: $('.js-comments-slider-controls'),
@@ -88,7 +94,7 @@
 
 	/* Обработка скролла и присвоение классов анимации */
 	$(window).scroll(function() {
-		$('.animated-scroll').each(function() {
+		$(document).find('.animated-scroll').each(function() {
 			var blockPos = $(this).offset().top;
 			var topOfWindow = $(window).scrollTop();
 
@@ -111,17 +117,68 @@
 
 
 	/* Обработка появления списка магазинов */
-	$('.js-more-shops').click(function() {
-		$(this).fadeOut(function() {
-			$('.js-shops-list').slideDown('slow');
+	$('.js-more-shops, .js-less-shops').click(function() {
+		var btnMore = $('.js-more-shops');
+		var btnLess = $('.js-less-shops');
+
+		$('.js-shops-list').slideToggle(2000, function() {
+			btnMore.toggleClass('hide');
+			btnLess.toggleClass('hide');
+		});
+
+
+	});
+
+	/* Обработка появления списка вопросов */
+	$('.btn--questions-more, .btn--questions-less').click(function() {
+		var btnMore = $('.btn--questions-more');
+		var btnLess = $('.btn--questions-less');
+
+		btnMore.hasClass('hide') ? clearInterval(fishingInterval) : theRotator();
+
+		$('.js-question-more-wrap').slideToggle(2000, function() {
+			btnMore.toggleClass('hide');
+			btnLess.toggleClass('hide');
 		});
 	});
+
+	/* Бесконечная смена фотографий в вопросе о вылове иваси */
+	function rotateImg() {
+		// Берем первую картинку
+		var current = ( $('#fishing-process li.show') ? $('#fishing-process li.show') : $('#fishing-process li:first'));
+
+		// Берем следующую картинку, когда дойдем до последней начинаем с начала
+		var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('#fishing-process li:first') :current.next()) : $('#fishing-process li:first'));
+
+		// Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
+		next.css({opacity: 0.0})
+		.addClass('show')
+		.css({opacity: 1.0})
+
+		// Прячем текущую картинку
+		current.css({opacity: 0.0})
+		.removeClass('show');
+	};
+
+	var fishingInterval; // для сброса интервала при сворачивании блока
+
+	function theRotator() {
+		// Устанавливаем прозрачность всех картинок в 0
+		$('#fishing-process li').css({opacity: 0.0});
+
+		// Берем первую картинку и показываем ее (по пути включаем полную видимость)
+		$('#fishing-process li:first').css({opacity: 1.0});
+
+		// Вызываем функцию rotate для запуска слайдшоу
+		fishingInterval = setInterval(rotateImg, 4000);
+	}
+
 
 
 	/* Обработка текстов комментариев */
 	$('.comment__text').each(function() {
 		var commentText = $(this).text();
-		var slicedText = commentText.slice(0,150);
+		var slicedText = commentText.slice(0,125);
 
 		slicedText += slicedText.length < commentText.length ? '...' : '';
 
@@ -130,17 +187,17 @@
 
 
 	/* Прокрутка до следующего блока по стрелке */
-	$('.js-next-section').click(function() {
-		var target = $('.js-promo');
+	// $('.js-next-section').click(function() {
+	// 	var target = $('.js-promo');
 
-		$("html, body").animate({
-			scrollTop: target.offset().top + 80
-		}, 1000);
-	});
+	// 	$("html, body").animate({
+	// 		scrollTop: target.offset().top + 80
+	// 	}, 1000);
+	// });
 
 
 	/* Прокрутка до блока из меню */
-	$('.main-menu__link').click(function(e) {
+	$('.main-menu__link, .go-to-shops, .go-to-recipes').click(function(e) {
 
 		if ($('body').hasClass('home')) {
 			e.preventDefault();

@@ -2,10 +2,9 @@
 FLEX GRID
 */
 .container {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 	height: inherit;
-	/*min-height: 100px;*/
 }
 .row {
 	display: -webkit-flex;
@@ -60,7 +59,9 @@ FLEX GRID
 .xl-hide { display: none; }
 
 
-
+@media (min-width: 1366px) and (max-width: 1920px) {
+	.container { max-width: 1180px; }
+}
 @media (min-width: 992px) and (max-width: 1366px) {
 	.container { max-width: 100%; }
 
