@@ -937,6 +937,7 @@ body {
 	line-height: 1.5;
 }
 .animated-scroll {
+	will-change: auto;
 	opacity: 0;
 }
 .slick-slide {
