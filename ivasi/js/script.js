@@ -170,7 +170,7 @@
 		$('#fishing-process li:first').css({opacity: 1.0});
 
 		// Вызываем функцию rotate для запуска слайдшоу
-		fishingInterval = setInterval(rotateImg, 4000);
+		fishingInterval = setInterval(rotateImg, 2500);
 	}
 
 

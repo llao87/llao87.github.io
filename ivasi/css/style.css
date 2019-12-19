@@ -46,12 +46,12 @@ html {
 }
 body {
 	width: 100%;
-	font-size: 14px;
+	font-size: 10px;
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
-	body {
-		font-size: 10px;
-	}
+	/*body {*/
+		/*font-size: 10px;*/
+	/*}*/
 }
 .logo {
 	position: absolute;
