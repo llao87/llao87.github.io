@@ -1,7 +1,6 @@
 (function () {
 
 
-
 	/* инициализация SLICK MAIN HOME SLIDER */
 	var dotsShow = $('body').hasClass('home') ? true : false;
 
@@ -121,7 +120,7 @@
 		var btnMore = $('.js-more-shops');
 		var btnLess = $('.js-less-shops');
 
-		$('.js-shops-list').slideToggle(2000, function() {
+		$('.js-shops-list').slideToggle(600, function() {
 			btnMore.toggleClass('hide');
 			btnLess.toggleClass('hide');
 		});
@@ -146,15 +145,12 @@
 	function rotateImg() {
 		// Берем первую картинку
 		var current = ( $('#fishing-process li.show') ? $('#fishing-process li.show') : $('#fishing-process li:first'));
-
 		// Берем следующую картинку, когда дойдем до последней начинаем с начала
 		var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('#fishing-process li:first') :current.next()) : $('#fishing-process li:first'));
-
 		// Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
 		next.css({opacity: 0.0})
 		.addClass('show')
 		.css({opacity: 1.0})
-
 		// Прячем текущую картинку
 		current.css({opacity: 0.0})
 		.removeClass('show');
@@ -165,35 +161,36 @@
 	function theRotator() {
 		// Устанавливаем прозрачность всех картинок в 0
 		$('#fishing-process li').css({opacity: 0.0});
-
 		// Берем первую картинку и показываем ее (по пути включаем полную видимость)
 		$('#fishing-process li:first').css({opacity: 1.0});
-
 		// Вызываем функцию rotate для запуска слайдшоу
 		fishingInterval = setInterval(rotateImg, 2500);
 	}
 
 
 
+	/* Скролл в комментариях */
+	$('.scrollbar-outer').scrollbar();
+
 	/* Обработка текстов комментариев */
-	$('.comment__text').each(function() {
-		var commentText = $(this).text();
-		var slicedText = commentText.slice(0,125);
+	// $('.comment__text').each(function() {
+	// 	var commentText = $(this).text();
+	// 	var slicedText = commentText.slice(0,125);
 
-		slicedText += slicedText.length < commentText.length ? '...' : '';
+	// 	slicedText += slicedText.length < commentText.length ? '...' : '';
 
-		$(this).text(slicedText);
-	});
-
-
-	/* Прокрутка до следующего блока по стрелке */
-	// $('.js-next-section').click(function() {
-	// 	var target = $('.js-promo');
-
-	// 	$("html, body").animate({
-	// 		scrollTop: target.offset().top + 80
-	// 	}, 1000);
+	// 	$(this).text(slicedText);
 	// });
+
+
+	/* Прокрутка наверх */
+	$('.js-to-top').click(function() {
+		var target = $('body');
+
+		$("html, body").animate({
+			scrollTop: target.offset().top
+		}, 1000);
+	});
 
 
 	/* Прокрутка до блока из меню */
@@ -213,6 +210,9 @@
 			}, 1000);
 		}
 	});
+
+
+
 
 
 
