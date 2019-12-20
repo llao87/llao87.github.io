@@ -8,9 +8,6 @@ FONTS
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic');
 
-.container {
-	overflow-x: hidden;
-}
 /* desktops */
 @media (min-width: 1601px) and (max-width: 1920px) { .container { max-width: 1080px; } }
 @media (min-width: 1367px) and (max-width: 1600px) { .container { max-width:  960px; } }
@@ -154,20 +151,28 @@ body {
 }
 
 
-.burger {
-	width: 30px;
-	height: 30px;
-	font-weight: 700;
-	border: 1px solid #000;
-	margin: 5px 10px;
-	cursor: pointer;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding: 3px;
-	position: relative;
-	float: right;
-	clear: both;
+.burger { display: none; }
+@media (min-width: 320px) and (max-width: 992px) {
+	.burger {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+
+		width: 30px;
+		height: 30px;
+		font-weight: 700;
+		border: 1px solid #000;
+		margin: 5px 10px;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		padding: 3px;
+		position: relative;
+		float: right;
+		clear: both;
+	}
 }
 
 .main-menu {
@@ -312,7 +317,7 @@ body {
 }
 .slick-slide img {
 	width: 100%;
-	margin:f 0 auto;
+	margin:0 auto;
 }
 @media (min-width: 320px) and (max-width: 768px) {
 	.slick-slide img {
@@ -325,7 +330,7 @@ body {
 }
 .slogan {
 	text-align: center;
-	font-size: 3.68em;
+	font-size: 3.2em;
 	line-height: 1.2;
 	text-transform: uppercase;
 }
@@ -346,7 +351,7 @@ body {
 	position: relative;
 	display: block;
 	text-decoration: none;
-	font-size: 13.1em;
+	font-size: 11.3em;
 	font-weight: bold;
 	line-height: 0.8;
 	padding: 0;
@@ -384,7 +389,8 @@ body {
 .advantages {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #01336e;
-	padding: 60px 0;
+	/*padding: 60px 0;*/
+	padding: 40px 0;
 	overflow-x: hidden;
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
@@ -401,9 +407,8 @@ body {
 .advantages__fish {
 	display: block;
 	margin: 0 auto;
-	max-width: 750px;
-
-	margin-bottom: 30px;
+	max-width: 650px;
+	margin-bottom: 60px;
 	left: 30px; /* Это непонятно, почему бы просто не по центру ??? */
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
@@ -427,7 +432,8 @@ body {
 
 	justify-content: center;
 	align-items: flex-end;
-	margin-bottom: 45px;
+	/*margin-bottom: 45px;*/
+	margin-bottom: 35px;
 }
 @media (min-width: 320px) and (max-width: 768px) {
 	.advantages__bullets {
@@ -455,8 +461,8 @@ body {
 	.advantage__info--mechanic { order: 1; }
 }
 .advantage__bullet {
-	width: 105px;
-	height: 105px;
+	width: 90px;
+	height: 90px;
 	margin: 0 15px;
 	cursor: pointer;
 	transition: 0.2s linear;
@@ -526,8 +532,8 @@ body {
 
 .advantage__info--ca-mg-i {
 	top: -50px;
-	/*right: -120px;*/
-	right: -80px;
+	right: -110px;
+	/*right: -80px;*/
 }
 .advantage__info--ca-mg-i:after {
 	position: absolute;
@@ -539,11 +545,11 @@ body {
 	width: 82px;
 	height: 57px;
 	bottom: -37px;
-	left: -44px;
+	left: -74px;
 }
 .advantage__info--mechanic {
 	top: -63px;
-	right: -91px;
+	right: -121px;
 }
 .advantage__info--mechanic:after {
 	position: absolute;
@@ -555,7 +561,7 @@ body {
 	width: 61px;
 	height: 58px;
 	bottom: -61px;
-	left: -45px;
+	left: -65px;
 }
 .advantage__item:hover .advantage__bullet {
 	transform: scale(1.1);
@@ -1729,6 +1735,8 @@ body {
 		height: 50px;
 		cursor: pointer;
 		transition: 0.3s linear;
+		display: none;
+
 	}
 	.to-top:hover {
 		transform: scale(1.1);

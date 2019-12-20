@@ -10,8 +10,49 @@
 	<link rel="stylesheet" href="js/slick/slick.css">
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+			var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+			j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+		(window,document,'script','dataLayer','GTM-N4JLMNS');
+	</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154876645-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-154876645-1');
+	</script>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+			m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		ym(56756578, "init", {
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true,
+			webvisor:true
+		});
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/56756578" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 </head>
 <body class="home" id="home">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4JLMNS"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<header>
 		<div class="header__menu">
 			<div class="logo">
@@ -89,7 +130,7 @@
 
 							<h1 class="slogan">
 								<span class="slogan__main">Возвращаем легенду</span>
-								<span class="slogan__sub">Традиции, качество, вкус</span>
+								<!-- <span class="slogan__sub">Традиции, качество, вкус</span> -->
 							</h1>
 
 							<span class="line-wave__text">ИВАСИ</span>
@@ -898,20 +939,34 @@
 					<div class="shops-list">
 						<!-- 1 ряд -->
 						<span class="shop-icon"><img src="img/shops/karusel.png" alt=""></span>
-						<span class="shop-icon"><img src="img/shops/perekrestok.png" alt=""></span>
+
+						<a class="shop-icon" href="https://www.perekrestok.ru/">
+							<span>Онлайн</span>
+							<img src="img/shops/perekrestok.png" alt="">
+						</a>
+
 						<span class="shop-icon"><img src="img/shops/pyaterochka.png" alt=""></span>
 						<span class="shop-icon"><img src="img/shops/magnit.png" alt=""></span>
 						<span class="shop-icon"><img src="img/shops/diksi.png" alt=""></span>
 
 						<!-- 2 ряд -->
-						<span class="shop-icon"><img src="img/shops/ashan.png" alt=""></span>
+						<a class="shop-icon" href="https://www.auchan.ru/">
+							<span>Онлайн</span>
+							<img src="img/shops/ashan.png" alt="">
+						</a>
 						<a class="shop-icon" href="http://atak.testeam.ru/">
 							<span>Онлайн</span>
 							<img src="img/shops/atak.png" alt="">
 						</a>
-						<span class="shop-icon"><img src="img/shops/lenta.png" alt=""></span>
-						<span class="shop-icon"><img src="img/shops/metro.png" alt=""></span>
-						<a class="shop-icon" href="https://vkusvill.ru/">
+						<a class="shop-icon" href="https://lenta.com/">
+							<span>Онлайн</span>
+							<img src="img/shops/lenta.png" alt="">
+						</a>
+						<a class="shop-icon" href="https://delivery.metro-cc.ru/">
+							<span>Онлайн</span>
+							<img src="img/shops/metro.png" alt="">
+						</a>
+						<a class="shop-icon" href="https://vkusvill.ru/goods/">
 							<span>Онлайн</span>
 							<img src="img/shops/vkuswille.png" alt="">
 						</a>
@@ -921,7 +976,10 @@
 							<span>Онлайн</span>
 							<img src="img/shops/utkonos.png" alt="">
 						</a>
-						<span class="shop-icon"><img src="img/shops/globus.png" alt=""></span>
+						<a class="shop-icon" href="https://online.globus.ru/">
+							<span>Онлайн</span>
+							<img src="img/shops/globus.png" alt="">
+						</a>
 						<a 	class="shop-icon" href="https://av.ru/">
 							<span>Онлайн</span>
 							<img src="img/shops/azbuka.png" alt="">
@@ -932,21 +990,39 @@
 
 					<div class="shops-list--hidden js-shops-list">
 						<div class="shops-list">
+							<!-- 4 ряд -->
 							<span class="shop-icon"><img src="img/shops/billa.png" alt=""></span>
-							<span class="shop-icon"><img src="img/shops/spar.png" alt=""></span>
+							<a class="shop-icon" href="https://my-spar.ru/discount/?utm_campaign=sparnn_catalog">
+								<span>Онлайн</span>
+								<img src="img/shops/spar.png" alt="">
+							</a>
 							<span class="shop-icon"><img src="img/shops/mariara.png" alt=""></span>
 							<span class="shop-icon"><img src="img/shops/vysliga.png" alt=""></span>
-							<span class="shop-icon"><img src="img/shops/tvoidom.png" alt=""></span>
+							<a class="shop-icon" href="https://tvoydom.ru/catalog/produkty-1/?page=1">
+								<span>Онлайн</span>
+								<img src="img/shops/tvoidom.png" alt="">
+							</a>
 
-							<span class="shop-icon"><img src="img/shops/deliveryone.png" alt=""></span>
+							<!-- 5 ряд -->
+							<a class="shop-icon" href="https://delivery.one/">
+								<span>Онлайн</span>
+								<img src="img/shops/deliveryone.png" alt="">
+							</a>
 							<span class="shop-icon"><img src="img/shops/rybset.png" alt=""></span>
 							<span class="shop-icon"><img src="img/shops/ecomorie.png" alt=""></span>
 							<span class="shop-icon"><img src="img/shops/ohotomorie.png" alt=""></span>
-							<span class="shop-icon"><img src="img/shops/ikornyi.png" alt=""></span>
+							<a class="shop-icon" href="https://seafood-shop.ru/">
+								<span>Онлайн</span>
+								<img src="img/shops/ikornyi.png" alt="">
+							</a>
 
+							<!-- 6 ряд -->
 							<span class="shop-icon"><img src="img/shops/bahetle.png" alt=""></span>
 							<span class="shop-icon"><img src="img/shops/mindal.png" alt=""></span>
-							<span class="shop-icon"><img src="img/shops/slata.png" alt=""></span>
+							<a class="shop-icon" href="https://shop.slata.ru/">
+								<span>Онлайн</span>
+								<img src="img/shops/slata.png" alt="">
+							</a>
 							<span class="shop-icon"><img src="img/shops/yabloko.png" alt=""></span>
 							<span class="shop-icon"><img src="img/shops/rait.png" alt=""></span>
 						</div>
