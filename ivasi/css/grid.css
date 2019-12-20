@@ -2,7 +2,8 @@
 FLEX GRID
 */
 .container {
-	max-width: 1400px;
+	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 	height: inherit;
 }
@@ -59,12 +60,8 @@ FLEX GRID
 .xl-hide { display: none; }
 
 
-@media (min-width: 1366px) and (max-width: 1920px) {
-	.container { max-width: 1180px; }
-}
-@media (min-width: 992px) and (max-width: 1366px) {
-	.container { max-width: 100%; }
 
+@media (min-width: 1180px) and (max-width: 1920px) {
 	.col-lg-1  { -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; }
 	.col-lg-2  { -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; }
 	.col-lg-3  { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
@@ -96,7 +93,7 @@ FLEX GRID
 
 
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1180px) {
 
 	.col-md-1  { -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; }
 	.col-md-2  { -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; }

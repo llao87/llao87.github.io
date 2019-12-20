@@ -11,7 +11,18 @@
 		arrows: false,
 		autoplay: true,
 		autoplaySpeed: 3500,
-		speed: 3000
+		speed: 3000,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			}
+		}
+		]
 	});
 
 	/* инициализация SLICK PROMO */
@@ -60,7 +71,17 @@
 		appendArrows: $('.js-comments-slider-controls'),
 		prevArrow: '<div class="slider-prev comments-prev"></div>',
 		nextArrow: '<div class="slider-next comments-next"></div>',
-		// responsive: {		}
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			}
+		}
+		]
 	});
 
 	/* инициализация SLICK CERTIFICATES */
