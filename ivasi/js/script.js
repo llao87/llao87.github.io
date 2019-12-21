@@ -94,7 +94,17 @@
 		appendArrows: $('.js-certificates-slider-controls'),
 		prevArrow: '<div class="slider-prev certificates-prev"></div>',
 		nextArrow: '<div class="slider-next certificates-next"></div>',
-		// responsive: {		}
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			}
+		}
+		]
 	});
 
 	/* инициализация SLICK ALL PRODUCTS */
