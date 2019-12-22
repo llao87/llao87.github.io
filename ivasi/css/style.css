@@ -1,4 +1,4 @@
-@import "reset.css" all;
+/*@import "reset.css" all;*/
 /*@import "grid.css" all;*/
 /*
 FONTS
@@ -49,11 +49,13 @@ body {
 	overflow-x: hidden;
 }
 .container {
+	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 @media (min-width: 992px) and (max-width: 1280px) and (orientation: landscape) {
 	.container {
-		width: 1000px;
+		max-width: 960px;
 	}
 }
 /* header ***************************************************************************************** */
@@ -148,24 +150,24 @@ body {
 }
 .home-slider .slick-dots {
 	position: absolute;
-	bottom: 30px;
+	bottom: 1.8em;
 }
 .home-slider .slick-dots li {
-	width: 15px;
-	height: 15px;
-	margin: 0 8px;
+	width: 2.2em;
+	height: 2.2em;
+	margin: 0 0.3em;
 }
 .home-slider .slick-dots li button {
-	width: 15px;
-	height: 15px;
+	width: 2.2em;
+	height: 2.2em;
 }
 .home-slider .slick-dots li button:before, .home-slider .slick-dots li.slick-active button:before {
 	opacity: 1;
 	color: transparent;
 	border: 2px solid #fff;
 	border-radius: 50%;
-	width: 15px;
-	height: 15px;
+	width: 2.2em;
+	height: 2.2em;
 	line-height: 1;
 }
 .home-slider .slick-dots li.slick-active button:before {
@@ -799,6 +801,7 @@ body {
 	margin-top: 1.5em;
 	font-size: 2.2em;
 	font-weight: 700;
+	color: #01336e;
 }
 .trava {
 	position: absolute;
@@ -932,12 +935,6 @@ body {
 	font-size: 1.6em;
 	color: #f05840;
 	transition: 0.3s linear;
-}
-
-@media (min-width: 1366px) and (max-width: 1920px) {
-	.comment__more {
-		bottom: 0;
-	}
 }
 
 .comment__more:hover {
@@ -1223,11 +1220,6 @@ body {
 	height: 5.3125vw;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
-	.bg-fish-big {
-		display: none;
-	}
-}
 
 .bg-fish-small {
 	background-image: url(../img/faq-ivasi-small.svg);
