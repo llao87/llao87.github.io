@@ -1,5 +1,5 @@
 @import "reset.css" all;
-@import "grid.css" all;
+/*@import "grid.css" all;*/
 /*
 FONTS
 */
@@ -40,18 +40,22 @@ FONTS
 }
 html {
 	width: 100%;
-	overflow-x: hidden;
 }
 body {
 	color: #01336e;
 	width: 100%;
 	min-width: 320px;
 	font-size: 1vh;
+	overflow-x: hidden;
 }
 .container {
 	margin: 0 auto;
 }
-
+@media (min-width: 992px) and (max-width: 1280px) and (orientation: landscape) {
+	.container {
+		width: 1000px;
+	}
+}
 /* header ***************************************************************************************** */
 .logo {
 	position: absolute;
@@ -89,8 +93,7 @@ body {
 	background-color: #fff;
 	top: 1.3em;
 	line-height: 5.6em;
-	left: 0;
-	right: 0;
+	width: 100%;
 	z-index: 50;
 	box-shadow: 0 2px 6px 0px #9ecad5;
 }
