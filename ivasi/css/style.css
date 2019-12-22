@@ -445,6 +445,9 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 }
+.all-products-slider .product__photo img {
+	width: 100%;
+}
 .product-slide__title {
 	font-size: 3.6em;
 	line-height: 1.3;

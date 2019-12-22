@@ -126,6 +126,7 @@
         centerMode: true,
         infinite: true,
         adaptiveHeight: true,
+        centerPadding: 0,
         appendArrows: $('.js-all-products-slider-controls'),
         prevArrow: '<div class="slider-prev"></div>',
         nextArrow: '<div class="slider-next"></div>',
