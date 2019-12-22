@@ -248,4 +248,11 @@
     });
 
 
+
+    $('.burger_wrapper').on('click', function() {
+        $(this).find('.burger').toggleClass('burger-active');
+        $('.main-menu').toggleClass('visible');
+    });
+
+
 }());
