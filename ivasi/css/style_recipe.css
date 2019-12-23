@@ -1,0 +1,423 @@
+/* Хорошо бы добавить в style.css */
+.row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* PRODUCT PAGE */
+.product .slide__image {
+    width: 100%;
+}
+
+.recipe-ingredients {
+    padding: 3.8em 0 5.8em;
+}
+
+.recipe-ingredients .recipe__info {
+    justify-content: flex-start;
+    padding-left: 3em;
+    padding-top: 3.5em;
+}
+
+.recipe-ingredients .recipe-name {
+    font-size: 4.6em;
+    margin: 0;
+    line-height: 1.2;
+    letter-spacing: -1.7px;
+}
+
+.recipe-ingredients .details {
+    margin: 2.7em 0;
+}
+
+.recipe-ingredients .time, .recipe-ingredients .portion {
+    width: auto;
+    font-weight: 700;
+    margin-right: 0.7em;
+    line-height: 1.9em;
+    padding-left: 2.1em;
+}
+
+.recipe-ingredients .ingredients {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.recipe-ingredients .ingredients .col {
+    font-size: 2.35em;
+    line-height: 1.5;
+    list-style-type: none;
+    padding-left: 0.1em;
+}
+
+.recipe-ingredients .ingredients .col li:before {
+    display: inline-block;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 1em;
+    content: '';
+    background-color: #f15940;
+    left: 0;
+    transform: translateY(-130%);
+    margin-right: 0.5em;
+}
+
+.recipe-ingredients .recipe--main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36em;
+    border-radius: 1em;
+}
+
+.recipe-ingredients .recipe-main-photo {
+    padding: 0 1.8em;
+}
+
+.recipe-ingredients .slider-controls {
+    width: 100%;
+    max-width: 54.0em;
+    margin-top: 4.7937em;
+}
+
+.prev-recipe, .next-recipe {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 50%;
+}
+
+.prev-recipe:hover, .next-recipe:hover {
+    text-decoration: none;
+}
+
+.prev-recipe {
+    justify-content: flex-start;
+}
+
+.next-recipe {
+    justify-content: flex-end;
+}
+
+.prev-text, .next-text {
+    color: #143e74;
+    font-size: 2.2em;
+}
+
+.prev-text {
+    margin-right: 1em;
+}
+
+.next-text {
+    margin-left: 1em;
+}
+
+.cooking {
+    padding: 5.6em 0;
+}
+
+.how-to-cook-title {
+    text-align: center;
+    font-size: 5.2em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.cooking-step {
+    padding: 8em 0 10.5em 0;
+}
+
+.cooking-info, .cooking-photo {
+    width: 50%;
+}
+
+.cooking-info {
+    padding-left: 4.5em;
+}
+
+.cooking-step--gray .cooking-info {
+    padding-left: 6.3em;
+}
+
+.cooking-photo {
+    padding: 0 0 0 3em;
+}
+
+.cooking-step--gray .cooking-photo {
+    padding: 0 1.5em;
+}
+
+.cooking-photo .col.col--half {
+    padding-left: 3.4em;
+}
+
+.cooking-step .recipe--main {
+    border-radius: 1em;
+    height: 35.5em;
+}
+
+.cooking-step--gray {
+    background-color: #f4f8fa;
+}
+
+.cooking-step-col {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: flex-start;
+}
+
+.cooking-step__title {
+    font-size: 3.3em;
+    line-height: 1;
+    margin-top: 0.85em;
+    z-index: 5;
+    margin-bottom: 0.3em;
+}
+
+.cooking-step__description {
+    font-size: 1.8em;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.4;
+    width: 65%;
+    z-index: 5;
+}
+
+.cooking-step__number {
+    position: absolute;
+    color: #dae2e6;
+    font-family: "Open Sans";
+    font-size: 31.2em;
+    line-height: 1;
+    font-weight: 700;
+    top: 0.04em;
+    left: 1.125em;
+}
+
+.cooking-step .svekla-hor-right {
+    top: 16%;
+    left: 17%;
+    height: 46.8em;
+    width: 31.8em;
+    z-index: -1;
+}
+
+.cooking-step .fish {
+    bottom: -45%;
+    left: 14%;
+    width: 47em;
+    height: 33em;
+    z-index: -1;
+}
+
+.cooking-step .potato {
+    width: 30em;
+    height: 30em;
+    left: 9%;
+    bottom: -20%;
+}
+
+.cooking-step .carrot {
+    bottom: -36%;
+    left: 5%;
+    width: 43em;
+    height: 33em;
+    z-index: -1;
+}
+
+.cooking-step .col {
+    padding: 0 2.5em;
+}
+
+.all-recipes {
+    /*padding: 6em 0;*/
+    padding: 0.5em 0 2.5em;
+}
+
+.all-recipes .section-title {
+    margin-bottom: 1.3em;
+}
+
+.recipes .slick-list.draggable {
+    margin: 0 -2.589em;
+}
+
+.recipes-catalog {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.315em;
+}
+
+.recipes-catalog .recipe {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+}
+
+.recipes-catalog .recipe .recipe__photo {
+    width: 100%;
+    height: 21.7em;
+    min-height: auto;
+}
+
+.all-recipes .recipes-more {
+    padding: 2.8em 0;
+    width: 100%;
+    text-align: center;
+}
+
+.all-products {
+    padding: 5.2em 0;
+}
+
+.all-products .section-title {
+    /*margin-bottom: 80px;*/
+    margin-bottom: 0.55em;
+}
+.all-products-slider-wrap {
+    width: 100%;
+}
+.all-products .product-slide {
+    text-align: center;
+}
+
+.all-products .product__item {
+    display: inline-block;
+    /*width: 237px;*/
+    /*height: 334px;*/
+    width: 21.965em;
+    height: 30.955em;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    /*margin-top: 59px;*/
+    /*margin-bottom: 45px;*/
+    margin-top: 5.4619em;
+}
+
+.all-products .product-slide.slick-current .product__item {
+    width: 25.742em;
+    height: 36.39em;
+    margin-top: 0;
+}
+
+.all-products .product__title {
+    text-align: center;
+    color: #01336e;
+    font-family: "Open Sans Condensed";
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0.84175em;
+}
+
+.all-products .description {
+    color: #01336e;
+    font-family: "Open Sans";
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.all-products .slider-controls {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    margin: 0;
+}
+
+.all-products-controls {
+    margin-top: 5.8em;
+}
+
+.all-products-controls .row {
+}
+
+.all-products-controls .btn--promo-buy, a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: #fff;
+}
+
+.all-products .btn--promo-buy {
+    position: absolute;
+    right: 4.5em;
+}
+
+.potato {
+    background-image: url(../img/potato.svg);
+}
+
+.fish {
+    background-image: url(../img/faq-ivasi-big.svg);
+}
+
+.carrot {
+    background-image: url(../img/carrot.svg);
+}
+/*
+@media (max-width: 1920px) and (min-width: 1280px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    body {
+        font-size: 0.8vh;
+    }
+
+    .container {
+        width: 85%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    body {
+        font-size: 0.4vh;
+    }
+
+    .container {
+        width: 580px;
+    }
+}
+*/
