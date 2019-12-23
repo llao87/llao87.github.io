@@ -45,8 +45,7 @@
         appendArrows: $('.promo-slider-nav-wrap'),
         asNavFor: '.js-promo-slider',
         prevArrow: '<div class="slider-prev promo-prev"></div>',
-        nextArrow: '<div class="slider-next promo-next"></div>',
-        // responsive: {		}
+        nextArrow: '<div class="slider-next promo-next"></div>'
     });
 
     /* инициализация SLICK RECIPES */
@@ -58,7 +57,17 @@
         appendArrows: $('.js-recipes-slider-controls'),
         prevArrow: '<div class="slider-prev recipe-prev"></div>',
         nextArrow: '<div class="slider-next recipe-next"></div>',
-        // responsive: {		}
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
+        ]
     });
 
     /* инициализация SLICK COMMENTS */
@@ -98,7 +107,7 @@
         nextArrow: '<div class="slider-next certificates-next"></div>',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 700,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -130,7 +139,17 @@
         appendArrows: $('.js-all-products-slider-controls'),
         prevArrow: '<div class="slider-prev"></div>',
         nextArrow: '<div class="slider-next"></div>',
-        // responsive: {		}
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
+        ]
     });
 
 
