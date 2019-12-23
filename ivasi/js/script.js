@@ -13,15 +13,15 @@
         autoplaySpeed: 3500,
         speed: 3000,
         responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
+        }
         ]
     });
 
@@ -33,8 +33,13 @@
         fade: true,
         dots: false,
         arrows: false,
-        // responsive: {		}
-    });
+        responsive: [{
+          breakpoint: 700,
+          settings: {
+            dots: true,
+        }
+    }]
+});
 
     $('.js-promo-slider-nav').slick({
         slidesToShow: 6,
@@ -46,7 +51,6 @@
         asNavFor: '.js-promo-slider',
         prevArrow: '<div class="slider-prev promo-prev"></div>',
         nextArrow: '<div class="slider-next promo-next"></div>',
-        // responsive: {		}
     });
 
     /* инициализация SLICK RECIPES */
@@ -72,15 +76,15 @@
         prevArrow: '<div class="slider-prev comments-prev"></div>',
         nextArrow: '<div class="slider-next comments-next"></div>',
         responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
+        }
         ]
     });
 
@@ -97,15 +101,15 @@
         prevArrow: '<div class="slider-prev certificates-prev"></div>',
         nextArrow: '<div class="slider-next certificates-next"></div>',
         responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
+        }
         ]
     });
 
@@ -192,11 +196,11 @@
         var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('#fishing-process li:first') : current.next()) : $('#fishing-process li:first'));
         // Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
         next.css({opacity: 0.0})
-            .addClass('show')
-            .css({opacity: 1.0})
+        .addClass('show')
+        .css({opacity: 1.0})
         // Прячем текущую картинку
         current.css({opacity: 0.0})
-            .removeClass('show');
+        .removeClass('show');
     };
 
     var fishingInterval; // для сброса интервала при сворачивании блока
@@ -253,6 +257,67 @@
         $(this).find('.burger').toggleClass('burger-active');
         $('.main-menu').toggleClass('visible');
     });
+
+
+    jQuery('.btn_popup').on('click',function(){
+        jQuery('.feedback-form').fadeIn(300);
+        jQuery('.feedback-form__bgr-mask').fadeIn(300);
+    });
+    jQuery('.feedback-form__bgr-mask').on('click',function(){
+        jQuery('.feedback-form').fadeOut(300);
+        jQuery('.feedback-form__bgr-mask').fadeOut(300);
+    });
+    jQuery('.feedback-form__close').on('click',function(){
+        jQuery('.feedback-form').fadeOut(300);
+        jQuery('.feedback-form__bgr-mask').fadeOut(300);
+    });
+
+
+
+        $(function(){
+
+        $('#feedback_form').submit(function(e){
+            /* отменяем стандартное действие при отправке формы */
+            e.preventDefault();
+            /* берем из формы метод передачи данных */
+            var m_method=$(this).attr('method');
+            /* получаем адрес скрипта на сервере, куда нужно отправить форму */
+            var m_action=$(this).attr('action');
+            /* получаем данные, введенные пользователем в формате input1=value1&input2=value2..., */
+            /* то есть в стандартном формате передачи данных формы */
+            var m_data=$(this).serialize();
+            $.ajax({
+                type: m_method,
+                url: m_action,
+                data: m_data,
+                success: function(){
+                    jQuery('.feedback-form__result').fadeIn(200);
+                    jQuery('.dark_bgr_form').fadeIn(200);
+                    jQuery('.feedback-form__result-text').text('Your message has been sent! <span>We will contact you shortly</span>');
+                    jQuery('.feedback-form__marker').removeClass('feedback-form__marker--active');
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('input:text').val('');
+                    $('#checkbox').prop('checked', false);
+                    $('#feedback_form').find('textarea').val('');
+                },
+                error: function(){
+                    jQuery('.feedback-form__result').fadeIn(200);
+                    jQuery('.dark_bgr_form').fadeIn(200);
+                    jQuery('.feedback-form__result-text').text("Your message hasn't been sent! <span>Try again later!</span>");
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('input:text').val('');
+                    $('#checkbox').prop('checked', false);
+                    $('#feedback_form').find('textarea').val('');
+                }
+
+            });
+
+        });
+
+    });
+
 
 
 }());
