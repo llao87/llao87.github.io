@@ -3,9 +3,67 @@
 /*
 FONTS
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic');
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic');*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic');*/
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('font/subset-OpenSansCondensed-Light.woff2') format('woff2'),
+    url('font/subset-OpenSansCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('font/subset-OpenSansCondensed-Bold.woff2') format('woff2'),
+    url('font/subset-OpenSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('font/subset-OpenSansCondensed-LightItalic.woff2') format('woff2'),
+    url('font/subset-OpenSansCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('font/subset-OpenSans-Bold.woff2') format('woff2'),
+    url('font/subset-OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('font/subset-OpenSans-Regular.woff2') format('woff2'),
+    url('font/subset-OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('font/subset-OpenSans-Light.woff2') format('woff2'),
+    url('font/subset-OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('font/subset-Neucha.woff2') format('woff2'),
+    url('font/subset-Neucha.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .animated.delay-0-3s {
     -webkit-animation-delay: 0.3s;
