@@ -1149,13 +1149,48 @@ header .container {
 @media (max-width: 700px) {
     .promo {
         background-image: none;
-        padding-top: 11em;
+        padding-top: 9em;
         height: auto;
         overflow: hidden;
     }
 
     .promo .slick-list {
-        padding-bottom: 13em;
+        padding: 0 5.5em;
+        padding-bottom: 8em;
+        padding-top: 1em;
+    }
+    .js-promo-slider {
+        width: 100vw;
+        margin-left: -5% !important;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        -ms-flex-direction: row;
+        -o-flex-direction: row;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .promo .slide-inner {
+        width: 95% !important;
+        transform: translateX(-5.5em);
+        padding-top: 7em !important;
+    }
+    .promo .product-slide {
+        padding: 0 1em;
+    }
+    .promo .product-slide > div {
+        width: 100%;
+    }
+    .promo .product-slider__photo img {
+        transform: rotate(13deg)
+    }
+    .product-slider__photo:after {
+        bottom: 1.5em;
+        /*transform: translate(-50%, 50%) rotate(-13deg);*/
     }
 
     .promo .slide-inner {
@@ -1183,10 +1218,11 @@ header .container {
     .promo .col--half {
         width: 100%;
         float: none;
+        margin-top: 0;
     }
 
     .promo .slick-dots {
-        bottom: 12em;
+        bottom: 8em;
     }
 
     .promo .slick-dots li button {
@@ -1209,7 +1245,7 @@ header .container {
     }
 
     .product-slider__photo {
-        width: 36em;
+        width: 21em;
     }
 
     .promo .slick-prev, .promo .slick-next {
@@ -1253,9 +1289,11 @@ header .container {
 
     .product-slide__title {
         margin-bottom: .5em;
+        font-size: 2.5em;
     }
 
     .option-list {
+        font-size: 2.2em;
         margin-bottom: 1em;
     }
 
@@ -1263,14 +1301,25 @@ header .container {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 150%;
+        top: auto;
+        bottom: -5em;
         width: 90%;
         font-size: 2.8em;
+        display: none;
+    }
+    .btn--promo-buy-total {
+        display: block;
+        position: relative;
+        transform: none;
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
+        font-size: 3.5em;
     }
 
     .btn--promo-buy:after {
         width: 1em;
-        right: 4em;
+        right: 3em;
     }
 
     .wave-separator {
@@ -1372,7 +1421,7 @@ header .container {
 .recipe img {
     position: absolute;
     display: inline-block;
-    width: 100%;
+    width: 105%;
     overflow: hidden;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
@@ -1831,8 +1880,11 @@ header .container {
         min-height: 71em;
         display: block;
     }
+    .comments .slick-list {
+        padding: 0 5.5em;
+    }
     .js-comments-slider {
-        width: 90%;
+        width: 100%;
     }
 
     .comments .quote-up, .comments .quote-down {
@@ -1844,7 +1896,7 @@ header .container {
     }
 
     .comment__text-wrap {
-        font-size: 2.94175em;
+        font-size: 2.2em;
     }
 
     .comment__text {
@@ -1853,6 +1905,7 @@ header .container {
 
     .comment {
         padding: 6.8em 2.3937em 4.315em;
+        transform: translateX(-6em);
     }
 
     .comments .slick-slide {
@@ -1955,14 +2008,16 @@ header .container {
 
 .faq__buble--answer {
     background-color: #ebf1f5;
-    color: #01336e;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.8em;
-    font-weight: 400;
-    line-height: 1.4;
-    padding: 2em 3em 2em 3em;
+    color: #01336e !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 1.8em !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+    padding: 2em 3em 2em 3em !important;
 }
-
+.faq__buble--answer p {
+    font-family: "Open Sans", sans-serif !important;
+}
 .faq__buble--answer:before {
     background-image: url(../img/faq/buble-tail-green-r.svg);
     bottom: -20px;
@@ -2149,6 +2204,7 @@ header .container {
 .certificate__photo {
     position: relative;
     height: 100%;
+    box-shadow: 0 0.5em 1em 0.1em #9ecad5;
 }
 .certificate__photo .img_wrapper {
     position: absolute;
@@ -2281,16 +2337,25 @@ header .container {
 }
 
 @media (max-width: 700px) {
+    .certificates {
+        padding-bottom: 11em;
+    }
     .certificates .slider-controls {
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
+        display: none !important;
     }
 
     .certificates .slick-slider {
         /*height: 38em;*/
+    }
+    .certificates .slick-dots li button:before {
+        color: #fff;
+    }
+    .certificates .slick-dots {
+        bottom: -7em;
+        width: 85%;
+    }
+    .certificates .slider-controls {
+        margin-top: 3em;
     }
 }
 
@@ -2383,9 +2448,15 @@ header .container {
     .shops-list {
         justify-content: space-around;
     }
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show {
+        display: block;
+    }
 
     .shop-icon {
-        width: 45%;
+        width: 50%;
     }
 
     .outer-margin-15 {
@@ -2398,6 +2469,7 @@ header .container {
 footer {
     background: linear-gradient(0deg, rgba(146, 206, 212, 1) 0%, rgba(209, 232, 235, 1) 50%, rgba(255, 255, 255, 1) 100%);
     padding: 6em 0 0 0;
+    overflow: hidden;
 }
 
 footer .section-title {
@@ -2747,6 +2819,17 @@ footer .container .row .col-xl-4:last-of-type {
 .checkbox .buttons:checked + label:after {
     opacity: 1;
 }
+@media (max-width: 700px) {
+    .feedback-form {
+        width: 90vw;
+    }
+}
+
+
+
+
+
+
 
 /* PRODUCT PAGE */
 .product .slide__image {

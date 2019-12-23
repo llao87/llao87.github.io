@@ -145,256 +145,275 @@
     <div class="container">
         <div class="product-slider js-promo-slider">
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-bez-kozhi-v-masle.png"
-                            alt="Филе иваси с кожей в масле">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Филе Иваси<br>без кожи в масле</h3>
-
-                        <div class="option-list">240 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-bez-kozhi-v-masle.png"
+                                alt="Филе иваси с кожей в масле">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Филе Иваси<br>без кожи в масле</h3>
+
+                            <div class="option-list">240 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-s-kozhey_v-masle.png" alt="Филе Иваси с кожей в масле">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Филе Иваси<br>с кожей в масле</h3>
-
-                        <div class="option-list">240 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-s-kozhey_v-masle.png" alt="Филе Иваси с кожей в масле">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Филе Иваси<br>с кожей в масле</h3>
+
+                            <div class="option-list">240 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-podkopchenaya-v-masle.png"
-                            alt="Филе Иваси подкопченое в масле">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Филе Иваси<br>подкопченое в масле</h3>
-
-                        <div class="option-list">240 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-podkopchenaya-v-masle.png"
+                                alt="Филе Иваси подкопченое в масле">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Филе Иваси<br>подкопченое в масле</h3>
+
+                            <div class="option-list">240 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-tushka-holodnogo-kopcheniya.png"
-                            alt="Тушка Иваси холодного копчения">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Тушка Иваси<br>холодного копчения</h3>
-
-                        <div class="option-list">200 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-tushka-holodnogo-kopcheniya.png"
+                                alt="Тушка Иваси холодного копчения">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Тушка Иваси<br>холодного копчения</h3>
+
+                            <div class="option-list">200 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-ivasi-holod-kopcheniya.png"
-                            alt="Филе Иваси с кожей холодного копчения">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Филе Иваси с кожей<br>холодного копчения</h3>
-
-                        <div class="option-list">150 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-ivasi-holod-kopcheniya.png"
+                                alt="Филе Иваси с кожей холодного копчения">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Филе Иваси с кожей<br>холодного копчения</h3>
+
+                            <div class="option-list">150 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-kusochki-v-masle-appetitnaya.png"
-                            alt='Кусочки Иваси в масле «Аппетитная»'>
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Кусочки Иваси<br>в масле "Аппетитная"</h3>
-
-                        <div class="option-list">210 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-kusochki-v-masle-appetitnaya.png"
+                                alt='Кусочки Иваси в масле «Аппетитная»'>
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Кусочки Иваси<br>в масле "Аппетитная"</h3>
+
+                            <div class="option-list">210 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-kusochki-v-solevoy-zalivke-firmennaya.png"
-                            alt='Кусочки Иваси<br>в солевой заливке «Фирменная»'>
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Кусочки Иваси<br>в солевой заливке "Фирменная"</h3>
-
-                        <div class="option-list">210 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-kusochki-v-solevoy-zalivke-firmennaya.png"
+                                alt='Кусочки Иваси<br>в солевой заливке «Фирменная»'>
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Кусочки Иваси<br>в солевой заливке "Фирменная"</h3>
+
+                            <div class="option-list">210 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo">
-                            <img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-250.png"
-                            alt="Тушка соленая Иваси в солевой заливке 250г">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Тушка соленая Иваси<br>в солевой заливке</h3>
-
-                        <div class="option-list">250 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo">
+                                <img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-250.png"
+                                alt="Тушка соленая Иваси в солевой заливке 250г">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Тушка соленая Иваси<br>в солевой заливке</h3>
+
+                            <div class="option-list">250 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="product-slide">
-                <div class="slide-inner">
-                    <div class="col col--half">
-                        <div class="product-slider__photo ">
-                            <img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-500.png"
-                            alt="Тушка соленая Иваси в солевой заливке 530г">
-                        </div>
-                    </div>
-
-                    <div class="col col--half col--info">
-                        <h3 class="product-slide__title">Тушка соленая Иваси<br>в солевой заливке</h3>
-
-                        <div class="option-list">530 г</div>
-
-                        <div class="product__rating">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
-                            <img src="img/star-filled.svg" alt="">
+                <div>
+                    <div class="slide-inner">
+                        <div class="col col--half">
+                            <div class="product-slider__photo ">
+                                <img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-500.png"
+                                alt="Тушка соленая Иваси в солевой заливке 530г">
+                            </div>
                         </div>
 
-                        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
-                        купить</a>
+                        <div class="col col--half col--info">
+                            <h3 class="product-slide__title">Тушка соленая Иваси<br>в солевой заливке</h3>
+
+                            <div class="option-list">530 г</div>
+
+                            <div class="product__rating">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                                <img src="img/star-filled.svg" alt="">
+                            </div>
+
+                            <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
+                            купить</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy btn--promo-buy-total go-to-shops">Где купить</a>
     </div>
 
     <div class="promo-nav">
@@ -701,99 +720,110 @@
         <h2 class="section-title">Отзывы</h2>
 
         <div class="js-comments-slider animated animated-scroll slow" data-animateClass="fadeIn">
-            <div class="comment">
-                <div class="comment__text-wrap">
-                    <div class="comment__text">Яркий насыщенный вкус. Есть кожура с одной
-                        стороны. Легко очищается от кожуры. Есть мелкие косточки, иногда даже не мелкие, но меня
-                        это не смущает. Вкусная сардина, буду брать ещё.
-                    </div>
-                </div>
 
-                <div class="comment__author">
-                    <div class="author__photo">
-                        <img src="img/user.svg" alt="фото пользователя">
+            <div>
+                <div class="comment">
+                    <div class="comment__text-wrap">
+                        <div class="comment__text">Яркий насыщенный вкус. Есть кожура с одной
+                            стороны. Легко очищается от кожуры. Есть мелкие косточки, иногда даже не мелкие, но меня
+                            это не смущает. Вкусная сардина, буду брать ещё.
+                        </div>
                     </div>
 
-                    <div class="author__info">
-                        <a class="author__link" href="#"><span class="author__name">Олеся</span></a>
-                        <span class="author__type">покупатель</span>
-                    </div>
-                </div>
-            </div>
+                    <div class="comment__author">
+                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                            <img src="img/user.svg" alt="фото пользователя">
+                        </a>
 
-            <div class="comment">
-                <div class="comment__text-wrap">
-                    <div class="comment__text">Купила сегодня «иваси» филе холодного копчения,
-                        так как рыбу люблю и разбираюсь… угодить мне не так просто. Была приятно удивлена,
-                        насколько хороша рыбка. В меру соли, не сухая, легкий аромат копчения!
-                    </div>
-                </div>
-
-                <div class="comment__author">
-                    <div class="author__photo">
-                        <img src="img/user.svg" alt="фото пользователя">
-                    </div>
-
-                    <div class="author__info">
-                        <a class="author__link" href="#"><span class="author__name">Инна</span></a>
-                        <span class="author__type">покупатель</span>
+                        <div class="author__info">
+                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Олеся</span></a>
+                            <span class="author__type">покупатель</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="comment">
-                <div class="comment__text-wrap">
-                    <div class="comment__text">Изумительно!!! Очень вкусная, малосолёная и не
-                        очень жирная рыбка! С копчёностью тоже всё в норме, в меру. Очень понравилась всей
-                        семье. Купила сначала две упаковки, оказалось мало. Ходила ещё покупать.
-                    </div>
-                </div>
-
-                <div class="comment__author">
-                    <div class="author__photo">
-                        <img src="img/user.svg" alt="фото пользователя">
+            <div>
+                <div class="comment">
+                    <div class="comment__text-wrap">
+                        <div class="comment__text">Купила сегодня «иваси» филе холодного копчения,
+                            так как рыбу люблю и разбираюсь… угодить мне не так просто. Была приятно удивлена,
+                            насколько хороша рыбка. В меру соли, не сухая, легкий аромат копчения!
+                        </div>
                     </div>
 
-                    <div class="author__info">
-                        <a class="author__link" href="#"><span class="author__name">Мария</span></a>
-                        <span class="author__type">покупатель</span>
-                    </div>
-                </div>
-            </div>
+                    <div class="comment__author">
+                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                            <img src="img/user.svg" alt="фото пользователя">
+                        </a>
 
-            <div class="comment">
-                <div class="comment__text-wrap">
-                    <div class="comment__text">Очень вкусная рыбка с подкопченным вкусом и
-                        приятным и естественным запахом дымка. В меру маслянистая, плотной структуры, с
-                        сохранённой кожицей. Не содержит костей. Вкус приятный и невероятно нежный.
-                    </div>
-                </div>
-
-                <div class="comment__author">
-                    <div class="author__photo">
-                        <img src="img/user.svg" alt="фото пользователя">
-                    </div>
-
-                    <div class="author__info">
-                        <a class="author__link" href="#"><span class="author__name">Вадим</span></a>
-                        <span class="author__type">покупатель</span>
+                        <div class="author__info">
+                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Инна</span></a>
+                            <span class="author__type">покупатель</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="comment">
-                <div class="comment__text-wrap">
-                    <div class="comment__text">Рыба вкусная, в меру соленая, жирная.</div>
-                </div>
-
-                <div class="comment__author">
-                    <div class="author__photo">
-                        <img src="img/user.svg" alt="фото пользователя">
+            <div>
+                <div class="comment">
+                    <div class="comment__text-wrap">
+                        <div class="comment__text">Изумительно!!! Очень вкусная, малосолёная и не
+                            очень жирная рыбка! С копчёностью тоже всё в норме, в меру. Очень понравилась всей
+                            семье. Купила сначала две упаковки, оказалось мало. Ходила ещё покупать.
+                        </div>
                     </div>
 
-                    <div class="author__info">
-                        <a class="author__link" href="#"><span class="author__name">Людмила</span></a>
-                        <span class="author__type">покупатель</span>
+                    <div class="comment__author">
+                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                            <img src="img/user.svg" alt="фото пользователя">
+                        </a>
+
+                        <div class="author__info">
+                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Мария</span></a>
+                            <span class="author__type">покупатель</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="comment">
+                    <div class="comment__text-wrap">
+                        <div class="comment__text">Очень вкусная рыбка с подкопченным вкусом и
+                            приятным и естественным запахом дымка. В меру маслянистая, плотной структуры, с
+                            сохранённой кожицей. Не содержит костей. Вкус приятный и невероятно нежный.
+                        </div>
+                    </div>
+
+                    <div class="comment__author">
+                        <a target="_blank" href="https://otzovik.com/review_8797580.html" class="author__photo">
+                            <img src="img/user.svg" alt="фото пользователя">
+                        </a>
+
+                        <div class="author__info">
+                            <a class="author__link" target="_blank" href="https://otzovik.com/review_8797580.html"><span class="author__name">Вадим</span></a>
+                            <span class="author__type">покупатель</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="comment">
+                    <div class="comment__text-wrap">
+                        <div class="comment__text">Рыба вкусная, в меру соленая, жирная.</div>
+                    </div>
+
+                    <div class="comment__author">
+                        <a target="_blank" href="https://www.utkonos.ru/item/3367698/sardina-tikhookeanskaja-ivasi-tushka-v-solevoj-zalivke-firmennaja--530g" class="author__photo">
+                            <img src="img/user.svg" alt="фото пользователя">
+                        </a>
+
+                        <div class="author__info">
+                            <a class="author__link" target="_blank" href="https://www.utkonos.ru/item/3367698/sardina-tikhookeanskaja-ivasi-tushka-v-solevoj-zalivke-firmennaja--530g"><span class="author__name">Людмила</span></a>
+                            <span class="author__type">покупатель</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1040,7 +1070,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Иваси "Фирменная"</div>
+                                        <div class="certificate__title">Протокот исследования РАН</div>
                                     </a>
                                 </div>
 
@@ -1053,7 +1083,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Иваси "Аппетитная"</div>
+                                        <div class="certificate__title">Протокот исследования РАН</div>
                                     </a>
                                 </div>
 
@@ -1066,7 +1096,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Иваси "Фирменная"</div>
+                                        <div class="certificate__title">Протокот исследования РАН</div>
                                     </a>
                                 </div>
 
@@ -1079,7 +1109,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Иваси "Аппетитная"</div>
+                                        <div class="certificate__title">Протокот исследования РАН</div>
                                     </a>
                                 </div>
                             </div>
@@ -1157,12 +1187,13 @@
                                     <img src="img/shops/azbuka.png" alt="">
                                 </a>
                                 <span class="shop-icon"><img src="img/shops/miratorg.png" alt=""></span>
-                                <span class="shop-icon"><img src="img/shops/avmarket.png" alt=""></span>
+                                <span class="shop-icon mobile-hide"><img src="img/shops/avmarket.png" alt=""></span>
                             </div>
 
                             <div class="shops-list--hidden js-shops-list">
                                 <div class="shops-list">
                                     <!-- 4 ряд -->
+                                    <span class="shop-icon mobile-show"><img src="img/shops/avmarket.png" alt=""></span>
                                     <span class="shop-icon"><img src="img/shops/billa.png" alt=""></span>
                                     <a class="shop-icon" href="https://my-spar.ru/discount/?utm_campaign=sparnn_catalog">
                                         <span>Онлайн</span>

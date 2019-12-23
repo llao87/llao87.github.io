@@ -30,14 +30,16 @@
         slidesToShow: 1,
         slidesToScroll: 1,
         asNavFor: '.js-promo-slider-nav',
-        fade: true,
+        // fade: true,
         dots: false,
         arrows: false,
+        infinite: true,
         responsive: [{
 
             breakpoint: 700,
             settings: {
-                dots: true,
+                accessibility: true,
+                dots: false,
             }
         }]
     });
@@ -91,7 +93,7 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false
             }
         }
         ]
@@ -116,7 +118,8 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: false
+                dots: true,
+                arrow: false
             }
         }
         ]
