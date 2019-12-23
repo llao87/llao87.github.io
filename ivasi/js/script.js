@@ -34,6 +34,7 @@
         dots: false,
         arrows: false,
         responsive: [{
+
             breakpoint: 700,
             settings: {
                 dots: true,
@@ -51,6 +52,14 @@
         asNavFor: '.js-promo-slider',
         prevArrow: '<div class="slider-prev promo-prev"></div>',
         nextArrow: '<div class="slider-next promo-next"></div>',
+        responsive: [{
+
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        }]
     });
 
     /* инициализация SLICK RECIPES */
