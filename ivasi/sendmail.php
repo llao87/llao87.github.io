@@ -8,7 +8,8 @@ if (isset($_POST["message"])) { $service_type = $_POST["message"];}
 
 // $mail_to = "unifin@protonmail.com";
 // $mail_to = "sm@unifin.ltd";
-$mail_to = "syd.phoenix@gmail.com";
+//$mail_to = "syd.phoenix@gmail.com";
+$mail_to = "office@crabfish.ru";
 $mail_subj = "Новая заявка на Antey.fish" . "\n";
 $mail_body = '<html>  
 <head>  
