@@ -124,7 +124,26 @@
         appendArrows: $('.js-all-products-slider-controls'),
         prevArrow: '<div class="slider-prev"></div>',
         nextArrow: '<div class="slider-next"></div>',
-        // responsive: {		}
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
+        ]
     });
 
 
