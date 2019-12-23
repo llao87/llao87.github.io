@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Рецепт: Бутерброд с сельдью по-датски</title>
+	<title>Рецепт: Салат "Русская пятница"</title>
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="js/slick/slick.css">
@@ -61,16 +61,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
-						<ul class="main-menu">
-							<li class="main-menu__item"><a class="main-menu__link link--active" href="/" data-target="home">Главная страница</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#promo" data-target="promo">Продукция</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#recipes" data-target="recipes">Рецепты</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#comments" data-target="comments">Отзывы</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#faq" data-target="faq">FAQ</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#certificates" data-target="certificates">Сертификаты</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#shops" data-target="shops">Где купить</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#footer" data-target="footer">Контакты</a></li>
-						</ul>
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/menu.php');?>
 					</div>
 				</div>
 			</div>
@@ -79,7 +70,7 @@
 		<div class="slider-wrap">
 			<div class="slider">
 				<div class="slide">
-					<img class="slide__image" src="img/recipes/po-datski/po-datski.jpg" alt="">
+					<img class="slide__image" src="img/recipes/russian-friday/russkaya-pyatnitsa.jpg" alt="">
 				</div>
 			</div>
 
@@ -90,37 +81,34 @@
 	</header>
 
 
-
-
-	<!-- img/recipes/po-datski/ -->
 	<div class="recipe-ingredients">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 recipe-main-photo">
 					<div class="recipe recipe--main animated slow fadeInLeft">
-						<img src="img/recipes/po-datski/po-datski-main.jpg" alt="Рецепт салата Сельдь под шубой">
+						<img src="img/recipes/russian-friday/russkaya-pyatnitsa-main.jpg" alt="Рецепт салата Сельдь под шубой">
 					</div>
 				</div>
 
 				<div class="col-xl-6">
 					<div class="recipe recipe__info  animated slow fadeInRight">
-						<h1 class="recipe-name">Бутерброд с сельдью по-датски</h1>
+						<h1 class="recipe-name">Салат «Русская пятница»</h1>
 
 						<div class="details">
-							<div class="time">15 мин.</div>
-							<div class="portion">4 порции</div>
+							<div class="time">30 мин.</div>
+							<div class="portion">2 порции</div>
 						</div>
 
 						<div class="ingredients">
 							<ul class="col col--half">
-								<li>Хлеб ржаной - 4 ломтика</li>
-								<li>Филе ИВАСИ – 240г</li>
-								<li>Свёкла – 1-2 шт</li>
+								<li>Филе ИВАСИ - 240 г</li>
+								<li>Картофель – 3 шт</li>
+								<li>Яйцо куриное – 2 шт</li>
 							</ul>
 							<ul class="col col--half">
-								<li>Сметана - 4 ст. л.</li>
-								<li>Петрушка – по вкусу</li>
-								<li>Перец, соль – по вкусу</li>
+								<li>Огурец соленый – 2 шт </li>
+								<li>Лук репчатый – 1 шт </li>
+								<li>Укроп – 2 веточки</li>
 							</ul>
 						</div>
 					</div>
@@ -130,12 +118,12 @@
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="slider-controls">
-						<a class="prev-recipe" href="kanape-s-kivi.html">
+						<a class="prev-recipe" href="po-datski.html">
 							<span class="prev-text">предыдущий рецепт</span>
 							<span class="slider-prev"></span>
 						</a>
 
-						<a class="next-recipe" href="russian-friday.html">
+						<a class="next-recipe" href="kanape-s-kivi.html">
 							<span class="slider-next"></span>
 							<span class="next-text">следующий рецепт</span>
 						</a>
@@ -146,12 +134,9 @@
 	</div>
 
 
-
-
-
 	<div class="wave-separator"></div>
 
-
+	<!-- img/recipes/russian-friday -->
 	<div class="cooking">
 		<div class="container">
 			<div class="row">
@@ -168,14 +153,14 @@
 						<div class="cooking-step-col">
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInLeft">
 								<h3 class="cooking-step__title">Шаг 1</h3>
-								<div class="cooking-step__description">Сварите свёклу в микроволновке (8-20 мин) или в духовке (20-25 мин) или купите в магазине готовую.</div>
+								<div class="cooking-step__description">Картофель с яйцами отвариваем, остужаем и очищаем. Филе ИВАСИ с кожей нарезаем небольшими кусочками.</div>
 								<div class="cooking-step__number">1</div>
 								<div class="bg-elem svekla-hor-right"></div>
 							</div>
 
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInRight">
 								<div class="recipe recipe--main">
-									<img src="img/recipes/po-datski/po-datski-1.jpg" alt="Рецепт салата Сельдь под шубой">
+									<img src="img/recipes/russian-friday/russkaya-pyatnitsa-1.jpg" alt="Рецепт салата Сельдь под шубой">
 								</div>
 							</div>
 						</div>
@@ -193,13 +178,13 @@
 						<div class="cooking-step-col">
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInLeft">
 								<div class="recipe recipe--main">
-									<img src="img/recipes/po-datski/po-datski-2.jpg" alt="Рецепт салата Сельдь под шубой">
+									<img src="img/recipes/russian-friday/russkaya-pyatnitsa-2.jpg" alt="Рецепт салата Сельдь под шубой">
 								</div>
 							</div>
 
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInRight">
 								<h3 class="cooking-step__title">Шаг 2</h3>
-								<div class="cooking-step__description">Нарежьте ржаной хлеб и смажьте его сметаной.</div>
+								<div class="cooking-step__description">Очищенный красный лук нарезаем кольцами, огурцы — ломтиками.</div>
 								<div class="cooking-step__number">2</div>
 								<div class="bg-elem svekla-hor-right"></div>
 							</div>
@@ -218,14 +203,14 @@
 						<div class="cooking-step-col">
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInLeft">
 								<h3 class="cooking-step__title">Шаг 3</h3>
-								<div class="cooking-step__description">Сверху выложите по два ломтика свёклы и по два кусочка филе ИВАСИ с кожей.</div>
+								<div class="cooking-step__description">Нарезаем готовые картофель и яйца.</div>
 								<div class="cooking-step__number">3</div>
 								<div class="bg-elem svekla-hor-right"></div>
 							</div>
 
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInRight">
 								<div class="recipe recipe--main">
-									<img src="img/recipes/po-datski/po-datski-3.jpg" alt="Рецепт салата Сельдь под шубой">
+									<img src="img/recipes/russian-friday/russkaya-pyatnitsa-3.jpg" alt="Рецепт салата Сельдь под шубой">
 								</div>
 							</div>
 						</div>
@@ -233,6 +218,7 @@
 				</div>
 			</div>
 		</div>
+
 
 
 		<div class="cooking-step cooking-step--gray">
@@ -242,13 +228,13 @@
 						<div class="cooking-step-col">
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInLeft">
 								<div class="recipe recipe--main">
-									<img src="img/recipes/po-datski/po-datski-4.jpg" alt="Рецепт салата Сельдь под шубой">
+									<img src="img/recipes/russian-friday/russkaya-pyatnitsa-4.jpg" alt="Рецепт салата Сельдь под шубой">
 								</div>
 							</div>
 
 							<div class="col col--half animated animated-scroll slow" data-animateClass="fadeInRight">
 								<h3 class="cooking-step__title">Шаг 4</h3>
-								<div class="cooking-step__description">Украсьте кинзой, солью и перцем. Закуска готова!</div>
+								<div class="cooking-step__description">Выкладываем картофель с яйцами на тарелку, украшаем нарезанным луком, огурцами и филе ИВАСИ с кожей.</div>
 								<div class="cooking-step__number">4</div>
 								<div class="bg-elem svekla-hor-right"></div>
 							</div>
@@ -258,7 +244,6 @@
 			</div>
 		</div>
 	</div>
-
 
 
 	<div class="all-recipes">
@@ -317,8 +302,6 @@
 
 
 	<div class="wave-separator"></div>
-
-
 
 
 	<div class="all-products">

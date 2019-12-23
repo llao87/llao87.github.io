@@ -13,15 +13,15 @@
         autoplaySpeed: 3500,
         speed: 3000,
         responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
+        }
         ]
     });
 
@@ -76,15 +76,15 @@
         prevArrow: '<div class="slider-prev comments-prev"></div>',
         nextArrow: '<div class="slider-next comments-next"></div>',
         responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
             }
+        }
         ]
     });
 
@@ -101,15 +101,15 @@
         prevArrow: '<div class="slider-prev certificates-prev"></div>',
         nextArrow: '<div class="slider-next certificates-next"></div>',
         responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
+        }
         ]
     });
 
@@ -125,30 +125,30 @@
         prevArrow: '<div class="slider-prev"></div>',
         nextArrow: '<div class="slider-next"></div>',
         responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        }
         ]
     });
 
 
     /* Обработка скролла и присвоение классов анимации */
-    $(window).scroll(function () {
+    function scrollFunc() {
         $(document).find('.animated-scroll').each(function () {
             var blockPos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
@@ -159,7 +159,9 @@
                 $(this).addClass(newClass).css({'opacity': 1});
             }
         });
-    });
+    }
+    $(document).ready(scrollFunc);
+    $(window).on('scroll resize', scrollFunc);
 
 
     /* Certificate popup */
@@ -205,11 +207,11 @@
         var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('#fishing-process li:first') : current.next()) : $('#fishing-process li:first'));
         // Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
         next.css({opacity: 0.0})
-            .addClass('show')
-            .css({opacity: 1.0})
+        .addClass('show')
+        .css({opacity: 1.0})
         // Прячем текущую картинку
         current.css({opacity: 0.0})
-            .removeClass('show');
+        .removeClass('show');
     };
 
     var fishingInterval; // для сброса интервала при сворачивании блока
@@ -267,6 +269,14 @@
     });
 
 
+    $('.main-menu__link').on('click', function () {
+        $('.burger').removeClass('burger-active');
+        $('.main-menu').removeClass('visible');
+    });
+
+
+
+
     jQuery('.btn_popup').on('click', function () {
         jQuery('.feedback-form').fadeIn(300);
         jQuery('.feedback-form__bgr-mask').fadeIn(300);
@@ -279,6 +289,16 @@
         jQuery('.feedback-form').fadeOut(300);
         jQuery('.feedback-form__bgr-mask').fadeOut(300);
     });
+
+
+    jQuery('.js-see-all-recipie').on('click', function (e) {
+        e.preventDefault();
+        $(this).fadeOut(200);
+        jQuery('.recipies_static_item').removeClass('hidden');
+    });
+
+
+
 
 
     $(function () {

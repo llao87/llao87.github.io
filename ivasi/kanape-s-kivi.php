@@ -61,16 +61,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
-						<ul class="main-menu">
-							<li class="main-menu__item"><a class="main-menu__link link--active" href="/" data-target="home">Главная страница</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#promo" data-target="promo">Продукция</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#recipes" data-target="recipes">Рецепты</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#comments" data-target="comments">Отзывы</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#faq" data-target="faq">FAQ</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#certificates" data-target="certificates">Сертификаты</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#shops" data-target="shops">Где купить</a></li>
-							<li class="main-menu__item"><a class="main-menu__link" href="/#footer" data-target="footer">Контакты</a></li>
-						</ul>
+						<?php include ($_SERVER['DOCUMENT_ROOT'] . '/menu.php');?>
 					</div>
 				</div>
 			</div>
