@@ -289,12 +289,18 @@ header .container {
 .home-slider .slick-dots li {
     width: 2.2em;
     height: 2.2em;
-    margin: 0 0.3em;
+    margin: 0 0.1em;
+}
+
+.js-promo-slider-nav .slick-slide.slick-current.slick-active img {
+    transform: scale(1.3);
+    transform-origin: 50% 90%;
 }
 
 .home-slider .slick-dots li button {
     width: 2.2em;
     height: 2.2em;
+    font-size: .6em;
 }
 
 .home-slider .slick-dots li button:before, .home-slider .slick-dots li.slick-active button:before {
@@ -305,6 +311,7 @@ header .container {
     width: 2.2em;
     height: 2.2em;
     line-height: 1;
+    font-size: .7em;
 }
 
 .home-slider .slick-dots li.slick-active button:before {
@@ -420,7 +427,7 @@ header .container {
     .logo {
         width: 11.9em;
         height: 14.3em;
-        left: 2.5em;
+        left: 2.5em !important;
         top: 0;
     }
 
@@ -1675,14 +1682,19 @@ header .container {
     height: 185px;
     top: 2%;
     left: -15%;
+    z-index: 1;
 }
-
+.comment, .js-comments-slider {
+    z-index: 10;
+    position: relative;
+}
 .comments .quote-down {
     background-image: url(../img/quote-stroke-down.svg);
     width: 250px;
     height: 185px;
     top: 72%;
     right: -15%;
+    z-index: 1;
 }
 
 .comments .slick-list {
@@ -1730,7 +1742,8 @@ header .container {
     position: relative;
     width: 100%;
     font-weight: 400;
-    min-height: 7em;
+    min-height: 8.5em;
+    font-family: "Open Sans", sans-serif;
 }
 
 .comment__more {
@@ -2133,6 +2146,27 @@ header .container {
     padding: 8em 0 7em 0;
     /*min-height: 827px;*/
 }
+.certificate__photo {
+    position: relative;
+    height: 100%;
+}
+.certificate__photo .img_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    width: 85%;
+    height: 90%;
+}
+.certificate__photo .img_wrapper img {
+    width: auto !important;
+    height: 100% !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 .certificates .section-title {
     margin-bottom: 60px;
@@ -2171,7 +2205,7 @@ header .container {
 } 
 
 .certificates .slider-controls {
-    margin-top: 3.2em;
+    margin-top: 5.2em;
 }
 .certificates .slick-slider {
     width: 100%;
@@ -2373,7 +2407,9 @@ footer .section-title {
 footer .container {
     z-index: 10;
 }
-
+footer .btn_popup {
+    margin-right: .4em;
+}
 footer .container .row {
     display: -webkit-flex;
     display: -moz-flex;
@@ -2398,7 +2434,7 @@ footer .container .row .col-xl-12 {
 }
 
 footer .container .row .col-xl-4 {
-    flex-basis: 33%;
+    flex-basis: 31%;
 }
 
 footer .container .row .col-xl-4:last-of-type {

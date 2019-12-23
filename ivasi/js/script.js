@@ -9,9 +9,9 @@
         slidesToScroll: 1,
         dots: isMainPage,
         arrows: false,
-        // autoplay: true,
-        autoplaySpeed: 3500,
-        speed: 3000,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 1500,
         responsive: [
         {
             breakpoint: 768,
@@ -207,6 +207,14 @@
             btnLess.toggleClass('hide');
         });
     });
+    $('.js-fish-bones').click(function () {
+        $('.js-question-more-wrap').slideToggle(10, function () {
+            btnMore.toggleClass('hide');
+            btnLess.toggleClass('hide');
+        });
+    });
+
+    
 
     /* Бесконечная смена фотографий в вопросе о вылове иваси */
     function rotateImg() {

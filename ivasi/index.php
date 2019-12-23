@@ -91,12 +91,16 @@
         <div>
             <div class="bullets">
                 <div class="bullet bullet--wild">
-                    <img class="bullet__img" src="img/bullet-wild-fish.svg" alt="В гости к рыбакам">
+                    <a href="http://antey.group/">
+                        <img class="bullet__img" src="img/bullet-wild-fish.svg" alt="В гости к рыбакам">
+                    </a>
                     <span class="bullet__info">В гости<br>к рыбакам</span>
                 </div>
 
                 <div class="bullet bullet--omega3">
-                    <img class="bullet__img" src="img/bullet-omega-3.svg" alt="Протоколы исследования РАН">
+                    <a  class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
+                        <img class="bullet__img" src="img/bullet-omega-3.svg" alt="Протоколы исследования РАН">
+                    </a>
                     <span class="bullet__info">Протоколы<br>исследования<br>РАН</span>
                 </div>
 
@@ -113,12 +117,16 @@
                 </div>
 
                 <div class="bullet bullet--ca-mg-i">
-                    <img class="bullet__img" src="img/bullet-ca-mg-i.svg" alt="Протоколы исследования РАН">
+                    <a  class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
+                        <img class="bullet__img" src="img/bullet-ca-mg-i.svg" alt="Протоколы исследования РАН">
+                    </a>
                     <span class="bullet__info">Протоколы<br>исследования<br>РАН</span>
                 </div>
 
                 <div class="bullet bullet--mechanic">
-                    <img class="bullet__img" src="img/bullet-mechanic.svg" alt="Узнать подробности">
+                    <a href="#fish_bones" class="js-fish-bones">
+                        <img class="bullet__img" src="img/bullet-mechanic.svg" alt="Узнать подробности">
+                    </a>
                     <span class="bullet__info">Узнать<br> подробности</span>
                 </div>
             </div>
@@ -474,9 +482,9 @@
                 <div class="recipies_static_item">
 
                     <div class="col col--half recipe-main-photo">
-                        <div class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
+                        <a href="seld-pod-shuboi.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/pod-shuboi/pod-shuboy-main.jpg" alt="Салат Сельдь под шубой">
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col col--half">
@@ -496,9 +504,9 @@
                 <div class="recipies_static_item">
 
                     <div class="col col--half recipe-main-photo">
-                        <div class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
+                        <a href="kanape-s-kivi.php"  class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-main.jpg" alt="Салат Сельдь под шубой">
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col col--half">
@@ -518,9 +526,9 @@
                 <div class="recipies_static_item hidden">
 
                     <div class="col col--half recipe-main-photo">
-                        <div class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
+                        <a href="po-datski.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/po-datski/po-datski-main.jpg" alt="Бутерброд с сельдью по-датски">
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col col--half">
@@ -540,10 +548,10 @@
                 <div class="recipies_static_item hidden">
 
                     <div class="col col--half recipe-main-photo">
-                        <div class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
+                        <a href="russian-friday.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/russian-friday/russkaya-pyatnitsa-main.jpg"
                             alt="Салат Русская пятница">
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col col--half">
@@ -556,6 +564,52 @@
                             </div>
 
                             <a href="russian-friday.php" class="btn btn--orange btn--pecipe-more">Узнать подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipies_static_item hidden">
+
+                    <div class="col col--half recipe-main-photo">
+                        <a href="s-avokado.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
+                            <img src="img/recipes/s-avokado/s-avokado-main.jpg"
+                            alt="Салат Русская пятница">
+                        </a>
+                    </div>
+
+                    <div class="col col--half">
+                        <div class="recipe recipe__info">
+                            <h4 class="recipe-name"><a href="s-avokado.php">Бутерброд с сельдью и авокадо</a></h4>
+
+                            <div class="details">
+                                <div class="time">12 мин.</div>
+                                <div class="portion">4 порции</div>
+                            </div>
+
+                            <a href="s-avokado.php" class="btn btn--orange btn--pecipe-more">Узнать подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipies_static_item hidden">
+
+                    <div class="col col--half recipe-main-photo">
+                        <a href="bliny.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
+                            <img src="img/recipes/bliny/bliny-main.jpg"
+                            alt="Салат Русская пятница">
+                        </a>
+                    </div>
+
+                    <div class="col col--half">
+                        <div class="recipe recipe__info">
+                            <h4 class="recipe-name"><a href="bliny.php">«Русская классика: блины с сельдью»</a></h4>
+
+                            <div class="details">
+                                <div class="time">60 мин.</div>
+                                <div class="portion">4 порции</div>
+                            </div>
+
+                            <a href="bliny.php" class="btn btn--orange btn--pecipe-more">Узнать подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -606,6 +660,26 @@
 
                     <p class="recipe__link">
                         <span class="recipe__caption">Салат «Сельдь под шубой»</span>
+                    </p>
+                </a>
+
+                <a href="s-avokado.php" class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
+                    <div class="recipe__photo">
+                        <img src="img/recipes/s-avokado/s-avokado-main.jpg" alt="Салат Сельдь под шубой">
+                    </div>
+
+                    <p class="recipe__link">
+                        <span class="recipe__caption">Бутерброд с сельдью и авокадо</span>
+                    </p>
+                </a>
+
+                <a href="bliny.php" class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
+                    <div class="recipe__photo">
+                        <img src="img/recipes/bliny/bliny-main.jpg" alt="Салат Сельдь под шубой">
+                    </div>
+
+                    <p class="recipe__link">
+                        <span class="recipe__caption">«Русская классика: блины с сельдью»</span>
                     </p>
                 </a>
             </div>
@@ -882,7 +956,7 @@
                             </div>
 
 
-                            <div class="col-xl-10 col-xl-offset-2">
+                            <div class="col-xl-10 col-xl-offset-2" id="fish_bones">
                                 <div class="faq__row">
                                     <img class="faq__avatar" src="img/user.svg" alt="аватар отзыва">
                                     <div class="faq__buble faq__buble--question">Есть ли в филе ИВАСИ кости? Можно ли кормить детей
@@ -961,7 +1035,9 @@
                                     <a class="fancybox" data-fancybox-type="iframe" href="img/gab-5-41.pdf">
                                         <div class="certificate__frame">
                                             <div class="certificate__photo">
-                                                <img src="img/gab-5-41.jpg" alt="">
+                                                <div class="img_wrapper">
+                                                    <img src="img/gab-5-41.jpg" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="certificate__title">Иваси "Фирменная"</div>
@@ -972,7 +1048,9 @@
                                     <a class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
                                         <div class="certificate__frame">
                                             <div class="certificate__photo">
-                                                <img src="img/gab-3-28.jpg" alt="">
+                                                <div class="img_wrapper">
+                                                    <img src="img/gab-3-28.jpg" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="certificate__title">Иваси "Аппетитная"</div>
@@ -983,7 +1061,9 @@
                                     <a class="fancybox" data-fancybox-type="iframe" href="img/gab-5-41.pdf">
                                         <div class="certificate__frame">
                                             <div class="certificate__photo">
-                                                <img src="img/gab-5-41.jpg" alt="">
+                                                <div class="img_wrapper">
+                                                    <img src="img/gab-5-41.jpg" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="certificate__title">Иваси "Фирменная"</div>
@@ -994,7 +1074,9 @@
                                     <a class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
                                         <div class="certificate__frame">
                                             <div class="certificate__photo">
-                                                <img src="img/gab-3-28.jpg" alt="">
+                                                <div class="img_wrapper">
+                                                    <img src="img/gab-3-28.jpg" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="certificate__title">Иваси "Аппетитная"</div>
