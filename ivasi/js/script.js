@@ -113,16 +113,6 @@
         ]
     });
 
-    $certSlider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        if (nextSlide <= 1 || nextSlide >= 4) {
-
-            $certSlider.slick('slickSetOption', {
-                draggable: false
-            }, true);
-            $certSlider.addClass('no-draggable');
-        }
-    });
-
     /* инициализация SLICK ALL PRODUCTS */
     $('.js-all-products-slider').slick({
         slidesToShow: 3,
