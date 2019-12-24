@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Рецепт: Салат «Сельдь под шубой»</title>
+    <title>Рецепт: «Русская классика: блины с сельдью»</title>
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">
@@ -34,8 +34,8 @@
     <div class="slider-wrap">
         <div class="slider">
             <div class="slide">
-                <img class="slide__image" src="img/recipes/pod-shuboi/pod-shuboy.jpg" alt="Салат «Сельдь под шубой»">
-                <!--<img class="slide__image slide__image&#45;&#45;mobile" src="img/recipes/pod-shuboi/seledka-pod-shuboy-mobile.jpg" alt="Салат «Сельдь под шубой»">-->
+                <img class="slide__image" src="img/recipes/bliny/bliny.jpg" alt="«Русская классика: блины с сельдью»">
+                <!--<img class="slide__image slide__image&#45;&#45;mobile" src="img/recipes/bliny/seledka-pod-shuboy-mobile.jpg" alt="«Русская классика: блины с сельдью»">-->
             </div>
         </div>
 
@@ -50,42 +50,34 @@
         <div class="row">
             <div class="col col--half recipe-main-photo">
                 <div class="recipe recipe--main animated slow fadeInLeft">
-                    <img src="img/recipes/pod-shuboi/pod-shuboy-main.jpg" alt="Рецепт салата Сельдь под шубой">
+                    <img src="img/recipes/bliny/bliny-main.jpg" alt="Рецепт салата Сельдь под шубой">
                 </div>
             </div>
 
             <div class="col col--half recipe-main-info">
                 <div class="recipe recipe__info  animated slow fadeInRight">
-                    <h1 class="recipe-name">Салат «Сельдь <br>под шубой»</h1>
+                    <h1 class="recipe-name">«Русская классика: <br>блины с сельдью»</h1>
 
                     <div class="details">
-                        <div class="time">50 мин.</div>
-                        <div class="portion">2 порции</div>
+                        <div class="time">60 мин.</div>
+                        <div class="portion">4 порции</div>
                     </div>
 
                     <div class="ingredients">
                         <ul class="col col--half">
-                            <li><span class="option-name">Филе ИВАСИ</span><span class="option-separator">–</span><span
-                                class="option-value">400г</span>
+                            <li>*Ингредиенты для блинов</li>
+                            <li><span class="option-name">Подкопченая ИВАСИ</span><span class="option-separator">–</span><span
+                                class="option-value">240г</span>
                             </li>
-                            <li><span class="option-name">Картофель</span><span class="option-separator">–</span><span
-                                class="option-value">3 шт</span>
-                            </li>
-                            <li><span class="option-name">Морковь</span><span class="option-separator">–</span><span
-                                class="option-value">2 шт</span>
-                            </li>
-                            <li><span class="option-name">Свекла</span><span class="option-separator">-</span><span
-                                class="option-value">2 шт</span>
+                            <li><span class="option-name">Яблоко</span><span class="option-separator">–</span><span
+                                class="option-value">1 шт</span>
                             </li>
                         </ul>
                         <ul class="col col--half">
-                            <li><span class="option-name">Репчатый лук</span><span
+                            <li><span class="option-name">Огурец</span><span
                                 class="option-separator">–</span><span class="option-value">1 шт</span>
                             </li>
-                            <li><span class="option-name">Яйцо</span><span class="option-separator">–</span><span
-                                class="option-value">4 шт</span>
-                            </li>
-                            <li><span class="option-name">Майонез</span><span class="option-separator">–</span><span
+                            <li><span class="option-name">Петрушка</span><span class="option-separator">–</span><span
                                 class="option-value">по вкусу</span>
                             </li>
                         </ul>
@@ -102,7 +94,7 @@
                     <span class="slider-prev"></span>
                 </a>
 
-                <a class="next-recipe" href="kanape-s-kivi.php">
+                <a class="next-recipe" href="s-avokado.php">
                     <span class="slider-next"></span>
                     <span class="next-text">следующий рецепт</span>
                 </a>
@@ -123,8 +115,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 1</h3>
-                    <div class="cooking-step__description">Отварите морковь и картофель в подсоленной воде,
-                        отдельно – яйцо и свеклу.
+                    <div class="cooking-step__description">Приготовьте блины по своему любимому рецепту, после чего смажьте каждый блин сливочным маслом.
                     </div>
                     <div class="cooking-step__number">1</div>
                     <div class="bg-elem svekla-hor-right"></div>
@@ -132,7 +123,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-1.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/bliny/blinyArtboard_1.jpg" alt="Рецепт салата Сельдь под шубой">
                     </div>
                 </div>
             </div>
@@ -145,14 +136,13 @@
             <div class="row">
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-2.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/bliny/bliny-3.jpg" alt="Рецепт салата Сельдь под шубой">
                     </div>
                 </div>
 
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
                     <h3 class="cooking-step__title">Шаг 2</h3>
-                    <div class="cooking-step__description">Натрите картофель, морковь и свеклу на крупной
-                        терке.
+                    <div class="cooking-step__description">Подкопченую ИВАСИ нарежьте ломтиками. Зелёное яблоко и огурец порубите на мелкие кубики. Петрушку измельчите. Затем перемешайте все ингредиенты и маринуйте их в течение 30—50 минут.
                     </div>
                     <div class="cooking-step__number">2</div>
                     <div class="bg-elem potato"></div>
@@ -167,8 +157,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 3</h3>
-                    <div class="cooking-step__description">Нарежьте мелко лук и залейте его кипятком на 10
-                        минут.
+                    <div class="cooking-step__description">Сверните блины конвертом и выложите на них подкопченую ИВАСИ. Блюдо готово!
                     </div>
                     <div class="cooking-step__number">3</div>
                     <div class="bg-elem carrot"></div>
@@ -176,55 +165,13 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-3.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/bliny/blinyA-2.jpg" alt="Рецепт салата Сельдь под шубой">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="cooking-step cooking-step--gray">
-        <div class="container">
-            <div class="row">
-                <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
-                    <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-4jpg.jpg" alt="Рецепт салата Сельдь под шубой">
-                    </div>
-                </div>
-
-                <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
-                    <h3 class="cooking-step__title">Шаг 4</h3>
-                    <div class="cooking-step__description">Выложите первый слой из картошки и майонеза, второй -
-                        из филе ИВАСИ без кожи и майонеза, сверху – лук, после чего яйцо и затем снова смажьте
-                        слой майонезом.
-                    </div>
-                    <div class="cooking-step__number">4</div>
-                    <div class="bg-elem fish"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="cooking-step">
-        <div class="container">
-            <div class="row">
-                <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
-                    <h3 class="cooking-step__title">Шаг 5</h3>
-                    <div class="cooking-step__description">Выложите тертую морковь, добавьте майонез и в
-                        завершении выложите свеклу. Салат готов к подаче!
-                    </div>
-                    <div class="cooking-step__number">5</div>
-                    <div class="bg-elem svekla-hor-right"></div>
-                </div>
-
-                <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
-                    <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-5.jpg" alt="Рецепт салата Сельдь под шубой">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 
@@ -283,20 +230,6 @@
                     </div>
                 </div>
 
-                <div class="recipe hidden">
-                    <a href="bliny.php" class="recipe__photo">
-                        <img src="img/recipes/bliny/bliny-main.jpg" alt="«Русская классика: блины с сельдью»">
-                    </a>
-
-                    <a class="recipe__link" href="bliny.php" tabindex="0">
-                        <span class="recipe__caption">«Русская классика: блины с сельдью»</span>
-                    </a>
-
-                    <div class="details">
-                        <div class="time">60 мин.</div>
-                        <div class="portion">4 порции</div>
-                    </div>
-                </div>
 
                 <div class="recipe hidden">
                     <a href="s-avokado.php" class="recipe__photo">
@@ -313,7 +246,24 @@
                     </div>
                 </div>
 
+
+                <div class="recipe hidden">
+                    <a href="seld-pod-shuboi.php" class="recipe__photo">
+                        <img src="img/recipes/pod-shuboi/pod-shuboy-main.jpg" alt="Салат Сельдь под шубой">
+                    </a>
+
+                    <a class="recipe__link" href="seld-pod-shuboi.php" tabindex="0">
+                        <span class="recipe__caption">Салат «Сельдь под шубой»</span>
+                    </a>
+
+                    <div class="details">
+                        <div class="time">50 мин.</div>
+                        <div class="portion">2 порции</div>
+                    </div>
+                </div>
             </div>
+
+
 
             <div class="recipes-more">
                 <div class="btn btn--orange">показать еще</div>

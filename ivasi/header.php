@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="js/slick/slick-theme.css">
 <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="css/style_recipe.css?v=<?php echo time(); ?>">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Google Tag Manager -->
 <script>

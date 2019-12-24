@@ -684,7 +684,7 @@
 
                 <a href="s-avokado.php" class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
                     <div class="recipe__photo">
-                        <img src="img/recipes/s-avokado/s-avokado-main.jpg" alt="Салат Сельдь под шубой">
+                        <img src="img/recipes/s-avokado/s-avokado-main.jpg" alt="Бутерброд с сельдью и авокадо">
                     </div>
 
                     <p class="recipe__link">
@@ -694,7 +694,7 @@
 
                 <a href="bliny.php" class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
                     <div class="recipe__photo">
-                        <img src="img/recipes/bliny/bliny-main.jpg" alt="Салат Сельдь под шубой">
+                        <img src="img/recipes/bliny/bliny-main.jpg" alt="«Русская классика: блины с сельдью»">
                     </div>
 
                     <p class="recipe__link">
@@ -797,12 +797,12 @@
                     </div>
 
                     <div class="comment__author">
-                        <a target="_blank" href="https://otzovik.com/review_8797580.html" class="author__photo">
+                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
                             <img src="img/user.svg" alt="фото пользователя">
                         </a>
 
                         <div class="author__info">
-                            <a class="author__link" target="_blank" href="https://otzovik.com/review_8797580.html"><span class="author__name">Вадим</span></a>
+                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Вадим</span></a>
                             <span class="author__type">покупатель</span>
                         </div>
                     </div>
@@ -1070,7 +1070,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Протокот исследования РАН</div>
+                                        <div class="certificate__title">Протокол исследования РАН</div>
                                     </a>
                                 </div>
 
@@ -1083,7 +1083,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Протокот исследования РАН</div>
+                                        <div class="certificate__title">Протокол исследования РАН</div>
                                     </a>
                                 </div>
 
@@ -1096,7 +1096,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Протокот исследования РАН</div>
+                                        <div class="certificate__title">Протокол исследования РАН</div>
                                     </a>
                                 </div>
 
@@ -1109,7 +1109,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="certificate__title">Протокот исследования РАН</div>
+                                        <div class="certificate__title">Протокол исследования РАН</div>
                                     </a>
                                 </div>
                             </div>
@@ -1272,10 +1272,10 @@
             </footer>
 
 
-            <div class="feedback-form" id="feedback_form">
+            <div class="feedback-form">
                 <p>Оставить отзыв</p>
                 <div class="feedback-form__close"></div>
-                <form action="" method="post">
+                <form action="/php/send.php" method="post" id="feedback_form">
                     <div class="feedback-form__row">
                         <input class="feedback-form__input" type="text" name="name" required="" placeholder="Имя" size="30"
                         maxlength="50"/>

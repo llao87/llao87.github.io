@@ -152,7 +152,8 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: false
+                dots: false,
+                arrows: false
             }
         }
         ]
@@ -161,6 +162,15 @@
 
     /* Обработка скролла и присвоение классов анимации */
     function scrollFunc() {
+        var topOfWindow = $(window).scrollTop();
+
+        if(topOfWindow > 100) {
+            $('.logo').addClass('small');
+        } else {
+            $('.logo').removeClass('small');
+        }
+
+
         $(document).find('.animated-scroll').each(function () {
             var blockPos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
@@ -293,6 +303,13 @@
         $('.burger').removeClass('burger-active');
         $('.main-menu').removeClass('visible');
     });
+
+
+    $('.recipes-more').on('click',function(e){
+        e.preventDefault();
+        $(this).fadeOut(10);
+        $('.recipes-catalog .recipe').removeClass('hidden');
+    })
 
 
 
