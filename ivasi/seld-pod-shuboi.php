@@ -16,10 +16,10 @@
 
 <header>
     <div class="header__menu">
-        <div class="logo">
+<a href="/#home" class="logo">
             <div class="logo__photo"></div>
             <div class="logo__shadow"></div>
-        </div>
+        </a>
 
         <div class="container">
             <div class="main-menu-wrap">
@@ -137,8 +137,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 1</h3>
-                    <div class="cooking-step__description">Отварите морковь и картофель в подсоленной воде,
-                        отдельно – яйцо и свеклу.
+                    <div class="cooking-step__description">Отварите морковь и картофель в подсоленной воде, отдельно – яйцо и свеклу.
                     </div>
                     <div class="cooking-step__number">1</div>
                     <div class="bg-elem svekla-hor-right"></div>
@@ -165,8 +164,7 @@
 
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
                     <h3 class="cooking-step__title">Шаг 2</h3>
-                    <div class="cooking-step__description">Натрите картофель, морковь и свеклу на крупной
-                        терке.
+                    <div class="cooking-step__description">Натрите картофель, морковь и свеклу на крупной терке. Нарежьте мелко лук и залейте его кипятком на 10 минут.
                     </div>
                     <div class="cooking-step__number">2</div>
                     <div class="bg-elem potato"></div>
@@ -181,8 +179,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 3</h3>
-                    <div class="cooking-step__description">Нарежьте мелко лук и залейте его кипятком на 10
-                        минут.
+                    <div class="cooking-step__description">Выложите первый слой из картошки и майонеза, второй - из филе ИВАСИ без кожи и майонеза, сверху – лук, после чего яйцо и затем снова смажьте слой майонезом.
                     </div>
                     <div class="cooking-step__number">3</div>
                     <div class="bg-elem carrot"></div>
@@ -208,9 +205,7 @@
 
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
                     <h3 class="cooking-step__title">Шаг 4</h3>
-                    <div class="cooking-step__description">Выложите первый слой из картошки и майонеза, второй -
-                        из филе ИВАСИ без кожи и майонеза, сверху – лук, после чего яйцо и затем снова смажьте
-                        слой майонезом.
+                    <div class="cooking-step__description">Выложите тертую морковь, добавьте майонез и в завершении выложите свеклу.
                     </div>
                     <div class="cooking-step__number">4</div>
                     <div class="bg-elem fish"></div>
@@ -224,8 +219,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 5</h3>
-                    <div class="cooking-step__description">Выложите тертую морковь, добавьте майонез и в
-                        завершении выложите свеклу. Салат готов к подаче!
+                    <div class="cooking-step__description">Салат готов к подаче!ы
                     </div>
                     <div class="cooking-step__number">5</div>
                     <div class="bg-elem svekla-hor-right"></div>

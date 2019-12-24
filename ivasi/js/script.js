@@ -358,4 +358,68 @@
     });
 
 
+    var voted = false;
+    var rating = 0;
+
+    $('.stars_to_choose').mousemove(function(e){
+        var ratW = $('.stars_to_choose').width();
+        var parentOffset = $(this).offset();
+        var posX = parseInt((e.pageX - parentOffset.left) / ratW * 100);
+        var rating = parseInt(posX/15);
+
+        if(rating > 5) { rating = 5; }
+
+        $(this).attr('data-rating',rating);
+
+        $(this).find('img').attr('src','img/star-empty.svg');
+
+        switch (rating) {
+          case 1:
+          $(this).find('img').eq(0).attr('src','img/star-filled.svg');
+          break;
+          case 2:
+          $(this).find('img').eq(0).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(1).attr('src','img/star-filled.svg');
+          break;
+          case 3:
+          $(this).find('img').eq(0).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(1).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(2).attr('src','img/star-filled.svg');
+          break;
+          case 4:
+          $(this).find('img').eq(0).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(1).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(2).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(3).attr('src','img/star-filled.svg');
+          break;
+          case 5:
+          $(this).find('img').eq(0).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(1).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(2).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(3).attr('src','img/star-filled.svg');
+          $(this).find('img').eq(4).attr('src','img/star-filled.svg');
+          break;
+          default:
+          $(this).find('img').attr('src','img/star-empty.svg');
+      }
+  });
+
+    $('.stars_to_choose').on('click',function(){
+        var rating = $(this).attr('data-rating');
+        var name = $(this).parents('.col--info').find('.product-slide__title').text();
+        sendData(name, rating);
+        voted = true;
+    })
+
+    function sendData(name, rating) {
+        if(!voted) {
+            // toastr.success('Ваша оценка отправлена', {timeOut: 7000});
+        } else {
+            // toastr.error('Вы голосовали ранее', {timeOut: 7000});
+        }
+    }
+
+
+
+
 }());

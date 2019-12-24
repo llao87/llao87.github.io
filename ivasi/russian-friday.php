@@ -16,10 +16,10 @@
 
 <header>
 	<div class="header__menu">
-		<div class="logo">
-			<div class="logo__photo"></div>
-			<div class="logo__shadow"></div>
-		</div>
+<a href="/#home" class="logo">
+            <div class="logo__photo"></div>
+            <div class="logo__shadow"></div>
+        </a>
 
 		<div class="container">
 			<div class="main-menu-wrap">

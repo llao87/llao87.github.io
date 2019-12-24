@@ -14,12 +14,12 @@
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header>
+<header id="header">
     <div class="header__menu">
-        <div class="logo">
+        <a href="/#" data-target="home" class="logo go-to-shops">
             <div class="logo__photo"></div>
             <div class="logo__shadow"></div>
-        </div>
+        </a>
 
         <div class="container">
             <div class="main-menu-wrap">
@@ -160,11 +160,20 @@
                             <div class="option-list">240 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -189,11 +198,20 @@
                             <div class="option-list">240 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -219,11 +237,20 @@
                             <div class="option-list">240 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -249,11 +276,20 @@
                             <div class="option-list">200 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -279,11 +315,20 @@
                             <div class="option-list">150 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -309,11 +354,20 @@
                             <div class="option-list">210 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -339,11 +393,20 @@
                             <div class="option-list">210 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -369,11 +432,20 @@
                             <div class="option-list">250 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -399,11 +471,20 @@
                             <div class="option-list">530 г</div>
 
                             <div class="product__rating">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
-                                <img src="img/star-filled.svg" alt="">
+                                <div class="stars_to_show">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-filled.svg" alt="">
+                                    <img src="img/star-half.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
+                                <div class="stars_to_choose">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                    <img src="img/star-empty.svg" alt="">
+                                </div>
                             </div>
 
                             <a href="/#" data-target="shops" class="btn btn--orange btn--promo-buy go-to-shops">Где
@@ -905,7 +986,7 @@
                         <div class="col-xl-10 col-xl-offset-2">
                             <div class="faq__row">
                                 <img class="faq__avatar" src="img/user.svg" alt="аватар отзыва">
-                                <div class="faq__buble faq__buble--question">Почему не все могут выловить ИВАСИ?</div>
+                                <div class="faq__buble faq__buble--question">Почему иваси мало в магазинах?</div>
                             </div>
 
                             <div class="faq__row">
@@ -919,14 +1000,10 @@
                                           </ul>
                                       </div>
 
-                                      <p class="">Из-за того что у сардины Иваси нежное и жирное тельце, которое при подъеме на
-                                        корабль легко травмируется, рыбакам пришлось обратиться к необычному методу вылова –
-                                        кошельковому неводу. Вначале им окружают косяк рыбы, потом тросом, через кольца в нижней
-                                    части, сеть стягивают в «закрытый кошелек».</p>
+                                      <p class="">Дело в том, что при добыче Иваси необходимо обращаться к необычному методу вылова, который освоили лишь некоторые компании, — кошельковому неводу. Именно он помогает сохранить нежное и жирное тельце сардины Иваси, которое при подъеме на корабль легко травмируется. Вначале им окружают косяк рыбы, потом тросом, через кольца в нижней части, сеть стягивают в «закрытый кошелек».</p>
 
-                                    <p>Из этого огромного сачка живую рыбу специальными насосами выгружают на плавзавод. Этим
-                                        способом овладели немногие, включая <a href="http://antey.group/flot.html">компанию
-                                        «Антей»</a>, флот которой насчитывает более 20 кораблей </p>
+                                    <p>Из этого огромного сачка живую рыбу специальными насосами выгружают на плавзавод. Этим способом овладели немногие, включая <a href="http://antey.group/flot.html">компанию
+                                        «Антей»</a>, флот которой насчитывает более 20 кораблей</p>
                                     </div>
 
                                     <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
