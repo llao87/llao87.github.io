@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Рецепт: Салат "Русская пятница"</title>
+	<title>Рецепт: Горячий салат «Русская пятница»</title>
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">
@@ -40,7 +40,7 @@
 		</div>
 
 		<div class="slide__title slide__title--recipe">
-			<div class="slide__header">Рецепты из иваси</div>
+			<div class="slide__header">Рецепты с ИВАСИ</div>
 		</div>
 	</div>
 </header>
@@ -56,7 +56,7 @@
 
 			<div class="col col--half recipe-main-info">
 				<div class="recipe recipe__info  animated slow fadeInRight">
-					<h1 class="recipe-name">Салат «Русская <br>пятница»</h1>
+					<h1 class="recipe-name">Горячий салат «Русская пятница»</h1>
 
 					<div class="recipes-navigation recipes-navigation--mobile">
 						<div class="slider-controls">

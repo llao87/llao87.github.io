@@ -575,7 +575,7 @@
 <div class="recipes" id="recipes">
     <div class="container">
         <div class="recipes-top">
-            <h2 class="section-title">Рецепты из иваси</h2>
+            <h2 class="section-title">Рецепты с ИВАСИ</h2>
 
             <div class="recipies_static">
 
@@ -650,13 +650,13 @@
                     <div class="col col--half recipe-main-photo">
                         <a href="russian-friday.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/russian-friday/russkaya-pyatnitsa-main.jpg"
-                            alt="Салат Русская пятница">
+                            alt="Горячий салат «Русская пятница»">
                         </a>
                     </div>
 
                     <div class="col col--half">
                         <div class="recipe recipe__info">
-                            <h4 class="recipe-name"><a href="russian-friday.php">Салат Русская пятница</a></h4>
+                            <h4 class="recipe-name"><a href="russian-friday.php">Горячий салат «Русская пятница»</a></h4>
 
                             <div class="details">
                                 <div class="time">30 мин.</div>
@@ -673,7 +673,7 @@
                     <div class="col col--half recipe-main-photo">
                         <a href="s-avokado.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/s-avokado/s-avokado-main.jpg"
-                            alt="Салат Русская пятница">
+                            alt="Горячий салат «Русская пятница»">
                         </a>
                     </div>
 
@@ -696,7 +696,7 @@
                     <div class="col col--half recipe-main-photo">
                         <a href="bliny.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
                             <img src="img/recipes/bliny/bliny-main.jpg"
-                            alt="Салат Русская пятница">
+                            alt="Горячий салат «Русская пятница»">
                         </a>
                     </div>
 
@@ -745,11 +745,11 @@
                 <a href="russian-friday.php" class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
                     <div class="recipe__photo">
                         <img src="img/recipes/russian-friday/russkaya-pyatnitsa-main.jpg"
-                        alt="Салат Русская пятница">
+                        alt="Горячий салат «Русская пятница»">
                     </div>
 
                     <p class="recipe__link">
-                        <span class="recipe__caption">Салат Русская пятница</span>
+                        <span class="recipe__caption">Горячий салат «Русская пятница»</span>
                     </p>
                 </a>
 

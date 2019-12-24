@@ -40,7 +40,7 @@
         </div>
 
         <div class="slide__title slide__title--recipe">
-            <div class="slide__header">Рецепты из иваси</div>
+            <div class="slide__header">Рецепты с ИВАСИ</div>
         </div>
     </div>
 </header>
@@ -231,11 +231,11 @@
                 <div class="recipe">
                     <a href="russian-friday.php" class="recipe__photo">
                         <img src="img/recipes/russian-friday/russkaya-pyatnitsa-main.jpg"
-                        alt="Салат Русская пятница">
+                        alt="Горячий салат «Русская пятница»">
                     </a>
 
                     <a class="recipe__link" href="russian-friday.php" tabindex="0">
-                        <span class="recipe__caption">Салат Русская пятница</span>
+                        <span class="recipe__caption">Горячий салат «Русская пятница»</span>
                     </a>
 
                     <div class="details">
