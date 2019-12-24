@@ -58,6 +58,20 @@
                 <div class="recipe recipe__info  animated slow fadeInRight">
                     <h1 class="recipe-name">Салат «Сельдь <br>под шубой»</h1>
 
+                    <div class="recipes-navigation recipes-navigation--mobile">
+                        <div class="slider-controls">
+                            <a class="prev-recipe" href="russian-friday.php">
+                                <span class="prev-text">предыдущий рецепт</span>
+                                <span class="slider-prev"></span>
+                            </a>
+
+                            <a class="next-recipe" href="kanape-s-kivi.php">
+                                <span class="slider-next"></span>
+                                <span class="next-text">следующий рецепт</span>
+                            </a>
+                        </div>
+                    </div>
+
                     <div class="details">
                         <div class="time">50 мин.</div>
                         <div class="portion">2 порции</div>
@@ -492,7 +506,7 @@
                             <div class="product-slide-inner">
                                 <div class="product__item">
                                     <div class="product__photo">
-                                        <img src="img/products/rec-tushka-solen-v-zalivke.png"
+                                        <img src="img/products/rec-tushka-solen-v-zalivke-bolshaya.png"
                                         alt="Тушка соленая Иваси в солевой заливке 250 г">
                                     </div>
                                 </div>
@@ -519,7 +533,7 @@
                                     </div>
                                 </div>
                                 <div class="product__title">Тушка соленая Иваси<br>в солевой заливке</div>
-                                <div class="description">530 г</div>
+                                <div class="description">250 г</div>
                                 <div class="product__rating">
                                     <img src="img/star-filled.svg" alt="">
                                     <img src="img/star-filled.svg" alt="">
@@ -576,6 +590,40 @@
     <span class="bg-elem bg-footer-ship animated animated-scroll delay-0-5s slower"
     data-animateClass="fadeInRight"></span>
 </footer>
+
+
+<div class="feedback-form" id="feedback_form">
+    <p>Оставить отзыв</p>
+    <div class="feedback-form__close"></div>
+    <form action="" method="post">
+        <div class="feedback-form__row">
+            <input class="feedback-form__input" type="text" name="name" required="" placeholder="Имя" size="30"
+            maxlength="50"/>
+        </div>
+        <div class="feedback-form__row">
+            <input class="feedback-form__input" type="text" name="mail" placeholder="E-mail" size="30"
+            maxlength="50"
+            id="phone" required/>
+        </div>
+        <div class="feedback-form__row">
+            <input class="feedback-form__input" type="text" name="phone" required="" placeholder="Телефон" size="30"
+            maxlength="50"/>
+        </div>
+        <div class="feedback-form__row">
+            <input class="feedback-form__input" type="text" name="message" placeholder="Ваше сообщение" size="30"
+            maxlength="50"/>
+        </div>
+        <input type="submit" class="feedback-form__submit" value="Отправить">
+
+        <div class="checkbox">
+            <input id="checkbox_header" type="checkbox" required="" class="buttons">
+            <label for="checkbox_header">Я согласен с политикой конфиденциальности</label><br>
+        </div>
+
+    </form>
+</div>
+<div class="feedback-form__bgr-mask"></div>
+
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/footer.php');?>
 </body>
