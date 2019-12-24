@@ -462,7 +462,7 @@
 							<div class="product-slide-inner">
 								<div class="product__item">
 									<div class="product__photo">
-										<img src="img/products/rec-tushka-solen-v-zalivke-bolshaya.png"
+										<img src="img/products/rec-tushka-solen-v-zalivke.png"
 										alt="Тушка соленая Иваси в солевой заливке 250 г">
 									</div>
 								</div>
@@ -546,39 +546,6 @@
 	<span class="bg-elem bg-footer-ship animated animated-scroll delay-0-5s slower"
 	data-animateClass="fadeInRight"></span>
 </footer>
-
-
-<div class="feedback-form" id="feedback_form">
-	<p>Оставить отзыв</p>
-	<div class="feedback-form__close"></div>
-	<form action="" method="post">
-		<div class="feedback-form__row">
-			<input class="feedback-form__input" type="text" name="name" required="" placeholder="Имя" size="30"
-			maxlength="50"/>
-		</div>
-		<div class="feedback-form__row">
-			<input class="feedback-form__input" type="text" name="mail" placeholder="E-mail" size="30"
-			maxlength="50"
-			id="phone" required/>
-		</div>
-		<div class="feedback-form__row">
-			<input class="feedback-form__input" type="text" name="phone" required="" placeholder="Телефон" size="30"
-			maxlength="50"/>
-		</div>
-		<div class="feedback-form__row">
-			<input class="feedback-form__input" type="text" name="message" placeholder="Ваше сообщение" size="30"
-			maxlength="50"/>
-		</div>
-		<input type="submit" class="feedback-form__submit" value="Отправить">
-
-		<div class="checkbox">
-			<input id="checkbox_header" type="checkbox" required="" class="buttons">
-			<label for="checkbox_header">Я согласен с политикой конфиденциальности</label><br>
-		</div>
-
-	</form>
-</div>
-<div class="feedback-form__bgr-mask"></div>
 
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/footer.php');?>

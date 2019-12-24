@@ -336,50 +336,25 @@
 
 
 
-
-
-    $(function () {
-
-        $('#feedback_form').submit(function (e) {
-            /* отменяем стандартное действие при отправке формы */
-            e.preventDefault();
-            /* берем из формы метод передачи данных */
-            var m_method = $(this).attr('method');
-            /* получаем адрес скрипта на сервере, куда нужно отправить форму */
-            var m_action = $(this).attr('action');
-            /* получаем данные, введенные пользователем в формате input1=value1&input2=value2..., */
-            /* то есть в стандартном формате передачи данных формы */
-            var m_data = $(this).serialize();
-            $.ajax({
-                type: m_method,
-                url: m_action,
-                data: m_data,
-                success: function () {
-                    jQuery('.feedback-form__result').fadeIn(200);
-                    jQuery('.dark_bgr_form').fadeIn(200);
-                    jQuery('.feedback-form__result-text').text('Your message has been sent! <span>We will contact you shortly</span>');
-                    jQuery('.feedback-form__marker').removeClass('feedback-form__marker--active');
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('input:text').val('');
-                    $('#checkbox').prop('checked', false);
-                    $('#feedback_form').find('textarea').val('');
-                },
-                error: function () {
-                    jQuery('.feedback-form__result').fadeIn(200);
-                    jQuery('.dark_bgr_form').fadeIn(200);
-                    jQuery('.feedback-form__result-text').text("Your message hasn't been sent! <span>Try again later!</span>");
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('input:text').val('');
-                    $('#checkbox').prop('checked', false);
-                    $('#feedback_form').find('textarea').val('');
-                }
-
-            });
-
+    $('#feedback_form').submit(function (e) {
+        /* отменяем стандартное действие при отправке формы */
+        e.preventDefault();
+        $form = $(this);
+        
+        $.ajax({
+            type: $form.attr('method'),
+            url:  $form.attr('action'),
+            data: $form.serialize(),
+            success: function () {
+                $('.feedback-form__title').hide();
+                $form.html('<div class="form-result"><span class="form-result__success">Успешно!</span><br>Спасибо за ваш отзыв!');
+                $($form)[0].reset();
+            },
+            error: function () {
+                $('.feedback-form__title').hide();
+                $form.html('<div class="form-result"><span class="form-result__error">Ошибка!</span><br>Пожалуйста, попробуйте повторить отправку позже!');
+            }
         });
-
     });
 
 

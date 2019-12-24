@@ -3139,3 +3139,19 @@ footer .container .row .col-xl-4:last-of-type {
     margin-left: -25px;
     margin-right: -25px;
 }
+.form-result {
+    text-align: center;
+    font-size: 3em;
+    padding: 1em 0;
+}
+.form-result span {
+    display: inline-block;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.form-result__success {
+    color: green;
+}
+.form-result__error {
+    color: #ff7f7f;
+}
