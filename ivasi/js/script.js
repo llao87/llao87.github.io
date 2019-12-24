@@ -5,6 +5,7 @@
     var isMainPage = $('body').hasClass('home') ? true : false;
 
     $('.home-slider').slick({
+        lazyLoad: 'ondemand',
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: isMainPage,
@@ -27,6 +28,7 @@
 
     /* инициализация SLICK PROMO */
     $('.js-promo-slider').slick({
+        lazyLoad: 'ondemand',
         slidesToShow: 1,
         slidesToScroll: 1,
         asNavFor: '.js-promo-slider-nav',
@@ -45,6 +47,7 @@
     });
 
     $('.js-promo-slider-nav').slick({
+        lazyLoad: 'ondemand',
         slidesToShow: 6,
         slidesToScroll: 1,
         arrows: true,

@@ -8,6 +8,7 @@ FONTS
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');*/
 /*@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic');*/
 @font-face {
+    font-display: swap;
     font-family: 'Open Sans Condensed';
     src: url('font/subset-OpenSansCondensed-Light.woff2') format('woff2'),
     url('font/subset-OpenSansCondensed-Light.woff') format('woff');
@@ -16,6 +17,7 @@ FONTS
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Open Sans Condensed';
     src: url('font/subset-OpenSansCondensed-Bold.woff2') format('woff2'),
     url('font/subset-OpenSansCondensed-Bold.woff') format('woff');
@@ -24,6 +26,7 @@ FONTS
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Open Sans Condensed';
     src: url('font/subset-OpenSansCondensed-LightItalic.woff2') format('woff2'),
     url('font/subset-OpenSansCondensed-LightItalic.woff') format('woff');
@@ -33,6 +36,7 @@ FONTS
 
 
 @font-face {
+    font-display: swap;
     font-family: 'Open Sans';
     src: url('font/subset-OpenSans-Bold.woff2') format('woff2'),
     url('font/subset-OpenSans-Bold.woff') format('woff');
@@ -41,6 +45,7 @@ FONTS
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Open Sans';
     src: url('font/subset-OpenSans-Regular.woff2') format('woff2'),
     url('font/subset-OpenSans-Regular.woff') format('woff');
@@ -49,6 +54,7 @@ FONTS
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Open Sans';
     src: url('font/subset-OpenSans-Light.woff2') format('woff2'),
     url('font/subset-OpenSans-Light.woff') format('woff');
@@ -58,6 +64,7 @@ FONTS
 
 
 @font-face {
+    font-display: swap;
     font-family: 'Neucha';
     src: url('font/subset-Neucha.woff2') format('woff2'),
     url('font/subset-Neucha.woff') format('woff');
@@ -1139,6 +1146,7 @@ header .container {
     width: 10.789em;
     height: 14.995em;
     transition: 0.5s linear;
+    margin: 0 auto;
 }
 
 .promo-nav-slide:after {
@@ -1353,6 +1361,18 @@ header .container {
         text-align: center;
         padding-left: 0;
         margin-top: 5em;
+        -ms-align-items: center;
+        align-items: center;
+    }
+    .product__rating {
+        width: 100%;
+    }
+    .product__rating .stars_to_choose, .product__rating .stars_to_show {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 
     .product-slide__title {

@@ -37,9 +37,9 @@
         <div class="home-slider">
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop" src="img/head-sliders/slider-pyatnitsa-desck.jpg"
+                    <img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-pyatnitsa-desck.jpg"
                     alt="Иваси на сковороде">
-                    <img class="slide__image slide__image--mobile" src="img/head-sliders/pyatniza.jpg"
+                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/pyatniza.jpg"
                     alt="Иваси на сковороде">
                 </div>
             </div>
@@ -47,8 +47,8 @@
             <div>
                 <div class="home-slider__slide">
                     <img class="slide__image slide__image--desktop"
-                    src="img/head-sliders/slider-seledka-kubiki-desck.jpg" alt="Нарезка кубиками">
-                    <img class="slide__image slide__image--mobile" src="img/head-sliders/seledka-slider.jpg"
+                    data-lazy="img/head-sliders/slider-seledka-kubiki-desck.jpg" alt="Нарезка кубиками">
+                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/seledka-slider.jpg"
                     alt="Нарезка кубиками">
                 </div>
             </div>
@@ -56,26 +56,26 @@
             <div>
                 <div class="home-slider__slide">
                     <img class="slide__image slide__image--desktop"
-                    src="img/head-sliders/slider-seledka-pod-shuboy-desck.jpg" alt="Сельдь под шубой">
-                    <img class="slide__image slide__image--mobile" src="img/head-sliders/pod-shuboy-slider.jpg"
+                    data-lazy="img/head-sliders/slider-seledka-pod-shuboy-desck.jpg" alt="Сельдь под шубой">
+                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/pod-shuboy-slider.jpg"
                     alt="Сельдь под шубой">
                 </div>
             </div>
 
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop" src="img/head-sliders/slider-po-datski-desck.jpg"
+                    <img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-po-datski-desck.jpg"
                     align="Бутерброд по-датски">
-                    <img class="slide__image slide__image--mobile" src="img/head-sliders/po-datski.jpg"
+                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/po-datski.jpg"
                     align="Бутерброд по-датски">
                 </div>
             </div>
 
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop" src="img/head-sliders/slider-avocado-desck.jpg"
+                    <img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-avocado-desck.jpg"
                     alt="Бутерброд с авокадо">
-                    <img class="slide__image slide__image--mobile" src="img/head-sliders/avocado-slider.png"
+                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/avocado-slider.png"
                     alt="Бутерброд с авокадо">
                 </div>
             </div>
