@@ -219,7 +219,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 5</h3>
-                    <div class="cooking-step__description">Салат готов к подаче!ы
+                    <div class="cooking-step__description">Салат готов к подаче
                     </div>
                     <div class="cooking-step__number">5</div>
                     <div class="bg-elem svekla-hor-right"></div>

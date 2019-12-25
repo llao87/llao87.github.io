@@ -1,42 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d697f92a-3855-415f-9655-efbb13abbb84" name="Default" comment="recipe page mobile and 90% tablet">
+    <list default="true" id="d697f92a-3855-415f-9655-efbb13abbb84" name="Default" comment="js all-product slider fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/1-frypan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/1-frypan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/2-cub-slice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/2-cub-slice.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/3-pod-shuboi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/3-pod-shuboi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/4-po-datski.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/4-po-datski.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/5-avocado.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/5-avocado.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/6-blin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/6-blin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/7-s-kivi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/7-s-kivi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__1-frypan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__2-cub-slice.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__3-pod-shuboi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__4-po-datski.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__5-avocado.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__6-blin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/__7-s-kivi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/po-datski.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/po-datski.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/pod-shuboy-slider.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/pod-shuboy-slider.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/pyatniza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/pyatniza.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/seledka-slider.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/seledka-slider.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-avocado-desck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-avocado-desck.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-po-datski-desck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-po-datski-desck.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-pyatnitsa-desck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-pyatnitsa-desck.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-seledka-kubiki-desck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-seledka-kubiki-desck.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-seledka-pod-shuboy-desck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/head-sliders/slider-seledka-pod-shuboy-desck.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-4jpg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-4jpg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy-main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/pod-shuboy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/seledka-pod-shuboy-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/img/recipes/pod-shuboi/seledka-pod-shuboy-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ivasi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivasi/photo_2019-12-20_23-07-53.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,7 +32,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ivasi/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -75,11 +41,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ivasi/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>recipes-navigation</find>
       <find>slider-controls</find>
       <find>.recipe-ingredients .slider-controls</find>
       <find>.recipes-navigation</find>
@@ -109,6 +83,7 @@
       <find>pod</find>
       <find>seld-pod-shuboi.html</find>
       <find>Open Sans</find>
+      <find>All</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -129,11 +104,11 @@
         <option value="$PROJECT_DIR$/ivasi/css/grid.css" />
         <option value="$PROJECT_DIR$/ivasi/to_do.txt" />
         <option value="$PROJECT_DIR$/ivasi/seld-pod-shuboi.html" />
-        <option value="$PROJECT_DIR$/ivasi/js/script.js" />
         <option value="$PROJECT_DIR$/ivasi/sendmail.php" />
         <option value="$PROJECT_DIR$/ivasi/css/style_recipe.css" />
         <option value="$PROJECT_DIR$/ivasi/index.html" />
         <option value="$PROJECT_DIR$/ivasi/css/style.css" />
+        <option value="$PROJECT_DIR$/ivasi/js/script.js" />
       </list>
     </option>
   </component>
@@ -244,15 +219,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577082637203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="photo optimization (25%), fonts files">
+      <created>1577085111627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577085111627</updated>
+    </task>
+    <task id="LOCAL-00004" summary="js all-product slider fix">
+      <created>1577085480296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577085480296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54127000" />
+    <option name="totallyTimeSpent" value="54728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -327,7 +315,9 @@
     <MESSAGE value="some not hot fixes" />
     <MESSAGE value="desktop recipe page width EM sizing" />
     <MESSAGE value="recipe page mobile and 90% tablet" />
-    <option name="LAST_COMMIT_MESSAGE" value="recipe page mobile and 90% tablet" />
+    <MESSAGE value="photo optimization (25%), fonts files" />
+    <MESSAGE value="js all-product slider fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="js all-product slider fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ivasi/css/style.css">
@@ -558,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivasi/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="266" column="25" selection-start-line="266" selection-start-column="12" selection-end-line="266" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ivasi/css/style_recipe.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -592,6 +575,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivasi/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
         </state>
       </provider>
     </entry>
