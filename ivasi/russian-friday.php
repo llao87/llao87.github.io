@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Рецепт: Горячий салат «Русская пятница»</title>
+	<meta name="description" content="Рецепт: Горячий салат «Русская пятница»">
+    <meta name="keywords" content="">
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">

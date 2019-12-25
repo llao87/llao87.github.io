@@ -2,6 +2,8 @@
 <html lang="ru">
 <head>
     <title>Антей - главная страница</title>
+    <meta name="description" content="Антей - главная страница">
+    <meta name="keywords" content="">
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 

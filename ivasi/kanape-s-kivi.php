@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Рецепт: Канапе с иваси и киви</title>
+    <meta name="description" content="Рецепт: Канапе с иваси и киви">
+    <meta name="keywords" content="">
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Рецепт: Форшмак</title>
+    <meta name="description" content="Рецепт: Форшмак">
+    <meta name="keywords" content="">
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">

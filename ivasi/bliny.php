@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Рецепт: «Русская классика: блины с сельдью»</title>
+    <meta name="description" content="Рецепт: «Русская классика: блины с сельдью»">
+    <meta name="keywords" content="">
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">

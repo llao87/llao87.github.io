@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Рецепт: Салат «Сельдь под шубой»</title>
+    <meta name="description" content="Рецепт: Салат «Сельдь под шубой»">
+    <meta name="keywords" content="">
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">
