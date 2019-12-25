@@ -34,7 +34,7 @@
     <div class="slider-wrap">
         <div class="slider">
             <div class="slide">
-                <img class="slide__image" src="img/recipes/kanape-s-kivi/kanape-s-kiviArtboard.jpg" alt="">
+                <img class="slide__image" src="img/recipes/kanape-s-kivi/kanape-s-kiviArtboard.jpg" alt="Канапе с иваси и киви">
                 <!--<img class="slide__image slide__image&#45;&#45;mobile" src="img/recipes/pod-shuboi/seledka-pod-shuboy-mobile.jpg" alt="Салат «Сельдь под шубой»">-->
             </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col col--half recipe-main-photo">
                 <div class="recipe recipe--main animated slow fadeInLeft">
-                    <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-main.jpg" alt="Рецепт салата Сельдь под шубой">
+                    <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-main.jpg" alt="Канапе с иваси и киви">
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
 
         <div class="row recipes-navigation">
             <div class="slider-controls">
-                <a class="prev-recipe" href="seld-pod-shuboi.php">
+                <a class="prev-recipe" href="forshmack.php">
                     <span class="prev-text">предыдущий рецепт</span>
                     <span class="slider-prev"></span>
                 </a>
@@ -136,7 +136,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-1.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-1.jpg" alt="Канапе с иваси и киви шаг 1">
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
             <div class="row">
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-2.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-2.jpg" alt="Канапе с иваси и киви шаг 2">
                     </div>
                 </div>
 
@@ -178,7 +178,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-3.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/kanape-s-kivi/kanape-s-kivi-3.jpg" alt="Канапе с иваси и киви шаг 3">
                     </div>
                 </div>
             </div>
@@ -266,6 +266,21 @@
 
                     <a class="recipe__link" href="seld-pod-shuboi.php" tabindex="0">
                         <span class="recipe__caption">Салат «Сельдь под шубой»</span>
+                    </a>
+
+                    <div class="details">
+                        <div class="time">50 мин.</div>
+                        <div class="portion">2 порции</div>
+                    </div>
+                </div>
+
+                <div class="recipe hidden">
+                    <a href="forshmack.php" class="recipe__photo">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                    </a>
+
+                    <a class="recipe__link" href="forshmack.php" tabindex="0">
+                        <span class="recipe__caption">Рецепт «Форшмака»</span>
                     </a>
 
                     <div class="details">

@@ -7,8 +7,8 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Настройка кэширования
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg|mp4|webm|woff|woff2|ttf|eot|otf)$">
-Header set Cache-Control: max-age=31536000
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg|ttf|woff|woff2|otf)$">
+	Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 
 # сжатие text, html, javascript, css, xml:

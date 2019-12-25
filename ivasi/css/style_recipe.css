@@ -555,7 +555,7 @@
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .recipes-catalog .recipe {
     display: -webkit-flex;
@@ -567,10 +567,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5%;
+    margin-bottom: 3%;
     width: 30%;
 }
-.recipes-catalog .recipe:nth-child(2) {
+/*.recipes-catalog .recipe:nth-child(2) {
     margin: 0 3%;
     margin-bottom: 1.5%;
 }
@@ -578,7 +578,7 @@
     margin-left: 1.5%;
     margin-right: 1.5%;
     margin-bottom: 1.5%;
-}
+}*/
 .recipes-catalog .recipe.hidden {
     display: none;
 }

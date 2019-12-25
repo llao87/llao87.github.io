@@ -65,7 +65,7 @@
                                 <span class="slider-prev"></span>
                             </a>
 
-                            <a class="next-recipe" href="kanape-s-kivi.php">
+                            <a class="next-recipe" href="forshmack.php">
                                 <span class="slider-next"></span>
                                 <span class="next-text">следующий рецепт</span>
                             </a>
@@ -145,7 +145,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-1.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/pod-shuboi/pod-shuboy-1.jpg" alt="Рецепт салата Сельдь под шубой шаг 1">
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
             <div class="row">
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-2.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/pod-shuboi/pod-shuboy-2.jpg" alt="Рецепт салата Сельдь под шубой шаг 2">
                     </div>
                 </div>
 
@@ -187,7 +187,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-3.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/pod-shuboi/pod-shuboy-3.jpg" alt="Рецепт салата Сельдь под шубой шаг 3">
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@
             <div class="row">
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-4jpg.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/pod-shuboi/pod-shuboy-4jpg.jpg" alt="Рецепт салата Сельдь под шубой шаг 4">
                     </div>
                 </div>
 
@@ -227,7 +227,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/pod-shuboi/pod-shuboy-5.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/pod-shuboi/pod-shuboy-5.jpg" alt="Рецепт салата Сельдь под шубой шаг 5">
                     </div>
                 </div>
             </div>
@@ -318,6 +318,21 @@
                     <div class="details">
                         <div class="time">12 мин.</div>
                         <div class="portion">4 порции</div>
+                    </div>
+                </div>
+
+                <div class="recipe hidden">
+                    <a href="forshmack.php" class="recipe__photo">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                    </a>
+
+                    <a class="recipe__link" href="forshmack.php" tabindex="0">
+                        <span class="recipe__caption">Рецепт «Форшмака»</span>
+                    </a>
+
+                    <div class="details">
+                        <div class="time">50 мин.</div>
+                        <div class="portion">2 порции</div>
                     </div>
                 </div>
 

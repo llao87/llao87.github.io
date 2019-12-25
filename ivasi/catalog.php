@@ -92,6 +92,22 @@
             <div class="portion">2 порции</div>
         </div>
     </div>
+
+
+    <div class="recipe">
+        <a href="forshmack.php" class="recipe__photo">
+            <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+        </a>
+
+        <a class="recipe__link" href="forshmack.php" tabindex="0">
+            <span class="recipe__caption">Рецепт «Форшмака»</span>
+        </a>
+
+        <div class="details">
+            <div class="time">50 мин.</div>
+            <div class="portion">2 порции</div>
+        </div>
+    </div>
 </div>
 
 

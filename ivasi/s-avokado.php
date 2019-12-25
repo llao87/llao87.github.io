@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col col--half recipe-main-photo">
                 <div class="recipe recipe--main animated slow fadeInLeft">
-                    <img src="img/recipes/s-avokado/s-avokado-main.jpg" alt="Рецепт салата Сельдь под шубой">
+                    <img src="img/recipes/s-avokado/s-avokado-main.jpg" alt="Рецепт бутерброда с сельдью и авокадо">
                 </div>
             </div>
 
@@ -136,7 +136,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/s-avokado/s-avokado-1.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/s-avokado/s-avokado-1.jpg" alt="Рецепт бутерброда с сельдью и авокадо шаг 1">
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
             <div class="row">
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/s-avokado/s-avokado-2.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/s-avokado/s-avokado-2.jpg" alt="Рецепт бутерброда с сельдью и авокадо шаг 2">
                     </div>
                 </div>
 
@@ -178,7 +178,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/s-avokado/s-avokado-3.jpg" alt="Рецепт салата Сельдь под шубой">
+                        <img src="img/recipes/s-avokado/s-avokado-3.jpg" alt="Рецепт бутерброда с сельдью и авокадо шаг 3">
                     </div>
                 </div>
             </div>
@@ -265,6 +265,21 @@
 
                     <a class="recipe__link" href="seld-pod-shuboi.php" tabindex="0">
                         <span class="recipe__caption">Салат «Сельдь под шубой»</span>
+                    </a>
+
+                    <div class="details">
+                        <div class="time">50 мин.</div>
+                        <div class="portion">2 порции</div>
+                    </div>
+                </div>
+
+                <div class="recipe hidden">
+                    <a href="forshmack.php" class="recipe__photo">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                    </a>
+
+                    <a class="recipe__link" href="forshmack.php" tabindex="0">
+                        <span class="recipe__caption">Рецепт «Форшмака»</span>
                     </a>
 
                     <div class="details">

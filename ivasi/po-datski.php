@@ -34,7 +34,7 @@
 	<div class="slider-wrap">
 		<div class="slider">
 			<div class="slide">
-				<img class="slide__image" src="img/recipes/po-datski/po-datski.jpg" alt="Салат «Сельдь под шубой»">
+				<img class="slide__image" src="img/recipes/po-datski/po-datski.jpg" alt="Бутерброд с сельдью по-датски">
 				<!--<img class="slide__image slide__image&#45;&#45;mobile" src="img/recipes/pod-shuboi/seledka-pod-shuboy-mobile.jpg" alt="Салат «Сельдь под шубой»">-->
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 		<div class="row">
 			<div class="col col--half recipe-main-photo">
 				<div class="recipe recipe--main animated slow fadeInLeft">
-					<img src="img/recipes/po-datski/po-datski-main.jpg" alt="Рецепт салата Сельдь под шубой">
+					<img src="img/recipes/po-datski/po-datski-main.jpg" alt="Рецепт Бутерброда с сельдью по-датски">
 				</div>
 			</div>
 
@@ -142,7 +142,7 @@
 
 				<div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
 					<div class="recipe recipe--main">
-						<img src="img/recipes/po-datski/po-datski-1.jpg" alt="Рецепт салата Сельдь под шубой">
+						<img src="img/recipes/po-datski/po-datski-1.jpg" alt="Рецепт Бутерброда с сельдью по-датски шаг 1">
 					</div>
 				</div>
 			</div>
@@ -155,7 +155,7 @@
 			<div class="row">
 				<div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
 					<div class="recipe recipe--main">
-						<img src="img/recipes/po-datski/po-datski-2.jpg" alt="Рецепт салата Сельдь под шубой">
+						<img src="img/recipes/po-datski/po-datski-2.jpg" alt="Рецепт Бутерброда с сельдью по-датски шаг 2">
 					</div>
 				</div>
 
@@ -184,7 +184,7 @@
 
 				<div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
 					<div class="recipe recipe--main">
-						<img src="img/recipes/po-datski/po-datski-3.jpg" alt="Рецепт салата Сельдь под шубой">
+						<img src="img/recipes/po-datski/po-datski-3.jpg" alt="Рецепт Бутерброда с сельдью по-датски шаг 3">
 					</div>
 				</div>
 			</div>
@@ -196,7 +196,7 @@
 			<div class="row">
 				<div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
 					<div class="recipe recipe--main">
-						<img src="img/recipes/po-datski/po-datski-4.jpg" alt="Рецепт салата Сельдь под шубой">
+						<img src="img/recipes/po-datski/po-datski-4.jpg" alt="Рецепт Бутерброда с сельдью по-датски шаг 4">
 					</div>
 				</div>
 
@@ -297,6 +297,21 @@
 						<div class="portion">2 порции</div>
 					</div>
 				</div>
+
+				<div class="recipe hidden">
+                    <a href="forshmack.php" class="recipe__photo">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                    </a>
+
+                    <a class="recipe__link" href="forshmack.php" tabindex="0">
+                        <span class="recipe__caption">Рецепт «Форшмака»</span>
+                    </a>
+
+                    <div class="details">
+                        <div class="time">50 мин.</div>
+                        <div class="portion">2 порции</div>
+                    </div>
+                </div>
 			</div>
 
 			<div class="recipes-more">

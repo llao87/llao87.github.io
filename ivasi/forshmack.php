@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Рецепт: «Русская классика: блины с сельдью»</title>
+    <title>Рецепт: Форшмак</title>
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/header.php');?>
 </head>
 <body class="product" id="product">
@@ -34,8 +34,8 @@
     <div class="slider-wrap">
         <div class="slider">
             <div class="slide">
-                <img class="slide__image" src="img/recipes/bliny/bliny.jpg" alt="«Русская классика: блины с сельдью»">
-                <!--<img class="slide__image slide__image&#45;&#45;mobile" src="img/recipes/bliny/seledka-pod-shuboy-mobile.jpg" alt="«Русская классика: блины с сельдью»">-->
+                <img class="slide__image" src="img/recipes/forshmak/farshmak-1920.jpg" alt="Форшмак">
+                <!--<img class="slide__image slide__image&#45;&#45;mobile" src="img/recipes/forshmak/seledka-pod-shuboy-mobile.jpg" alt="Форшмак">-->
             </div>
         </div>
 
@@ -50,13 +50,13 @@
         <div class="row">
             <div class="col col--half recipe-main-photo">
                 <div class="recipe recipe--main animated slow fadeInLeft">
-                    <img src="img/recipes/bliny/bliny-main.jpg" alt="«Русская классика: блины с сельдью»">
+                    <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт Закуски Форшмак">
                 </div>
             </div>
 
             <div class="col col--half recipe-main-info">
                 <div class="recipe recipe__info  animated slow fadeInRight">
-                    <h1 class="recipe-name">«Русская классика: <br>блины с сельдью»</h1>
+                    <h1 class="recipe-name">Закуска <br>Форшмак</h1>
 
                     <div class="recipes-navigation recipes-navigation--mobile">
                         <div class="slider-controls">
@@ -65,7 +65,7 @@
                                 <span class="slider-prev"></span>
                             </a>
 
-                            <a class="next-recipe" href="s-avokado.php">
+                            <a class="next-recipe" href="kanape-s-kivi.php">
                                 <span class="slider-next"></span>
                                 <span class="next-text">следующий рецепт</span>
                             </a>
@@ -73,26 +73,40 @@
                     </div>
 
                     <div class="details">
-                        <div class="time">60 мин.</div>
-                        <div class="portion">4 порции</div>
+                        <div class="time">50 мин.</div>
+                        <div class="portion">2 порции</div>
                     </div>
 
                     <div class="ingredients">
                         <ul class="col col--half">
-                            <li>*Ингредиенты для блинов</li>
-                            <li><span class="option-name">Подкопченая ИВАСИ</span><span class="option-separator">–</span><span
-                                class="option-value">240г</span>
+                            <li><span class="option-name">Сельдь «Иваси»</span><span class="option-separator">–</span><span
+                                class="option-value">100 г</span>
                             </li>
-                            <li><span class="option-name">Яблоко</span><span class="option-separator">–</span><span
-                                class="option-value">1 шт</span>
+                            <li><span class="option-name">Яблоко сладкое</span><span class="option-separator">–</span><span
+                                class="option-value">50 г</span>
+                            </li>
+                            <li><span class="option-name">Яйца</span><span class="option-separator">–</span><span
+                                class="option-value">2 шт</span>
+                            </li>
+                            <li><span class="option-name">Стебель сельдерея</span><span class="option-separator">–</span><span
+                                class="option-value">15 г</span>
+                            </li>
+                            <li><span class="option-name">Черный перец</span><span class="option-separator">–</span><span
+                                class="option-value">по вкусу</span>
                             </li>
                         </ul>
                         <ul class="col col--half">
-                            <li><span class="option-name">Огурец</span><span
-                                class="option-separator">–</span><span class="option-value">1 шт</span>
+                            <li><span class="option-name">Лук красный</span><span class="option-separator">–</span><span
+                                class="option-value">6 г</span>
                             </li>
-                            <li><span class="option-name">Петрушка</span><span class="option-separator">–</span><span
+                            <li><span class="option-name">Масло</span><span class="option-separator">–</span><span
+                                class="option-value">20 г</span>
+                            </li>
+                            <li><span class="option-name">Укроп и зеленый лук</span><span class="option-separator">–</span><span
                                 class="option-value">по вкусу</span>
+                            </li>
+                            <li><span class="option-name">Лимонный сок</span><span class="option-separator">–</span><span
+                                class="option-value">10 мл</span>
                             </li>
                         </ul>
                     </div>
@@ -103,12 +117,12 @@
 
         <div class="row recipes-navigation">
             <div class="slider-controls">
-                <a class="prev-recipe" href="russian-friday.php">
+                <a class="prev-recipe" href="seld-pod-shuboi.php">
                     <span class="prev-text">предыдущий рецепт</span>
                     <span class="slider-prev"></span>
                 </a>
 
-                <a class="next-recipe" href="s-avokado.php">
+                <a class="next-recipe" href="kanape-s-kivi.php">
                     <span class="slider-next"></span>
                     <span class="next-text">следующий рецепт</span>
                 </a>
@@ -129,7 +143,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 1</h3>
-                    <div class="cooking-step__description">Приготовьте блины по своему любимому рецепту, после чего смажьте каждый блин сливочным маслом.
+                    <div class="cooking-step__description">Сливочное масло заранее достать из холодильника. Яйца отварить "в мешочек», то есть после закипания варить еще 3 минуты. Крупно нарезать Иваси и перемолоть его в блендере до кусочков (не допустить консистенции пюре), переложить в миску. 
                     </div>
                     <div class="cooking-step__number">1</div>
                     <div class="bg-elem svekla-hor-right"></div>
@@ -137,7 +151,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/bliny/blinyArtboard_1.jpg" alt="«Русская классика: блины с сельдью» шаг 1">
+                        <img src="img/recipes/forshmak/farshmak-recipe-1.jpg" alt="Закуска Форшмак шаг 1">
                     </div>
                 </div>
             </div>
@@ -150,13 +164,13 @@
             <div class="row">
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/bliny/bliny-3.jpg" alt="«Русская классика: блины с сельдью» шаг 2">
+                        <img src="img/recipes/forshmak/farshmak-recipe-2.jpg" alt="Закуска Форшмак шаг 2">
                     </div>
                 </div>
 
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
                     <h3 class="cooking-step__title">Шаг 2</h3>
-                    <div class="cooking-step__description">Подкопченую ИВАСИ нарежьте ломтиками. Зелёное яблоко и огурец порубите на мелкие кубики. Петрушку измельчите. Затем перемешайте все ингредиенты и маринуйте их в течение 30—50 минут.
+                    <div class="cooking-step__description">Лук и сельдерей нарезать крупно. Перемолоть в блендере лук, сельдерей, очищенные яйца и мягкое масло. Перемалывать все до однородного состояния и выложить к сельди. 
                     </div>
                     <div class="cooking-step__number">2</div>
                     <div class="bg-elem potato"></div>
@@ -171,7 +185,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 3</h3>
-                    <div class="cooking-step__description">Сверните блины конвертом и выложите на них подкопченую ИВАСИ. Блюдо готово!
+                    <div class="cooking-step__description">Натереть в готовую смесь яблоко (уже без кожуры), добавить перец, сбрызнуть лимонным соком, перемешать. Подавать можно с картофелем, тостами и т.п.
                     </div>
                     <div class="cooking-step__number">3</div>
                     <div class="bg-elem carrot"></div>
@@ -179,7 +193,7 @@
 
                 <div class="cooking-photo animated animated-scroll slow" data-animateClass="fadeInRight">
                     <div class="recipe recipe--main">
-                        <img src="img/recipes/bliny/blinyA-2.jpg" alt="«Русская классика: блины с сельдью» шаг 3">
+                        <img src="img/recipes/forshmak/farshmak-recipe-3.jpg" alt="Закуска Форшмак шаг 3">
                     </div>
                 </div>
             </div>
@@ -244,6 +258,20 @@
                     </div>
                 </div>
 
+                <div class="recipe hidden">
+                    <a href="bliny.php" class="recipe__photo">
+                        <img src="img/recipes/bliny/bliny-main.jpg" alt="«Русская классика: блины с сельдью»">
+                    </a>
+
+                    <a class="recipe__link" href="bliny.php" tabindex="0">
+                        <span class="recipe__caption">«Русская классика: блины с сельдью»</span>
+                    </a>
+
+                    <div class="details">
+                        <div class="time">60 мин.</div>
+                        <div class="portion">4 порции</div>
+                    </div>
+                </div>
 
                 <div class="recipe hidden">
                     <a href="s-avokado.php" class="recipe__photo">
@@ -260,7 +288,6 @@
                     </div>
                 </div>
 
-
                 <div class="recipe hidden">
                     <a href="seld-pod-shuboi.php" class="recipe__photo">
                         <img src="img/recipes/pod-shuboi/pod-shuboy-main.jpg" alt="Салат Сельдь под шубой">
@@ -276,23 +303,7 @@
                     </div>
                 </div>
 
-                <div class="recipe hidden">
-                    <a href="forshmack.php" class="recipe__photo">
-                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Форшмак">
-                    </a>
-
-                    <a class="recipe__link" href="forshmack.php" tabindex="0">
-                        <span class="recipe__caption">Рецепт «Форшмака»</span>
-                    </a>
-
-                    <div class="details">
-                        <div class="time">50 мин.</div>
-                        <div class="portion">2 порции</div>
-                    </div>
-                </div>
             </div>
-
-
 
             <div class="recipes-more">
                 <div class="btn btn--orange">показать еще</div>

@@ -361,6 +361,7 @@ header .container {
 .slick-dotted.slick-slider {
     margin: 0;
     height: inherit;
+    margin-bottom: 0 !important;
 }
 
 .burger_wrapper {
