@@ -48,37 +48,29 @@
 
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop"
-                    data-lazy="img/head-sliders/slider-seledka-kubiki-desck.jpg" alt="Нарезка кубиками">
-                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/seledka-slider.jpg"
-                    alt="Нарезка кубиками">
+                    <div id="home_slider_2"></div>
+                    
                 </div>
             </div>
 
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop"
-                    data-lazy="img/head-sliders/slider-seledka-pod-shuboy-desck.jpg" alt="Сельдь под шубой">
-                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/pod-shuboy-slider.jpg"
-                    alt="Сельдь под шубой">
+                    <div id="home_slider_3"></div>
+                    
                 </div>
             </div>
 
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-po-datski-desck.jpg"
-                    align="Бутерброд по-датски">
-                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/po-datski.jpg"
-                    align="Бутерброд по-датски">
+                    <div id="home_slider_4"></div>
+                    
                 </div>
             </div>
 
             <div>
                 <div class="home-slider__slide">
-                    <img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-avocado-desck.jpg"
-                    alt="Бутерброд с авокадо">
-                    <img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/avocado-slider.png"
-                    alt="Бутерброд с авокадо">
+                    <div id="home_slider_5"></div>
+                    
                 </div>
             </div>
         </div>
@@ -93,14 +85,14 @@
         <div>
             <div class="bullets">
                 <div class="bullet bullet--wild">
-                    <a href="http://antey.group/">
+                    <a target="_blank" href="http://antey.group/">
                         <img class="bullet__img" src="img/bullet-wild-fish.svg" alt="В гости к рыбакам">
                     </a>
                     <span class="bullet__info">В гости<br>к рыбакам</span>
                 </div>
 
                 <div class="bullet bullet--omega3">
-                    <a  class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
+                    <a  class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_file_v_masle.pdf">
                         <img class="bullet__img" src="img/bullet-omega-3.svg" alt="Протоколы исследования РАН">
                     </a>
                     <span class="bullet__info">Протоколы<br>исследования<br>РАН</span>
@@ -119,7 +111,7 @@
                 </div>
 
                 <div class="bullet bullet--ca-mg-i">
-                    <a  class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
+                    <a  class="fancybox" data-fancybox-type="iframe" href="img/protokol_ivasi_v_solevoy_zalivke.pdf">
                         <img class="bullet__img" src="img/bullet-ca-mg-i.svg" alt="Протоколы исследования РАН">
                     </a>
                     <span class="bullet__info">Протоколы<br>исследования<br>РАН</span>
@@ -151,8 +143,8 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-bez-kozhi-v-masle.png"
-                                alt="Филе иваси с кожей в масле">
+                                <div id="promo-bez-kozhi-v-masle"></div>
+                                
                             </div>
                         </div>
 
@@ -190,7 +182,7 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-s-kozhey_v-masle.png" alt="Филе Иваси с кожей в масле">
+                                <div id="promo-s-kozhey_v-masle"></div>
                             </div>
                         </div>
 
@@ -228,8 +220,8 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-podkopchenaya-v-masle.png"
-                                alt="Филе Иваси подкопченое в масле">
+                                <div id="promo-podkopchenaya-v-masle"></div>
+                                
                             </div>
                         </div>
 
@@ -267,8 +259,7 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-tushka-holodnogo-kopcheniya.png"
-                                alt="Тушка Иваси холодного копчения">
+                                <div id="promo-tushka-holodnogo-kopcheniya"></div>
                             </div>
                         </div>
 
@@ -306,8 +297,8 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-ivasi-holod-kopcheniya.png"
-                                alt="Филе Иваси с кожей холодного копчения">
+                                <div id="promo-ivasi-holod-kopcheniya"></div>
+                                
                             </div>
                         </div>
 
@@ -345,8 +336,7 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-kusochki-v-masle-appetitnaya.png"
-                                alt='Кусочки Иваси в масле «Аппетитная»'>
+                                <div id="promo-kusochki-v-masle-appetitnaya"></div>
                             </div>
                         </div>
 
@@ -384,8 +374,8 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-kusochki-v-solevoy-zalivke-firmennaya.png"
-                                alt='Кусочки Иваси<br>в солевой заливке «Фирменная»'>
+                                <div id="promo-kusochki-v-solevoy-zalivke-firmennaya"></div>
+                                
                             </div>
                         </div>
 
@@ -423,8 +413,8 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo">
-                                <img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-250.png"
-                                alt="Тушка соленая Иваси в солевой заливке 250г">
+                                <div id="promo-tushka-solenaya-v-solevoy-zalivke-250"></div>
+                                
                             </div>
                         </div>
 
@@ -462,8 +452,8 @@
                     <div class="slide-inner">
                         <div class="col col--half">
                             <div class="product-slider__photo ">
-                                <img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-500.png"
-                                alt="Тушка соленая Иваси в солевой заливке 530г">
+                                <div id="promo-tushka-solenaya-v-solevoy-zalivke-500"></div>
+                                
                             </div>
                         </div>
 
@@ -720,13 +710,13 @@
 
                     <div class="col col--half recipe-main-photo">
                         <a href="forshmack.php" class="recipe recipe--main animated animated-scroll slow" data-animateClass="fadeInLeft">
-                            <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                            <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмак»">
                         </a>
                     </div>
 
                     <div class="col col--half">
                         <div class="recipe recipe__info">
-                            <h4 class="recipe-name"><a href="forshmack.php">Рецепт «Форшмака»</a></h4>
+                            <h4 class="recipe-name"><a href="forshmack.php">Рецепт «Форшмак»</a></h4>
 
                             <div class="details">
                                 <div class="time">50 мин.</div>
@@ -809,11 +799,11 @@
 
                 <a href="forshmack.php" class="recipe animated animated-scroll slow" data-animateClass="fadeInUp">
                     <div class="recipe__photo">
-                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмак»">
                     </div>
 
                     <p class="recipe__link">
-                        <span class="recipe__caption">Рецепт «Форшмака»</span>
+                        <span class="recipe__caption">Рецепт «Форшмак»</span>
                     </p>
                 </a>
             </div>
@@ -846,12 +836,12 @@
                     </div>
 
                     <div class="comment__author">
-                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                        <a target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
                             <img src="img/user.svg" alt="фото пользователя">
                         </a>
 
                         <div class="author__info">
-                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Олеся</span></a>
+                            <a class="author__link" target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Олеся</span></a>
                             <span class="author__type">покупатель</span>
                         </div>
                     </div>
@@ -868,12 +858,12 @@
                     </div>
 
                     <div class="comment__author">
-                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                        <a target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
                             <img src="img/user.svg" alt="фото пользователя">
                         </a>
 
                         <div class="author__info">
-                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Инна</span></a>
+                            <a class="author__link" target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Инна</span></a>
                             <span class="author__type">покупатель</span>
                         </div>
                     </div>
@@ -890,12 +880,12 @@
                     </div>
 
                     <div class="comment__author">
-                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                        <a target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
                             <img src="img/user.svg" alt="фото пользователя">
                         </a>
 
                         <div class="author__info">
-                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Мария</span></a>
+                            <a class="author__link" target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Мария</span></a>
                             <span class="author__type">покупатель</span>
                         </div>
                     </div>
@@ -912,12 +902,12 @@
                     </div>
 
                     <div class="comment__author">
-                        <a target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
+                        <a target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html" class="author__photo">
                             <img src="img/user.svg" alt="фото пользователя">
                         </a>
 
                         <div class="author__info">
-                            <a class="author__link" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Вадим</span></a>
+                            <a class="author__link" target="_blank" target="_blank" href="https://vkusvill.ru/goods/sardina-ivasi-file-s-kozhey-kh-k.html"><span class="author__name">Вадим</span></a>
                             <span class="author__type">покупатель</span>
                         </div>
                     </div>
@@ -931,12 +921,12 @@
                     </div>
 
                     <div class="comment__author">
-                        <a target="_blank" href="https://www.utkonos.ru/item/3367698/sardina-tikhookeanskaja-ivasi-tushka-v-solevoj-zalivke-firmennaja--530g" class="author__photo">
+                        <a target="_blank" target="_blank" href="https://www.utkonos.ru/item/3367698/sardina-tikhookeanskaja-ivasi-tushka-v-solevoj-zalivke-firmennaja--530g" class="author__photo">
                             <img src="img/user.svg" alt="фото пользователя">
                         </a>
 
                         <div class="author__info">
-                            <a class="author__link" target="_blank" href="https://www.utkonos.ru/item/3367698/sardina-tikhookeanskaja-ivasi-tushka-v-solevoj-zalivke-firmennaja--530g"><span class="author__name">Людмила</span></a>
+                            <a class="author__link" target="_blank" target="_blank" href="https://www.utkonos.ru/item/3367698/sardina-tikhookeanskaja-ivasi-tushka-v-solevoj-zalivke-firmennaja--530g"><span class="author__name">Людмила</span></a>
                             <span class="author__type">покупатель</span>
                         </div>
                     </div>
@@ -973,7 +963,7 @@
                             стала настоящей любимицей в СССР.
                         </div>
 
-                        <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                        <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                             <img src="img/logo-antei.svg" alt="Антей">
                         </a>
                     </div>
@@ -988,7 +978,7 @@
                     <div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
                         <div class="faq__buble faq__buble--answer">
                             <div class="fishing">
-                                <img class="fishing-map" src="img/faq/fishing-places.svg" alt="Карта промысла">
+                                <div id="fishing-places"></div>
 
                                 <img class="fishing-point fishing-point-1 animated animated-scroll slow"
                                 src="img/faq/fishing-point.svg" data-animateClass="fadeInUp" alt="Точка на карте">
@@ -1008,7 +998,7 @@
                             моря.</p>
                         </div>
 
-                        <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                        <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                             <img src="img/logo-antei.svg" alt="Антей">
                         </a>
                     </div>
@@ -1036,11 +1026,11 @@
 
                                       <p class="">Дело в том, что при добыче Иваси необходимо обращаться к необычному методу вылова, который освоили лишь некоторые компании, — кошельковому неводу. Именно он помогает сохранить нежное и жирное тельце сардины Иваси, которое при подъеме на корабль легко травмируется. Вначале им окружают косяк рыбы, потом тросом, через кольца в нижней части, сеть стягивают в «закрытый кошелек».</p>
 
-                                      <p>Из этого огромного сачка живую рыбу специальными насосами выгружают на плавзавод. Этим способом овладели немногие, включая <a href="http://antey.group/flot.html">компанию
+                                      <p>Из этого огромного сачка живую рыбу специальными насосами выгружают на плавзавод. Этим способом овладели немногие, включая <a target="_blank" href="http://antey.group/flot.html">компанию
                                       «Антей»</a>, флот которой насчитывает более 20 кораблей</p>
                                   </div>
 
-                                  <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                                  <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                                     <img src="img/logo-antei.svg" alt="Антей">
                                 </a>
                             </div>
@@ -1055,7 +1045,7 @@
 
                             <div class="faq__row">
                                 <div class="faq__buble faq__buble--answer">
-                                    <img class="answer-img" src="img/faq/vitaminy.svg" alt="">
+                                    <div id="vitaminy"></div>
 
                                     <p>В Иваси содержится максимум полезных веществ – она богата витаминами группы В, сардина
                                         Иваси лидирует по количеству ОМЕГА-3 в составе - в ней содержится в 6 раз больше ОМЕГА-3
@@ -1066,7 +1056,7 @@
                                     недостающие витамины.</p>
                                 </div>
 
-                                <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                                <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                                     <img src="img/logo-antei.svg" alt="Антей">
                                 </a>
                             </div>
@@ -1090,7 +1080,7 @@
                                     в них сохранен максимум полезных веществ, к тому же поверхность рыбы не страдает.</p>
                                 </div>
 
-                                <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                                <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                                     <img src="img/logo-antei.svg" alt="Антей">
                                 </a>
                             </div>
@@ -1107,7 +1097,9 @@
 
                             <div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
                                 <div class="faq__buble faq__buble--answer">
-                                    <img class="answer-img" src="img/faq/otvet-kosti.png" alt="">
+                                    <div id="otvet-kosti">
+
+                                    </div>
 
                                     <p>Существует два пути удаления костей: химический и механический. Чтобы избежать
                                         использования химических веществ, мы удаляем их механически. Если и остаются какие-то
@@ -1116,7 +1108,7 @@
                                     возрастных ограничений.</p>
                                 </div>
 
-                                <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                                <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                                     <img src="img/logo-antei.svg" alt="Антей">
                                 </a>
                             </div>
@@ -1131,7 +1123,8 @@
 
                             <div class="faq__row animated animated-scroll fast" data-animateClass="fadeInUp">
                                 <div class="faq__buble faq__buble--answer">
-                                    <img class="answer-img" src="img/faq/otvet-recept.png" alt="">
+                                    <div id="otvet-recept"></div>
+                                    
 
                                     <p>Рецептов с ИВАСИ множество: от традиционных советских блюд до современных рецептов со
                                         всего света. Следите за обновлениями в разделе <a class="go-to-recipes" href="/#recipes"
@@ -1139,7 +1132,7 @@
                                     </p>
                                 </div>
 
-                                <a class="faq__avatar faq__avatar--antei" href="https://antey.group/">
+                                <a class="faq__avatar faq__avatar--antei" target="_blank" href="https://antey.group/">
                                     <img src="img/logo-antei.svg" alt="Антей">
                                 </a>
                             </div>
@@ -1173,7 +1166,7 @@
                     <div class="col-xl-12">
                         <div class="certificates-slider js-certificates-slider">
                             <div class="certificate">
-                                <a class="fancybox" data-fancybox-type="iframe" href="img/gab-5-41.pdf">
+                                <a class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_file_v_masle.pdf">
                                     <div class="certificate__frame">
                                         <div class="certificate__photo">
                                             <div class="img_wrapper">
@@ -1181,12 +1174,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="certificate__title">Протокол исследования РАН</div>
+                                    <div class="certificate__title">Протоколы испытания Иваси филе в масле</div>
                                 </a>
                             </div>
 
                             <div class="certificate">
-                                <a class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
+                                <a class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_holodnogo_kopchenia.pdf">
                                     <div class="certificate__frame">
                                         <div class="certificate__photo">
                                             <div class="img_wrapper">
@@ -1194,12 +1187,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="certificate__title">Протокол исследования РАН</div>
+                                    <div class="certificate__title">Протоколы испытания Иваси холодного копчения</div>
                                 </a>
                             </div>
 
                             <div class="certificate">
-                                <a class="fancybox" data-fancybox-type="iframe" href="img/gab-5-41.pdf">
+                                <a class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_file_v_masle.pdf">
                                     <div class="certificate__frame">
                                         <div class="certificate__photo">
                                             <div class="img_wrapper">
@@ -1207,12 +1200,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="certificate__title">Протокол исследования РАН</div>
+                                    <div class="certificate__title">Протоколы испытания Иваси филе в масле</div>
                                 </a>
                             </div>
 
                             <div class="certificate">
-                                <a class="fancybox" data-fancybox-type="iframe" href="img/gab-3-28.pdf">
+                                <a class="fancybox" data-fancybox-type="iframe" href="img/protokol_ivasi_v_solevoy_zalivke.pdf">
                                     <div class="certificate__frame">
                                         <div class="certificate__photo">
                                             <div class="img_wrapper">
@@ -1220,7 +1213,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="certificate__title">Протокол исследования РАН</div>
+                                    <div class="certificate__title">Протоколы испытания Иваси с солевой заливке</div>
                                 </a>
                             </div>
                         </div>
@@ -1253,7 +1246,7 @@
                             <!-- 1 ряд -->
                             <span class="shop-icon"><img src="img/shops/karusel.png" alt=""></span>
 
-                            <a class="shop-icon" href="https://www.perekrestok.ru/">
+                            <a class="shop-icon" target="_blank" href="https://www.perekrestok.ru/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/perekrestok.png" alt="">
                             </a>
@@ -1263,82 +1256,53 @@
                             <span class="shop-icon"><img src="img/shops/diksi.png" alt=""></span>
 
                             <!-- 2 ряд -->
-                            <a class="shop-icon" href="https://www.auchan.ru/">
-                                <span>Онлайн</span>
-                                <img src="img/shops/ashan.png" alt="">
-                            </a>
-                            <a class="shop-icon" href="http://atak.testeam.ru/">
-                                <span>Онлайн</span>
-                                <img src="img/shops/atak.png" alt="">
-                            </a>
-                            <a class="shop-icon" href="https://lenta.com/">
+                            <a class="shop-icon" target="_blank" href="https://lenta.com/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/lenta.png" alt="">
                             </a>
-                            <a class="shop-icon" href="https://delivery.metro-cc.ru/">
+                            <a class="shop-icon" target="_blank" href="https://delivery.metro-cc.ru/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/metro.png" alt="">
                             </a>
-                            <a class="shop-icon" href="https://vkusvill.ru/goods/">
+                            <a class="shop-icon" target="_blank" href="https://vkusvill.ru/goods/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/vkuswille.png" alt="">
                             </a>
 
                             <!-- 3 ряд -->
-                            <a class="shop-icon" href="https://www.utkonos.ru/">
+                            <a class="shop-icon" target="_blank" href="https://www.utkonos.ru/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/utkonos.png" alt="">
                             </a>
-                            <a class="shop-icon" href="https://online.globus.ru/">
+                            <a class="shop-icon" target="_blank" href="https://online.globus.ru/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/globus.png" alt="">
                             </a>
-                            <a class="shop-icon" href="https://av.ru/">
+                            <a class="shop-icon" target="_blank" href="https://av.ru/">
                                 <span>Онлайн</span>
                                 <img src="img/shops/azbuka.png" alt="">
                             </a>
                             <span class="shop-icon"><img src="img/shops/miratorg.png" alt=""></span>
                             <span class="shop-icon mobile-hide"><img src="img/shops/avmarket.png" alt=""></span>
+                            <span class="shop-icon"><img src="img/shops/yabloko.png" alt=""></span>
+                            <span class="shop-icon"><img src="img/shops/rait.png" alt=""></span>
                         </div>
 
                         <div class="shops-list--hidden js-shops-list">
                             <div class="shops-list">
                                 <!-- 4 ряд -->
-                                <span class="shop-icon mobile-show"><img src="img/shops/avmarket.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/billa.png" alt=""></span>
-                                <a class="shop-icon" href="https://my-spar.ru/discount/?utm_campaign=sparnn_catalog">
-                                    <span>Онлайн</span>
-                                    <img src="img/shops/spar.png" alt="">
-                                </a>
                                 <span class="shop-icon"><img src="img/shops/mariara.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/vysliga.png" alt=""></span>
-                                <a class="shop-icon" href="https://tvoydom.ru/catalog/produkty-1/?page=1">
-                                    <span>Онлайн</span>
-                                    <img src="img/shops/tvoidom.png" alt="">
-                                </a>
 
                                 <!-- 5 ряд -->
-                                <a class="shop-icon" href="https://delivery.one/">
-                                    <span>Онлайн</span>
-                                    <img src="img/shops/deliveryone.png" alt="">
-                                </a>
                                 <span class="shop-icon"><img src="img/shops/rybset.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/ecomorie.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/ohotomorie.png" alt=""></span>
-                                <a class="shop-icon" href="https://seafood-shop.ru/">
-                                    <span>Онлайн</span>
-                                    <img src="img/shops/ikornyi.png" alt="">
-                                </a>
 
                                 <!-- 6 ряд -->
                                 <span class="shop-icon"><img src="img/shops/bahetle.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/mindal.png" alt=""></span>
-                                <a class="shop-icon" href="https://shop.slata.ru/">
-                                    <span>Онлайн</span>
-                                    <img src="img/shops/slata.png" alt="">
-                                </a>
-                                <span class="shop-icon"><img src="img/shops/yabloko.png" alt=""></span>
-                                <span class="shop-icon"><img src="img/shops/rait.png" alt=""></span>
                             </div>
                         </div>
                     </div>

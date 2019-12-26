@@ -284,7 +284,7 @@
                     </a>
 
                     <a class="recipe__link" href="forshmack.php" tabindex="0">
-                        <span class="recipe__caption">Рецепт «Форшмака»</span>
+                        <span class="recipe__caption">Рецепт «Форшмак»</span>
                     </a>
 
                     <div class="details">

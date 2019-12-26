@@ -204,7 +204,7 @@
 
 				<div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
 					<h3 class="cooking-step__title">Шаг 4</h3>
-					<div class="cooking-step__description">Выкладываем картофель с яйцами на тарелку, украшаем нарезанным луком, огурцами и филе ИВАСИ с кожей.
+					<div class="cooking-step__description">Выкладываем картофель с яйцами и филе ИВАСИ на тарелку и украшаем нарезанным луком и огурцами.
 					</div>
 					<div class="cooking-step__number">4</div>
 					<div class="bg-elem fish"></div>
@@ -302,11 +302,11 @@
 
 				<div class="recipe hidden">
                     <a href="forshmack.php" class="recipe__photo">
-                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмак»">
                     </a>
 
                     <a class="recipe__link" href="forshmack.php" tabindex="0">
-                        <span class="recipe__caption">Рецепт «Форшмака»</span>
+                        <span class="recipe__caption">Рецепт «Форшмак»</span>
                     </a>
 
                     <div class="details">

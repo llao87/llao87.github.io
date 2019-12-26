@@ -277,11 +277,11 @@
 
                 <div class="recipe hidden">
                     <a href="forshmack.php" class="recipe__photo">
-                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмака»">
+                        <img src="img/recipes/forshmak/farshmak-main.jpg" alt="Рецепт «Форшмак»">
                     </a>
 
                     <a class="recipe__link" href="forshmack.php" tabindex="0">
-                        <span class="recipe__caption">Рецепт «Форшмака»</span>
+                        <span class="recipe__caption">Рецепт «Форшмак»</span>
                     </a>
 
                     <div class="details">

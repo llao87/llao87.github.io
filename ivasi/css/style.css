@@ -2454,10 +2454,28 @@ header .container {
     }
 }
 
+.recipe-ingredients .recipe img, .cooking .recipe img, .all-recipes .recipe img  {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.recipe-ingredients .row.recipes-navigation {
+    justify-content: space-around;
+}
+
 /* SHOPS */
 .shops {
     padding: 7.5em 0 11em 0;
     overflow-x: hidden;
+}
+.shops .col-xl-12.outer-margin-15 {
+    width: 100%;
+}
+.shops .shops-list {
+    width: 100%;
 }
 
 .shops .section-title {
@@ -2497,6 +2515,9 @@ header .container {
     text-decoration: none;
     outline: none;
     margin-bottom: 9em;
+}
+.shop-icon:last-of-type {
+    margin-right: auto;
 }
 
 .shop-icon img {
@@ -2813,6 +2834,23 @@ footer .container .row .col-xl-4:last-of-type {
 /* Firefox 18- */
 .feedback-form__input:-ms-input-placeholder {
     color: #01336e;
+}
+
+
+
+#feedback_form .form-result {
+    font-size: 4em;
+    margin-bottom: .6em;
+}
+#feedback_form .form-result span {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#feedback_form .form-result span.form-result__success {
+    color: #35a034;
+}
+#feedback_form .form-result span.form-result__error {
+    color: #cf0808;
 }
 
 .feedback-form p {

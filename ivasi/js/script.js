@@ -424,5 +424,42 @@
 
 
 
+    function getPSI() {
+        var winWidth = $(window).width();
+
+        $('#otvet-kosti').html('<img class="answer-img" src="img/faq/otvet-kosti.png" alt="">');
+        $('#fishing-places').html('<img class="fishing-map" src="img/faq/fishing-places.svg" alt="Карта промысла">');
+        $('#vitaminy').html('<img class="answer-img" src="img/faq/vitaminy.svg" alt="">');
+        $('#otvet-recept').html('<img class="answer-img" src="img/faq/otvet-recept.png" alt="">');
+
+
+        $('#promo-bez-kozhi-v-masle').html('<img src="img/products/promo-bez-kozhi-v-masle.png" alt="Филе иваси с кожей в масле">');
+        $('#promo-s-kozhey_v-masle').html('<img src="img/products/promo-s-kozhey_v-masle.png" alt="Филе Иваси с кожей в масле">');
+        $('#promo-podkopchenaya-v-masle').html('<img src="img/products/promo-podkopchenaya-v-masle.png" alt="Филе Иваси подкопченое в масле">');
+        $('#promo-tushka-holodnogo-kopcheniya').html('<img src="img/products/promo-tushka-holodnogo-kopcheniya.png" alt="Тушка Иваси холодного копчения">');
+        $('#promo-ivasi-holod-kopcheniya').html('<img src="img/products/promo-ivasi-holod-kopcheniya.png" alt="Филе Иваси с кожей холодного копчения">');
+        $('#promo-kusochki-v-masle-appetitnaya').html('<img src="img/products/promo-kusochki-v-masle-appetitnaya.png" alt="Кусочки Иваси в масле «Аппетитная»">');
+        $('#promo-kusochki-v-solevoy-zalivke-firmennaya').html('<img src="img/products/promo-kusochki-v-solevoy-zalivke-firmennaya.png" alt="Кусочки Иваси<br>в солевой заливке «Фирменная»">');
+        $('#promo-tushka-solenaya-v-solevoy-zalivke-250').html('<img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-250.png" alt="Тушка соленая Иваси в солевой заливке 250г">');
+        $('#promo-tushka-solenaya-v-solevoy-zalivke-500').html('<img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-500.png" alt="Тушка соленая Иваси в солевой заливке 530г">');
+
+
+        if (winWidth > 700) {
+            $('#home_slider_2').html('<img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-seledka-kubiki-desck.jpg" alt="Нарезка кубиками">');
+            $('#home_slider_3').html('<img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-seledka-pod-shuboy-desck.jpg" alt="Сельдь под шубой">');
+            $('#home_slider_4').html('<img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-po-datski-desck.jpg" alt="Бутерброд по-датски">');
+            $('#home_slider_5').html('<img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-avocado-desck.jpg" alt="Бутерброд с авокадо">');
+        } else {
+            $('#home_slider_2').html('<img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/seledka-slider.jpg" alt="Нарезка кубиками">');
+            $('#home_slider_3').html('<img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/pod-shuboy-slider.jpg" alt="Сельдь под шубой">');
+            $('#home_slider_4').html('<img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/po-datski.jpg" alt="Бутерброд по-датски">');
+            $('#home_slider_5').html('<img class="slide__image slide__image--mobile" data-lazy="img/head-sliders/avocado-slider.jpg" alt="Бутерброд с авокадо">');
+        }
+    }
+
+    setTimeout(getPSI, 200);
+
+
+
 
 }());
