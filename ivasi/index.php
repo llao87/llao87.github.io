@@ -1384,7 +1384,6 @@
                         <div class="shops-list--hidden js-shops-list">
                             <div class="shops-list">
                                 <!-- 4 ряд -->
-                                <span class="shop-icon mobile-show"><img src="img/shops/avmarket.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/billa.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/spar.png" alt=""></span>
                                 <span class="shop-icon"><img src="img/shops/mariara.png" alt=""></span>
