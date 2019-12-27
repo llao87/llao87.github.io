@@ -82,7 +82,6 @@
 <!-- /Yandex.Metrika counter -->
 
 <link rel="stylesheet" href="js/jquery.scrollbar/jquery.scrollbar.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
 <link rel="stylesheet" href="css/toastr.css">
 <link rel="stylesheet" href="js/slick/slick.css">
 <link rel="stylesheet" href="js/slick/slick-theme.css">
@@ -92,7 +91,6 @@
 <script src="/js/jquery-3.4.1.min.js"></script>
 <script src="/js/slick/slick.min.js"></script>
 <script src="/js/jquery.scrollbar/jquery.scrollbar.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="/js/toastr.min.js"></script>
 <script src="/js/script.js?v=<?php echo time(); ?>"></script>
 <script src="/js/lazysizes.min.js" async></script>

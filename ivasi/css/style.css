@@ -895,7 +895,10 @@ header .container {
 .all-products .product-slide {
     flex-direction: column;
 }
-
+.result {
+    font-size: 1.6em;
+    margin-top: 0.4em;
+}
 .col {
     position: relative;
     display: block;

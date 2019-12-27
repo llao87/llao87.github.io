@@ -93,7 +93,7 @@
 				</div>
 
 				<div class="bullet bullet--omega3">
-					<a  class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_file_v_masle.pdf">
+					<a href="img/protokol_ivasi_file_v_masle.pdf" target="_blank">
 						<img class="bullet__img" src="img/bullet-omega-3.svg" alt="Протоколы исследования РАН">
 					</a>
 					<span class="bullet__info">Протоколы<br>исследования<br>РАН</span>
@@ -112,7 +112,7 @@
 				</div>
 
 				<div class="bullet bullet--ca-mg-i">
-					<a  class="fancybox" data-fancybox-type="iframe" href="img/protokol_ivasi_v_solevoy_zalivke.pdf">
+					<a href="img/protokol_ivasi_v_solevoy_zalivke.pdf" target="_blank">
 						<img class="bullet__img" src="img/bullet-ca-mg-i.svg" alt="Протоколы исследования РАН">
 					</a>
 					<span class="bullet__info">Протоколы<br>исследования<br>РАН</span>
@@ -1259,7 +1259,7 @@
 						<div class="col-xl-12">
 							<div class="certificates-slider js-certificates-slider">
 								<div class="certificate">
-									<a class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_file_v_masle.pdf">
+									<a href="img/protokol_ivasi_file_v_masle.pdf" target="_blank">
 										<div class="certificate__frame">
 											<div class="certificate__photo">
 												<div class="img_wrapper">
@@ -1267,12 +1267,12 @@
 												</div>
 											</div>
 										</div>
-										<div class="certificate__title">Протоколы испытания Иваси филе в масле</div>
+										<div class="certificate__title">Протоколы испытания <br>Иваси филе в масле</div>
 									</a>
 								</div>
 
 								<div class="certificate">
-									<a class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_holodnogo_kopchenia.pdf">
+									<a href="img/protokol_ivasi_holodnogo_kopchenia.pdf" target="_blank">
 										<div class="certificate__frame">
 											<div class="certificate__photo">
 												<div class="img_wrapper">
@@ -1280,12 +1280,12 @@
 												</div>
 											</div>
 										</div>
-										<div class="certificate__title">Протоколы испытания Иваси холодного копчения</div>
+										<div class="certificate__title">Протоколы испытания <br>Иваси холодного копчения</div>
 									</a>
 								</div>
 
 								<div class="certificate">
-									<a class="fancybox" data-fancybox-type="iframe" href="img/protoko_ivasi_file_v_masle.pdf">
+									<a href="img/protokol_ivasi_file_v_masle.pdf" target="_blank">
 										<div class="certificate__frame">
 											<div class="certificate__photo">
 												<div class="img_wrapper">
@@ -1293,12 +1293,12 @@
 												</div>
 											</div>
 										</div>
-										<div class="certificate__title">Протоколы испытания Иваси филе в масле</div>
+										<div class="certificate__title">Протоколы испытания <br>Иваси филе в масле</div>
 									</a>
 								</div>
 
 								<div class="certificate">
-									<a class="fancybox" data-fancybox-type="iframe" href="img/protokol_ivasi_v_solevoy_zalivke.pdf">
+									<a href="img/protokol_ivasi_v_solevoy_zalivke.pdf" target="_blank">
 										<div class="certificate__frame">
 											<div class="certificate__photo">
 												<div class="img_wrapper">
@@ -1306,7 +1306,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="certificate__title">Протоколы испытания Иваси с солевой заливке</div>
+										<div class="certificate__title">Протоколы испытания <br>Иваси с солевой заливке</div>
 									</a>
 								</div>
 							</div>
@@ -1327,86 +1327,94 @@
 			</div>
 
 
-			<div class="shops" id="shops">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-12">
-							<h2 class="section-title">Где купить</h2>
-						</div>
+			        <div class="shops" id="shops">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h2 class="section-title">Где купить</h2>
+                    </div>
 
-						<div class="col-xl-12 outer-margin-15">
-							<div class="shops-list">
-								<!-- 1 ряд -->
-								<span class="shop-icon"><img src="img/shops/karusel.png" alt=""></span>
+                    <div class="col-xl-12 outer-margin-15">
+                        <div class="shops-list">
+                            <!-- 1 ряд -->
+                            <span class="shop-icon"><img src="img/shops/karusel.png" alt=""></span>
 
-								<a class="shop-icon" target="_blank" href="https://www.perekrestok.ru/">
-									<span>Онлайн</span>
-									<img src="img/shops/perekrestok.png" alt="">
-								</a>
+                            <a class="shop-icon" href="https://www.perekrestok.ru/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/perekrestok.png" alt="">
+                            </a>
 
-								<span class="shop-icon"><img src="img/shops/pyaterochka.png" alt=""></span>
-								<span class="shop-icon"><img src="img/shops/magnit.png" alt=""></span>
-								<span class="shop-icon"><img src="img/shops/diksi.png" alt=""></span>
+                            <span class="shop-icon"><img src="img/shops/pyaterochka.png" alt=""></span>
+                            <span class="shop-icon"><img src="img/shops/magnit.png" alt=""></span>
+                            <span class="shop-icon"><img src="img/shops/diksi.png" alt=""></span>
 
-								<!-- 2 ряд -->
-								<a class="shop-icon" target="_blank" href="https://lenta.com/">
-									<span>Онлайн</span>
-									<img src="img/shops/lenta.png" alt="">
-								</a>
-								<a class="shop-icon" target="_blank" href="https://delivery.metro-cc.ru/">
-									<span>Онлайн</span>
-									<img src="img/shops/metro.png" alt="">
-								</a>
-								<a class="shop-icon" target="_blank" href="https://vkusvill.ru/goods/">
-									<span>Онлайн</span>
-									<img src="img/shops/vkuswille.png" alt="">
-								</a>
+                            <!-- 2 ряд -->
+                            <span class="shop-icon"><img src="img/shops/ashan.png" alt=""></span>
+                            <span class="shop-icon"><img src="img/shops/atak.png" alt=""></span>
+                            <a class="shop-icon" href="https://lenta.com/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/lenta.png" alt="">
+                            </a>
+                            <a class="shop-icon" href="https://delivery.metro-cc.ru/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/metro.png" alt="">
+                            </a>
+                            <a class="shop-icon" href="https://vkusvill.ru/goods/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/vkuswille.png" alt="">
+                            </a>
 
-								<!-- 3 ряд -->
-								<a class="shop-icon" target="_blank" href="https://www.utkonos.ru/">
-									<span>Онлайн</span>
-									<img src="img/shops/utkonos.png" alt="">
-								</a>
-								<a class="shop-icon" target="_blank" href="https://online.globus.ru/">
-									<span>Онлайн</span>
-									<img src="img/shops/globus.png" alt="">
-								</a>
-								<a class="shop-icon" target="_blank" href="https://av.ru/">
-									<span>Онлайн</span>
-									<img src="img/shops/azbuka.png" alt="">
-								</a>
-								<span class="shop-icon"><img src="img/shops/miratorg.png" alt=""></span>
-								<span class="shop-icon mobile-hide"><img src="img/shops/avmarket.png" alt=""></span>
-								<span class="shop-icon"><img src="img/shops/yabloko.png" alt=""></span>
-								<span class="shop-icon"><img src="img/shops/rait.png" alt=""></span>
-							</div>
+                            <!-- 3 ряд -->
+                            <a class="shop-icon" href="https://www.utkonos.ru/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/utkonos.png" alt="">
+                            </a>
+                            <a class="shop-icon" href="https://online.globus.ru/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/globus.png" alt="">
+                            </a>
+                            <a class="shop-icon" href="https://av.ru/">
+                                <span>Онлайн</span>
+                                <img src="img/shops/azbuka.png" alt="">
+                            </a>
+                            <span class="shop-icon"><img src="img/shops/miratorg.png" alt=""></span>
+                            <span class="shop-icon mobile-hide"><img src="img/shops/avmarket.png" alt=""></span>
+                        </div>
 
-							<div class="shops-list--hidden js-shops-list">
-								<div class="shops-list">
-									<!-- 4 ряд -->
-									<span class="shop-icon"><img src="img/shops/billa.png" alt=""></span>
-									<span class="shop-icon"><img src="img/shops/mariara.png" alt=""></span>
-									<span class="shop-icon"><img src="img/shops/vysliga.png" alt=""></span>
+                        <div class="shops-list--hidden js-shops-list">
+                            <div class="shops-list">
+                                <!-- 4 ряд -->
+                                <span class="shop-icon mobile-show"><img src="img/shops/avmarket.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/billa.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/spar.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/mariara.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/vysliga.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/tvoidom.png" alt=""></span>
 
-									<!-- 5 ряд -->
-									<span class="shop-icon"><img src="img/shops/rybset.png" alt=""></span>
-									<span class="shop-icon"><img src="img/shops/ecomorie.png" alt=""></span>
-									<span class="shop-icon"><img src="img/shops/ohotomorie.png" alt=""></span>
+                                <!-- 5 ряд -->
+                                <span class="shop-icon"><img src="img/shops/deliveryone.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/rybset.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/ecomorie.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/ohotomorie.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/ikornyi.png" alt=""></span>
 
-									<!-- 6 ряд -->
-									<span class="shop-icon"><img src="img/shops/bahetle.png" alt=""></span>
-									<span class="shop-icon"><img src="img/shops/mindal.png" alt=""></span>
-								</div>
-							</div>
-						</div>
-					</div>
+                                <!-- 6 ряд -->
+                                <span class="shop-icon"><img src="img/shops/bahetle.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/mindal.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/slata.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/yabloko.png" alt=""></span>
+                                <span class="shop-icon"><img src="img/shops/rait.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-					<div class="center">
-						<div class="btn btn--orange btn--more-shops js-more-shops">Весь список</div>
-						<div class="btn btn--orange btn--less-shops js-less-shops hide">Свернуть</div>
-					</div>
-				</div>
-			</div>
+                <div class="center">
+                    <div class="btn btn--orange btn--more-shops js-more-shops">Весь список</div>
+                    <div class="btn btn--orange btn--less-shops js-less-shops hide">Свернуть</div>
+                </div>
+            </div>
+        </div>
 
 
 			<div class="wave-separator"></div>
