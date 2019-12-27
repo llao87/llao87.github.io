@@ -230,7 +230,7 @@
         });
     });
 
-    
+
 
     /* Бесконечная смена фотографий в вопросе о вылове иваси */
     function rotateImg() {
@@ -343,7 +343,7 @@
         /* отменяем стандартное действие при отправке формы */
         e.preventDefault();
         $form = $(this);
-        
+
         $.ajax({
             type: $form.attr('method'),
             url:  $form.attr('action'),
@@ -364,6 +364,7 @@
     var voted = false;
     var rating = 0;
 
+/*
     $('.stars_to_choose').mousemove(function(e){
         var ratW = $('.stars_to_choose').width();
         var parentOffset = $(this).offset();
@@ -413,7 +414,7 @@
         sendData(name, rating);
         voted = true;
     })
-
+*/
     function sendData(name, rating) {
         if(!voted) {
             // toastr.success('Ваша оценка отправлена', {timeOut: 7000});
@@ -442,7 +443,7 @@
         $('#promo-kusochki-v-solevoy-zalivke-firmennaya').html('<img src="img/products/promo-kusochki-v-solevoy-zalivke-firmennaya.png" alt="Кусочки Иваси<br>в солевой заливке «Фирменная»">');
         $('#promo-tushka-solenaya-v-solevoy-zalivke-250').html('<img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-250.png" alt="Тушка соленая Иваси в солевой заливке 250г">');
         $('#promo-tushka-solenaya-v-solevoy-zalivke-500').html('<img src="img/products/promo-tushka-solenaya-v-solevoy-zalivke-500.png" alt="Тушка соленая Иваси в солевой заливке 530г">');
-
+		$('#promo-bez-kozhi-v-masle-200g').html('<img src="img/products/promo-bez-kozhi-v-masle-200g.png" alt="Филе Иваси без кожи в масле 200г">');
 
         if (winWidth > 700) {
             $('#home_slider_2').html('<img class="slide__image slide__image--desktop" data-lazy="img/head-sliders/slider-seledka-kubiki-desck.jpg" alt="Нарезка кубиками">');

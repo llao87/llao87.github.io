@@ -96,3 +96,4 @@
 <script src="/js/toastr.min.js"></script>
 <script src="/js/script.js?v=<?php echo time(); ?>"></script>
 <script src="/js/lazysizes.min.js" async></script>
+<script src="/js/rating.js"></script>

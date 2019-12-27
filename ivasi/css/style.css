@@ -1261,7 +1261,7 @@ header .container {
     .promo .product-slide {
         padding: 0 1em;
     }
-    
+
     .promo .product-slider__photo img {
         transform: rotate(13deg)
     }
@@ -2353,7 +2353,7 @@ header .container {
 }
 .certificates .slick-track, .certificates .slick-list {
     height: 48em;
-} 
+}
 
 .certificates .slider-controls {
     margin-top: 5.2em;
@@ -3244,3 +3244,37 @@ footer .container .row .col-xl-4:last-of-type {
     margin-left: -25px;
     margin-right: -25px;
 }
+
+
+
+
+
+
+
+/* RATING */
+.rating {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+.rating-star {
+	width: 25px;
+	height: 25px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	cursor: pointer;
+	transition: 0.4s linear;
+}
+.rating-star--half  { background-image: url(../img/star-half.svg); }
+.rating-star--empty { background-image: url(../img/star-empty.svg); }
+.rating-star--full  { background-image: url(../img/star-filled.svg); }
+.rating-star--hover-empty { background-image: url(../img/star-empty.svg); }
+.rating-star--hover-full  { background-image: url(../img/star-filled.svg); }
