@@ -145,7 +145,7 @@
             <div class="row">
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInLeft">
                     <h3 class="cooking-step__title">Шаг 1</h3>
-                    <div class="cooking-step__description">Сливочное масло заранее достать из холодильника. Яйца отварить "в мешочек», то есть после закипания варить еще 3 минуты. Крупно нарезать Иваси и перемолоть его в блендере до кусочков (не допустить консистенции пюре), переложить в миску. 
+                    <div class="cooking-step__description">Сливочное масло заранее достать из холодильника. Яйца отварить "в мешочек», то есть после закипания варить еще 3 минуты. Крупно нарезать Иваси и перемолоть его в блендере до кусочков (не допустить консистенции пюре), переложить в миску.
                     </div>
                     <div class="cooking-step__number">1</div>
                     <div class="bg-elem svekla-hor-right"></div>
@@ -172,7 +172,7 @@
 
                 <div class="cooking-info animated animated-scroll slow" data-animateClass="fadeInRight">
                     <h3 class="cooking-step__title">Шаг 2</h3>
-                    <div class="cooking-step__description">Лук и сельдерей нарезать крупно. Перемолоть в блендере лук, сельдерей, очищенные яйца и мягкое масло. Перемалывать все до однородного состояния и выложить к сельди. 
+                    <div class="cooking-step__description">Лук и сельдерей нарезать крупно. Перемолоть в блендере лук, сельдерей, очищенные яйца и мягкое масло. Перемалывать все до однородного состояния и выложить к сельди.
                     </div>
                     <div class="cooking-step__number">2</div>
                     <div class="bg-elem potato"></div>
@@ -349,40 +349,6 @@
     <span class="bg-elem bg-footer-ship animated animated-scroll delay-0-5s slower"
     data-animateClass="fadeInRight"></span>
 </footer>
-
-
-<div class="feedback-form" id="feedback_form">
-    <p>Оставить отзыв</p>
-    <div class="feedback-form__close"></div>
-    <form action="" method="post">
-        <div class="feedback-form__row">
-            <input class="feedback-form__input" type="text" name="name" required="" placeholder="Имя" size="30"
-            maxlength="50"/>
-        </div>
-        <div class="feedback-form__row">
-            <input class="feedback-form__input" type="text" name="mail" placeholder="E-mail" size="30"
-            maxlength="50"
-            id="phone" required/>
-        </div>
-        <div class="feedback-form__row">
-            <input class="feedback-form__input" type="text" name="phone" required="" placeholder="Телефон" size="30"
-            maxlength="50"/>
-        </div>
-        <div class="feedback-form__row">
-            <input class="feedback-form__input" type="text" name="message" placeholder="Ваше сообщение" size="30"
-            maxlength="50"/>
-        </div>
-        <input type="submit" class="feedback-form__submit" value="Отправить">
-
-        <div class="checkbox">
-            <input id="checkbox_header" type="checkbox" required="" class="buttons">
-            <label for="checkbox_header">Я согласен с политикой конфиденциальности</label><br>
-        </div>
-
-    </form>
-</div>
-<div class="feedback-form__bgr-mask"></div>
-
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/footer.php');?>
 </body>
