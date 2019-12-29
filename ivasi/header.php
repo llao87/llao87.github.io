@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">    
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
 <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="css/style_recipe.css?v=<?php echo time(); ?>">
 <meta name="format-detection" content="telephone=no">

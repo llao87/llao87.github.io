@@ -100,9 +100,10 @@ function checkRatingVote($data) {
 		]
 	);
 
+	// Голосовал ли ранее этот IP-адрес
 	$row = $request->fetch(PDO::FETCH_ASSOC);
-
-	return ($row['count'] > 0);
+	// return ($row['count'] > 0);
+	return false;
 }
 
 // Запись рейтинга товара в БД
