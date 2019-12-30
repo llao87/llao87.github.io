@@ -3320,16 +3320,16 @@ li.ui-state-disabled.ui-menu-item {
 	align-items: center;
 }
 .rating-star {
-	width: 25px;
-	height: 25px;
-
+	width: 2.6em;
+	height: 2.6em;
+	margin: 0 0.4em;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	outline: none;
 
 	cursor: pointer;
-	transition: 0.4s linear;
+	/*transition: 0.4s linear;*/
 }
 .rating-star--half  { background-image: url(../img/star-half.svg); }
 .rating-star--empty { background-image: url(../img/star-empty.svg); }
@@ -3342,5 +3342,5 @@ li.ui-state-disabled.ui-menu-item {
 .rating-star--hover-full  { background-image: url(../img/star-filled.svg); }
 
 @media (max-width: 700px) {
-	.rating-star { margin: 0 1.5em; }
+	.rating-star { margin: 0 0.6em; }
 }
