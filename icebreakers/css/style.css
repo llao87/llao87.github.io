@@ -1,0 +1,90 @@
+@font-face { 
+    font-family: "thwack";
+    src: url(../font/thwack.ttf) format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1vh;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../img/background.png) center no-repeat;
+    background-size: cover;
+}
+.mountains, .footer {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 210.5em;
+}
+.footer {
+    top: auto;
+    bottom: 0;
+}
+.ships {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -50%);
+    width: 140em;
+    height: auto;
+}
+
+.game {
+    position: fixed;
+    width: 63em;
+    height: 96em;
+    border: 2.5em solid #ffffff;
+    background-color: #050703;;
+    border-radius: 7em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    position: relative;
+    width: 35em;
+    top: 3.5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.loader {
+    position: absolute;
+    width: 100%;
+    font-family: 'thwack', sans-serif;
+    color: #89c1ff;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.dot {
+    display: inline-block;
+    margin: 0 0.05em;
+    opacity: 0;
+}
+.dot:nth-child(1) {
+    animation: dot 2.5s ease-in-out infinite;    
+}
+.dot:nth-child(2) {
+    animation: dot 2.5s ease-in-out infinite;
+    animation-delay: 0.30s;
+}
+.dot:nth-child(3) {
+    animation: dot 2.5s ease-in-out infinite;
+    animation-delay: 0.70s;
+}
+@keyframes dot {
+    from { opacity: 0;}
+    25% { opacity: 1; }
+    50% { opacity: 1; }
+    75% { opacity: 0; }
+    to { opacity: 0; }
+}
