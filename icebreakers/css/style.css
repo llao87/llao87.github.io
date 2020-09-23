@@ -17,37 +17,48 @@ body {
 }
 .mountains, .footer {
     position: fixed;
-    top: 0;
+    top: -20em;
     left: 50%;
     transform: translateX(-50%);
-    width: 210.5em;
+    width: 270em;
 }
 .footer {
     top: auto;
-    bottom: 0;
+    bottom: -25em;
 }
 .ships {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-49%, -50%);
+    transform: translate(-49%, -35%);
     width: 140em;
     height: auto;
 }
 
 .game {
     position: fixed;
-    width: 63em;
-    height: 96em;
-    border: 2.5em solid #ffffff;
-    background-color: #050703;;
-    border-radius: 7em;
+    width: 53.3em;
+    height: 93.5em;
+    border: 1.5em solid #ffffff;
+    background-color: #050703;
+    border-radius: 5em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.game iframe {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: inherit;
+    height: inherit;
+    left: 50%;
+    top: 54.4%;
+    transform: translate(-50%, -50%) scale(1.34);
 }
 .logo {
-    position: relative;
+    position: absolute;
     width: 35em;
     top: 3.5em;
     left: 50%;
