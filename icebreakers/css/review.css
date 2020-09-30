@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "thwack";
+    src: url(../font/thwack.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* max-width: 400px; */
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 1vh;
+}
+
+.input-wrapper input,
+.input-wrapper textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0 0 0.5em 0;
+    outline: none;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #1e5799;
+    font-size: 7.5em;
+    border: thin solid #ccc;
+}
+
+.input-wrapper textarea {
+    resize: none;
+}

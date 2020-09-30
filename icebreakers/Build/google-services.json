@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018947203423",
+    "firebase_url": "https://icebreaker-d9c3f.firebaseio.com",
+    "project_id": "icebreaker-d9c3f",
+    "storage_bucket": "icebreaker-d9c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018947203423:android:82f0460cd8717c13dc46ea",
+        "android_client_info": {
+          "package_name": "com.tvx.icebreaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018947203423-8gbi2goregcuheughsddtdqjv47iscba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMgt1NgB2w14VLVTtBxsOQ4tj3PR1YBKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018947203423-8gbi2goregcuheughsddtdqjv47iscba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

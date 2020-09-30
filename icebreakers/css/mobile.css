@@ -1,0 +1,251 @@
+/* Common styles */
+
+@font-face {
+    font-family: "thwack";
+    src: url(../font/thwack.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../img/background.png) center no-repeat;
+    background-size: 1000%;
+    min-width: 30vw;
+    min-height: 20vh;
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        font-size: 1vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        font-size: 1vw;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.mountains {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130vw;
+    top: 20%;
+}
+
+.footer,
+.footer-additional,
+.ships,
+.game-wrapper,
+.popup-review {
+    display: none;
+}
+
+.logo--mobile {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    width: 70em;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-115%);
+}
+
+.no-mobile {
+    display: block;
+    position: fixed;
+    top: 10%;
+    width: 65em;
+    z-index: 8888;
+    border-radius: 7em;
+    border: 0.5em solid #fff;
+    box-shadow: 0 10px 20px 0 #222;
+    right: 50%;
+    transform: translateX(125%);
+}
+
+.no-mobile-text {
+    width: 50vw;
+    display: block;
+    position: absolute;
+    color: black;
+    left: 50%;
+    bottom: 7%;
+    font-size: 3em;
+    z-index: 10000;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.link {
+    display: block;
+    position: absolute;
+    box-shadow: 0 10px 20px 0 #222;
+    border: 0.5em solid #fff;
+    border-radius: 1.5em;
+    overflow: hidden;
+}
+
+.link img {
+    display: block;
+}
+
+.link:hover {
+    transition: 0.35s;
+}
+
+.link--appstore {
+    top: 60em;
+    left: 50%;
+    transform: translateX(-240%);
+}
+
+.link--appstore:hover {
+    transform: translateX(-240%) scale(1.05);
+}
+
+.link--appstore img {
+    width: 35em;
+}
+
+.link--googleplay {
+    left: 50%;
+    top: 60em;
+    transform: translateX(-100%);
+}
+
+.link--googleplay:hover {
+    transform: translateX(-100%) scale(1.05);
+}
+
+.link--googleplay img {
+    width: 39.83em;
+}
+
+.link--review,
+.link--vk,
+.fullscreen {
+    display: none;
+}
+
+@media screen and (max-width: 2000px) {
+    .no-mobile {
+        width: 55em;
+    }
+    .logo--mobile {
+        width: 55em;
+    }
+    .link--appstore {
+        top: 55em;
+    }
+    .link--appstore img {
+        width: 22em;
+    }
+    .link--googleplay {
+        top: 55em;
+    }
+    .link--googleplay img {
+        width: 25.83em;
+    }
+    .no-mobile-text {
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .mountains {
+        width: 200vw;
+    }
+    .no-mobile {
+        width: 45em;
+    }
+    .logo--mobile {
+        width: 45em;
+    }
+    .link--appstore {
+        top: 46em;
+    }
+    .link--googleplay {
+        top: 46em;
+    }
+    .no-mobile-text {
+        bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .mountains {
+        width: 200vw;
+    }
+    .no-mobile {
+        width: 40em;
+    }
+    .logo--mobile {
+        width: 40em;
+    }
+    .link--appstore {
+        top: 40em;
+        transform: translateX(-220%);
+    }
+    .link--googleplay {
+        top: 40em;
+        transform: translateX(-90%);
+    }
+    .no-mobile-text {
+        bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .logo--mobile {
+        width: 50em;
+        top: 3%;
+        transform: translateX(-50%);
+    }
+    .no-mobile {
+        width: 40em;
+        transform: translateX(-50%);
+        left: 50%;
+        top: 27%;
+    }
+    .no-mobile-text {
+        bottom: auto;
+        top: 65%;
+        width: 90%;
+    }
+    .link--appstore {
+        top: 80%;
+        left: 50%;
+        transform: translateX(-110%);
+    }
+    .link--googleplay {
+        top: 80%;
+        transform: translateX(10%);
+        left: 50%;
+    }
+    .mountains {
+        width: 320vw;
+        transform: translateX(-80%);
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .mountains {
+        width: 390vw;
+    }
+}
