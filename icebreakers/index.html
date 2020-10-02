@@ -5,68 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IceBreakers</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="shortcut icon" href="favicon.png" type="image/png">
-
-
 </head>
 
 <body>
-    <img src="img/logo.png" alt="Ледоколы" class="logo logo--mobile">
-    <img src="img/oops.png" alt="Не работает на мобильном" class="no-mobile">
-    <div class="no-mobile-text">
-        <p>Ваш браузер не поддерживает технологию Unity, загрузите игру из мобильных сторов или воспользуйтесь другим браузером.</p>
+    <!-- Background -->
+    <div class="container">
+        <!-- <div class="background"> -->
+        <img src="img/logo.png" alt="Ледоколы" class="logo logo--mobile">
+        <img src="img/oops.png" alt="Не работает на мобильном" class="no-mobile">
+        <div class="no-mobile-text">
+            <p>Ваш браузер не поддерживает технологию Unity, загрузите игру из мобильных сторов или воспользуйтесь другим браузером.</p>
+        </div>
+        <img src="img/back.png" alt="Горы" class="mountains">
+        <img src="img/ground.png" alt="Льдина" class="footer">
+        <img src="img/ships.png" alt="Корабли" class="ships">
+        <!-- </div> -->
+        <!-- End Background -->
+
+        <!-- Game -->
+        <div class="columns">
+            <div class="column column-left-1">
+                <div class="column-top"></div>
+                <div class="column-bottom">
+                    <a href="https://apps.apple.com/ru/app/%D0%BB%D0%B5%D0%B4%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B/id1527573580" class="link link--appstore"><img src="img/appstore.png"></a>
+                </div>
+            </div>
+
+            <div class="column column-left-2">
+                <div class="column-top"></div>
+                <div class="column-bottom">
+                    <!-- <a href="https://apps.apple.com/ru/app/%D0%BB%D0%B5%D0%B4%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B/id1527573580" class="link link--appstore lg-hide"><img src="img/appstore.png"></a> -->
+                    <a href="https://play.google.com/store/apps/details?id=com.tvx.icebreaker" class="link link--googleplay"><img src="img/google-play.png"></a>
+                </div>
+            </div>
+
+            <div class="column column-game">
+                <div class="column-all">
+                    <div class="game-wrapper" id="game-wrapper">
+                        <div id="fullscreen-exit" class="fullscreen-exit"></div>
+                        <div class="game" id="game">
+                            <div class="preloader" id="preloader">
+                                <iframe id="ytplayer" width="100%" src="https://www.youtube.com/embed/ZpfSftBTBWI?autoplay=1&mute=1&end=31" frameborder="0" controls="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; controls" allowfullscreen></iframe>
+
+                                <img src="img/logo.png" alt="Ледоколы лого" class="logo">
+
+                                <div class="loader">Загрузка<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
+                            </div>
+
+                            <div class="game-container" id="gameContainer"></div>
+                        </div>
+                    </div>
+
+                    <div class="popup-review" id="popup-review">
+                        <form id="form-review" class="form-review">
+                            <p class="form-title">Оставить отзыв</p>
+
+                            <iframe src="review-form.html" frameborder="0" id="review-frame" class="review-frame" sandbox="allow-same-origin"></iframe>
+
+                            <div class="controls">
+                                <button id="review-cancel" class="cancel">Отмена</button>
+                                <button id="review-send" class="send">Отправить</button>
+                            </div>
+                        </form>
+
+                        <div class="screen-ok" id="screen-ok">
+                            <p class="form-title">Отзыв принят<br>Спасибо!</p>
+
+                            <div class="controls">
+                                <button id="review-ok" class="send">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column column-right-2">
+                <div class="column-top">
+                    <div class="fullscreen">
+                        <span>развернуть<br>на весь экран</span>
+                        <img src="img/fullscreen.png">
+                    </div>
+                </div>
+
+                <div class="column-bottom">
+                    <!-- <a href="https://vk.com" class="link link--vk"><img src="img/vk.png"></a> -->
+                    <a href="" class="link link--review" id="new-review"><img src="img/review.png"></a>
+                </div>
+            </div>
+
+            <div class="column column-right-1">
+                <div class="column-top"></div>
+                <div class="column-bottom">
+                    <a href="https://vk.com" class="link link--vk"><img src="img/vk.png"></a>
+                </div>
+            </div>
+        </div>
+        <!-- END Game -->
     </div>
-    <img src="img/back.png" alt="Горы" class="mountains">
-    <img src="img/ground.png" alt="Льдина" class="footer">
     <div class="footer-additional"></div>
-    <img src="img/ships.png" alt="Корабли" class="ships">
-
-    <div class="game-wrapper" id="game-wrapper">
-        <div class="game" id="game">
-            <div class="preloader" id="preloader">
-                <iframe id="ytplayer" width="100%" src="https://www.youtube.com/embed/ZpfSftBTBWI?autoplay=1&mute=1&end=31" frameborder="0" controls="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; controls" allowfullscreen></iframe>
-
-                <img src="img/logo.png" alt="Ледоколы лого" class="logo">
-
-                <div class="loader">Загрузка<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
-            </div>
-
-            <div class="game-container" id="gameContainer"></div>
-        </div>
-    </div>
-
-    <a href="https://apps.apple.com/ru/app/%D0%BB%D0%B5%D0%B4%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B/id1527573580" class="link link--appstore"><img src="img/appstore.png"></a>
-    <a href="https://play.google.com/store/apps/details?id=com.tvx.icebreaker" class="link link--googleplay"><img src="img/google-play.png"></a>
-    <a href="#" class="link link--review" id="new-review"><img src="img/review.png"></a>
-    <a href="https://vk.com/app7590907_32001373" class="link link--vk"><img src="img/vk.png"></a>
-
-    <div class="fullscreen">
-        <span>развернуть<br>на весь экран</span>
-        <img src="img/fullscreen.png">
-    </div>
-
-    <div class="popup-review" id="popup-review">
-        <form id="form-review" class="form-review">
-            <p class="form-title">Оставить отзыв</p>
-
-            <iframe src="review-form.html" frameborder="0" id="review-frame" class="review-frame" sandbox="allow-same-origin"></iframe>
-
-            <div class="controls">
-                <button id="review-cancel" class="cancel">Отмена</button>
-                <button id="review-send" class="send">Отправить</button>
-            </div>
-        </form>
-
-        <div class="screen-ok" id="screen-ok">
-            <p class="form-title">Отзыв принят<br>Спасибо!</p>
-
-            <div class="controls">
-                <button id="review-ok" class="send">Ok</button>
-            </div>
-        </div>
-    </div>
-
     <script>
         var a = document.createElement("link");
         a.rel = "stylesheet";

@@ -17,9 +17,26 @@ body {
 }
 
 body {
-    font-size: 1vh;
+    font-size: 10px;
 }
 
+.input-wrapper input,
+.input-wrapper textarea {
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+    outline: none;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #1e5799;
+    font-size: 16px;
+    border: thin solid #ccc;
+}
+
+
+/*
 .input-wrapper input,
 .input-wrapper textarea {
     width: 100%;
@@ -34,7 +51,9 @@ body {
     font-size: 7.5em;
     border: thin solid #ccc;
 }
+*/
 
 .input-wrapper textarea {
     resize: none;
+    margin: 0;
 }

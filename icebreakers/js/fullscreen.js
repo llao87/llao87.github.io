@@ -1,48 +1,39 @@
 document.cancelFullScreen = document.cancelFullScreen || document.webkitCancelFullScreen || document.mozCancelFullScreen;
 
-// function onFullScreenEnter() {
-//   console.log("Enter fullscreen initiated from iframe");
-// };
-
-// function onFullScreenExit() {
-//   console.log("Exit fullscreen initiated from iframe");
-// };
-
-// Note: FF nightly needs about:config full-screen-api.enabled set to true.
 function enterFullscreen(id) {
-    // onFullScreenEnter(id);
     var el = document.getElementById(id);
+    el.classList.add('fullscreen-mode');
+
     var onfullscreenchange = function(e) {
-        // var fullscreenElement = document.fullscreenElement || document.mozFullscreenElement || document.webkitFullscreenElement;
-        // var fullscreenEnabled = document.fullscreenEnabled || document.mozFullscreenEnabled || document.webkitFullscreenEnabled;
-        // console.log( 'fullscreenEnabled = ' + fullscreenEnabled, ',  fullscreenElement = ', fullscreenElement, ',  e = ', e);
+        var fullscreenElement = document.fullscreenElement || document.mozFullscreenElement || document.webkitFullscreenElement;
+        var fullscreenEnabled = document.fullscreenEnabled || document.mozFullscreenEnabled || document.webkitFullscreenEnabled;
+
+        if (fullscreenElement == null && fullscreenEnabled) {
+            jQuery(document).find('#game-wrapper').removeClass('fullscreen-mode')
+        }
     }
 
-    // el.addEventListener("RequestFullScreen",      onfullscreenchange);
+    el.addEventListener("RequestFullScreen", onfullscreenchange);
     el.addEventListener("webkitfullscreenchange", onfullscreenchange);
     el.addEventListener("mozfullscreenchange", onfullscreenchange);
     el.addEventListener("fullscreenchange", onfullscreenchange);
 
     if (el.webkitRequestFullScreen) {
-        el.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+        el.webkitRequestFullScreen();
     } else {
         el.mozRequestFullScreen();
     }
-    // document.querySelector('#'+id + ' button').onclick = function(){
-    //   exitFullscreen(id);
-    // }
+
+    jQuery('#fullscreen-exit').click(function() {
+        var elem = jQuery(document).find('#game-wrapper');
+        elem.removeClass('fullscreen-mode')
+        document.exitFullscreen()
+    })
 }
 
 jQuery('.fullscreen').click(function() {
     enterFullscreen('game-wrapper');
 })
-
-// jQuery('#new-review').click(function(e) {
-//   e.preventDefault();
-//   jQuery('#popup-review').stop().fadeIn(300);
-// })
-
-
 
 window.onload = function() {
     setTimeout(function() {
