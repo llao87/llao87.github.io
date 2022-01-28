@@ -1,18 +1,57 @@
-$(document).ready(function(){
+jQuery(function () {
 	console.log('main.js works');
 	wow = new WOW(
-	{
-		animateClass: 'animate__animated',
-		offset: 0,
-		callback: function(box) {
-			console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+		{
+			animateClass: 'animate__animated',
+			offset: 0,
+			callback: function (box) {
+				console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+			}
 		}
-	}
 	);
 	wow.init();
 
+	var swiper = new Swiper(".mySwiper", {
+		// slideToClickedSlide: true,
+		loop: true,
+		// initialSlide: 3,
+		effect: "coverflow",
+		grabCursor: true,
+		centeredSlides: true,
+		spaceBetween: 50,
+		slidesPerView: "auto",
+		coverflowEffect: {
+			rotate: 20,
+			stretch: 1,
+			depth: 100,
+			modifier: 1,
+			slideShadows: false
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		breakpoints: {
+			// when window width is >= 320px
+			320: {
+				slidesPerView: 1,
+				spaceBetween: 0
+			},
+			// when window width is >= 991px
+			900: {
+				slidesPerView: 2,
+				spaceBetween: 40
+			},
+			// when window width is >= 1600px
+			1600: {
+				slidesPerView: 3,
+				spaceBetween: 40
+			}
+		},
+	});
 
-	jQuery('.toNextBlock').click(function(){
+	// Прокрутка с промо экрана по кнопке
+	jQuery('.toNextBlock').on('click', function () {
 		var scrollElem = jQuery('section.program');
 
 		jQuery('html, body').animate({
@@ -23,5 +62,15 @@ $(document).ready(function(){
 		});
 
 		return false;
+	})
+
+	// пропадание и появление плейсхолдера при фокусировке и расфокусировке на инпуте
+	jQuery('.field').on('focus', function (e) {
+		jQuery(this).attr('placeholder', '');
+	})
+
+
+	jQuery('.field').on('blur', function (e) {
+		jQuery(this).attr('placeholder', jQuery(this).data('placeholder'));
 	})
 });
